@@ -1,0 +1,1451 @@
+transactions_id,status,mode,Sale_Date,customer_id,gender,age,category,product,region,quantiy,price_per_unit,cogs,total_sale
+180,Success,PayPal,05-11-2022,117,Male,41.0,Clothing,Jacket,north,3.0,300.0,129.0,900.0
+522,Pending,Credit Card,09-07-2022,52,Male,46.0,Beauty,Moisturizer,South,3.0,500.0,145.0,1500.0
+559,Failed,Bank Transfer,12-12-2022,5,Female,40.0,Clothing,Sweater,north,4.0,300.0,84.0,1200.0
+1180,Success,PayPal,06-01-2022,85,Male,41.0,Clothing,Shirt,South,3.0,300.0,129.0,900.0
+1522,Pending,Credit Card,14-11-2022,48,Male,46.0,Beauty,Lip Balm,north,3.0,500.0,235.0,1500.0
+1559,Failed,Bank Transfer,20-08-2022,49,Female,40.0,Clothing,Pant,west,4.0,300.0,144.0,1200.0
+163,Success,PayPal,31-10-2022,144,Female,64.0,Clothing,Sweater,South,3.0,50.0,23.0,150.0
+303,Pending,Credit Card,22-04-2022,54,Male,19.0,Electronics,Fan,east,3.0,30.0,14.7,90.0
+421,Failed,Bank Transfer,08-04-2022,66,Female,37.0,Clothing,Sweater,west,3.0,500.0,235.0,1500.0
+979,Success,PayPal,18-05-2022,6,Female,19.0,Beauty,Face Wash,west,1.0,25.0,10.5,25.0
+1163,Pending,Credit Card,04-05-2022,120,Female,64.0,Clothing,Shirt,north,3.0,50.0,27.0,150.0
+1303,Failed,Bank Transfer,19-03-2022,58,Male,19.0,Electronics,Headphone,east,3.0,30.0,15.0,90.0
+1421,Success,PayPal,17-01-2022,59,Female,37.0,Clothing,Sweater,South,3.0,500.0,185.0,1500.0
+1979,Pending,Credit Card,17-08-2022,102,Female,19.0,Beauty,Lip Balm,west,1.0,25.0,7.75,25.0
+610,Failed,Bank Transfer,18-12-2022,137,Female,26.0,Beauty,Lip Balm,north,2.0,300.0,93.0,600.0
+1610,Success,PayPal,23-11-2022,1,Female,26.0,Beauty,Face Serum,east,2.0,300.0,102.0,600.0
+32,Pending,Credit Card,16-07-2022,150,Male,30.0,Beauty,Face Wash,west,3.0,30.0,8.4,90.0
+231,Failed,Bank Transfer,09-07-2022,50,Female,23.0,Clothing,Sweater,South,3.0,50.0,26.5,150.0
+683,Success,PayPal,06-03-2022,82,Male,38.0,Beauty,Face Serum,South,2.0,500.0,175.0,1000.0
+1032,Pending,Credit Card,01-04-2022,1,Male,30.0,Beauty,Lip Balm,west,3.0,30.0,10.5,90.0
+1231,Failed,Bank Transfer,29-01-2022,12,Female,23.0,Clothing,Jacket,South,3.0,50.0,23.0,150.0
+1683,Success,PayPal,04-05-2022,98,Male,38.0,Beauty,Face Serum,South,2.0,500.0,220.0,1000.0
+367,Pending,Credit Card,30-12-2022,123,Female,57.0,Electronics,Light,north,1.0,50.0,18.0,50.0
+391,Failed,Bank Transfer,25-03-2022,68,Male,19.0,Beauty,Lip Balm,west,2.0,25.0,6.25,50.0
+432,Success,PayPal,10-03-2022,17,Female,42.0,Electronics,Fan,north,2.0,500.0,190.0,1000.0
+1367,Pending,Credit Card,15-04-2022,16,Female,42.0,Electronics,Fan,east,1.0,50.0,15.5,50.0
+1391,Failed,Bank Transfer,01-03-2022,130,Male,42.0,Beauty,Moisturizer,South,2.0,25.0,9.25,50.0
+1432,Success,PayPal,25-12-2022,67,Female,42.0,Electronics,Fan,north,2.0,500.0,245.0,1000.0
+150,Pending,Credit Card,13-04-2022,89,Female,42.0,Electronics,Speaker,west,4.0,30.0,16.2,120.0
+845,Failed,Bank Transfer,27-10-2022,25,Male,42.0,Clothing,Jacket,east,1.0,500.0,145.0,500.0
+1150,Success,PayPal,22-08-2022,77,Female,42.0,Electronics,Light,South,4.0,30.0,10.2,120.0
+1845,Pending,Credit Card,24-05-2022,94,Male,42.0,Clothing,Shirt,west,1.0,500.0,185.0,500.0
+797,Failed,Bank Transfer,16-09-2022,116,Male,42.0,Clothing,Jacket,north,3.0,25.0,10.75,75.0
+921,Success,PayPal,28-09-2022,101,Male,42.0,Electronics,Headphone,South,3.0,25.0,8.0,75.0
+1797,Pending,Credit Card,16-04-2022,147,Male,40.0,Clothing,Pant,north,3.0,25.0,12.25,75.0
+1921,Failed,Bank Transfer,08-02-2022,77,Male,51.0,Electronics,Speaker,north,3.0,25.0,7.5,75.0
+291,Success,PayPal,22-11-2022,15,Male,60.0,Clothing,Sweater,east,2.0,300.0,126.0,600.0
+907,Pending,Credit Card,02-09-2022,145,Female,45.0,Electronics,Light,north,1.0,25.0,8.5,25.0
+1291,Failed,Bank Transfer,04-04-2022,72,Male,60.0,Clothing,Sweater,north,2.0,300.0,153.0,600.0
+1907,Success,PayPal,17-11-2022,115,Female,45.0,Electronics,Headphone,north,1.0,25.0,9.0,25.0
+860,Pending,Credit Card,11-04-2022,85,Male,63.0,Clothing,Pant,west,4.0,50.0,16.0,200.0
+1860,Failed,Bank Transfer,12-03-2022,57,Male,63.0,Clothing,Pant,east,4.0,50.0,18.0,200.0
+184,Success,PayPal,13-02-2022,128,Male,31.0,Electronics,Light,west,4.0,50.0,17.0,200.0
+734,Pending,Credit Card,12-03-2022,77,Female,27.0,Clothing,Jacket,east,1.0,30.0,15.6,30.0
+1184,Failed,Bank Transfer,12-02-2022,23,Male,31.0,Electronics,Light,east,4.0,50.0,27.5,200.0
+1734,Success,PayPal,28-02-2022,72,Female,27.0,Clothing,Pant,east,1.0,30.0,14.4,30.0
+225,Pending,Credit Card,05-03-2022,85,Female,57.0,Beauty,Face Serum,west,4.0,25.0,12.75,100.0
+679,Failed,Bank Transfer,26-08-2022,64,Female,18.0,Beauty,Face Serum,east,3.0,178.0,81.0,446.0
+746,Success,PayPal,05-07-2022,42,Female,33.0,Clothing,Sweater,east,3.0,178.0,81.0,446.0
+1225,Pending,Credit Card,02-02-2022,137,Female,57.0,Beauty,Face Serum,east,3.0,178.0,81.0,446.0
+1679,Failed,Bank Transfer,23-09-2022,71,Female,18.0,Beauty,Face Serum,east,3.0,30.0,15.3,90.0
+1746,Success,PayPal,13-06-2022,88,Female,33.0,Clothing,Shirt,South,3.0,30.0,10.8,90.0
+3,Pending,Credit Card,14-06-2022,114,Male,50.0,Electronics,Light,South,1.0,30.0,8.1,30.0
+464,Failed,Bank Transfer,06-03-2022,24,Male,38.0,Electronics,Speaker,north,2.0,300.0,75.0,600.0
+484,Success,PayPal,13-03-2022,135,Female,19.0,Clothing,Jacket,north,4.0,300.0,75.0,1200.0
+591,Pending,Credit Card,21-03-2022,94,Male,53.0,Electronics,Light,east,4.0,25.0,6.5,100.0
+1003,Failed,Bank Transfer,26-01-2022,80,Male,50.0,Electronics,Headphone,west,1.0,30.0,15.9,30.0
+1464,Success,PayPal,13-11-2022,80,Male,38.0,Electronics,Light,north,2.0,300.0,126.0,600.0
+1484,Pending,Credit Card,23-11-2022,22,Female,19.0,Clothing,Pant,north,4.0,300.0,147.0,1200.0
+1591,Failed,Bank Transfer,29-09-2022,62,Male,53.0,Electronics,Headphone,west,4.0,25.0,7.0,100.0
+21,Success,PayPal,11-07-2022,59,Female,50.0,Beauty,Face Serum,South,1.0,500.0,275.0,500.0
+708,Pending,Credit Card,06-04-2022,62,Female,43.0,Beauty,Face Wash,north,3.0,300.0,87.0,900.0
+713,Failed,Bank Transfer,16-04-2022,39,Male,34.0,Beauty,Face Serum,South,3.0,25.0,11.25,75.0
+768,Success,PayPal,27-06-2022,58,Female,24.0,Beauty,Moisturizer,South,3.0,25.0,10.5,75.0
+1021,Pending,Credit Card,11-06-2022,44,Female,50.0,Beauty,Face Wash,north,1.0,500.0,155.0,500.0
+1708,Failed,Bank Transfer,08-02-2022,41,Female,43.0,Beauty,Face Serum,north,3.0,300.0,162.0,900.0
+1713,Success,PayPal,03-10-2022,90,Male,34.0,Beauty,Face Wash,north,3.0,25.0,10.75,75.0
+1768,Pending,Credit Card,31-07-2022,85,Female,24.0,Beauty,Face Serum,north,3.0,25.0,8.75,75.0
+499,Failed,Bank Transfer,03-04-2022,15,Male,46.0,Beauty,Face Wash,east,2.0,30.0,16.5,60.0
+697,Success,PayPal,25-12-2022,152,Male,53.0,Clothing,Shirt,north,1.0,500.0,200.0,500.0
+831,Pending,Credit Card,30-11-2022,149,Male,27.0,Electronics,Light,South,4.0,25.0,13.75,100.0
+1499,Failed,Bank Transfer,23-09-2022,3,Male,46.0,Beauty,Moisturizer,South,2.0,30.0,11.7,60.0
+1697,Success,PayPal,18-12-2022,54,Male,53.0,Clothing,Jacket,north,1.0,500.0,265.0,500.0
+1831,Pending,Credit Card,26-03-2022,80,Male,27.0,Electronics,Fan,west,4.0,25.0,6.5,100.0
+15,Failed,Bank Transfer,01-07-2022,75,Female,42.0,Electronics,Fan,east,4.0,500.0,210.0,2000.0
+743,Success,PayPal,07-08-2022,55,Female,34.0,Beauty,Lip Balm,west,4.0,500.0,260.0,2000.0
+1015,Pending,Credit Card,09-03-2022,94,Female,42.0,Electronics,Fan,west,4.0,500.0,200.0,2000.0
+1743,Failed,Bank Transfer,26-10-2022,47,Female,34.0,Beauty,Moisturizer,east,4.0,500.0,250.0,2000.0
+14,Success,PayPal,18-05-2022,8,Male,64.0,Clothing,Shirt,east,4.0,30.0,13.2,120.0
+103,Pending,Credit Card,12-11-2022,33,Female,59.0,Clothing,Shirt,South,1.0,25.0,10.75,25.0
+238,Failed,Bank Transfer,10-05-2022,20,Female,39.0,Beauty,Face Wash,east,1.0,500.0,150.0,500.0
+986,Success,PayPal,01-08-2022,65,Female,49.0,Clothing,Jacket,west,2.0,500.0,200.0,1000.0
+1014,Pending,Credit Card,04-02-2022,147,Male,64.0,Clothing,Sweater,east,4.0,30.0,11.4,120.0
+1103,Failed,Bank Transfer,14-02-2022,61,Female,59.0,Clothing,Jacket,west,1.0,25.0,6.75,25.0
+1238,Success,PayPal,17-09-2022,129,Female,39.0,Beauty,Moisturizer,South,1.0,500.0,165.0,500.0
+1986,Pending,Credit Card,14-09-2022,29,Female,49.0,Clothing,Sweater,north,2.0,500.0,145.0,1000.0
+438,Failed,Bank Transfer,31-08-2022,88,Female,42.0,Clothing,Sweater,north,1.0,30.0,15.9,30.0
+1438,Success,PayPal,07-01-2022,72,Female,42.0,Clothing,Pant,South,1.0,30.0,13.8,30.0
+475,Pending,Credit Card,12-08-2022,78,Male,26.0,Clothing,Sweater,north,3.0,25.0,9.0,75.0
+505,Failed,Bank Transfer,17-12-2022,86,Male,24.0,Beauty,Face Serum,west,1.0,50.0,19.5,50.0
+1475,Success,PayPal,04-10-2022,132,Male,26.0,Clothing,Pant,west,3.0,25.0,10.75,75.0
+1505,Pending,Credit Card,30-10-2022,98,Male,24.0,Beauty,Face Serum,west,1.0,50.0,14.5,50.0
+344,Failed,Bank Transfer,17-07-2022,69,Female,42.0,Beauty,Face Serum,west,1.0,30.0,7.5,30.0
+448,Success,PayPal,19-03-2022,86,Female,54.0,Beauty,Face Serum,west,2.0,30.0,16.2,60.0
+742,Pending,Credit Card,19-03-2022,37,Female,38.0,Electronics,Fan,South,4.0,500.0,195.0,2000.0
+1344,Failed,Bank Transfer,18-12-2022,144,Female,42.0,Beauty,Face Wash,west,1.0,30.0,11.1,30.0
+1448,Success,PayPal,16-05-2022,51,Female,54.0,Beauty,Face Wash,west,2.0,30.0,9.3,60.0
+1742,Pending,Credit Card,22-11-2022,18,Female,38.0,Electronics,Fan,South,4.0,500.0,220.0,2000.0
+445,Failed,Bank Transfer,14-04-2022,132,Female,53.0,Electronics,Fan,east,1.0,300.0,138.0,300.0
+787,Success,PayPal,10-06-2022,25,Male,41.0,Electronics,Headphone,west,1.0,25.0,13.75,25.0
+1445,Pending,Credit Card,19-04-2022,31,Female,53.0,Electronics,Light,north,1.0,300.0,129.0,300.0
+1787,Failed,Bank Transfer,30-05-2022,104,Male,41.0,Electronics,Headphone,east,1.0,25.0,10.0,25.0
+49,Success,PayPal,17-09-2022,37,Female,54.0,Electronics,Fan,north,2.0,500.0,255.0,1000.0
+420,Pending,Credit Card,02-01-2022,28,Female,22.0,Clothing,Sweater,north,4.0,500.0,200.0,2000.0
+519,Failed,Bank Transfer,08-04-2022,52,Female,36.0,Electronics,Speaker,east,4.0,30.0,16.5,120.0
+1049,Success,PayPal,16-05-2022,143,Female,54.0,Electronics,Speaker,west,2.0,500.0,125.0,1000.0
+1420,Pending,Credit Card,15-04-2022,138,Female,22.0,Clothing,Pant,east,4.0,500.0,205.0,2000.0
+1519,Failed,Bank Transfer,08-01-2022,139,Female,36.0,Electronics,Speaker,South,4.0,30.0,9.3,120.0
+64,Success,PayPal,15-11-2022,7,Male,49.0,Clothing,Pant,west,4.0,25.0,8.5,100.0
+592,Pending,Credit Card,26-12-2022,77,Female,46.0,Beauty,Face Wash,north,4.0,500.0,275.0,2000.0
+912,Failed,Bank Transfer,31-10-2022,122,Male,51.0,Beauty,Moisturizer,west,3.0,50.0,20.5,150.0
+1064,Success,PayPal,14-04-2022,49,Male,49.0,Clothing,Pant,east,4.0,25.0,13.75,100.0
+1592,Pending,Credit Card,16-03-2022,81,Female,46.0,Beauty,Moisturizer,north,4.0,500.0,155.0,2000.0
+1912,Failed,Bank Transfer,27-05-2022,146,Male,51.0,Beauty,Lip Balm,west,3.0,50.0,22.0,150.0
+134,Success,PayPal,25-08-2022,132,Male,49.0,Electronics,Headphone,west,1.0,50.0,16.0,50.0
+1134,Pending,Credit Card,05-08-2022,106,Male,49.0,Electronics,Light,east,1.0,50.0,24.0,50.0
+288,Failed,Bank Transfer,02-05-2022,27,Male,28.0,Clothing,Pant,west,4.0,30.0,12.0,120.0
+323,Success,PayPal,21-01-2022,97,Female,29.0,Beauty,Lip Balm,South,3.0,300.0,150.0,900.0
+618,Pending,Credit Card,13-10-2022,5,Female,27.0,Beauty,Face Wash,east,1.0,50.0,26.0,50.0
+720,Failed,Bank Transfer,08-04-2022,116,Female,56.0,Beauty,Moisturizer,east,3.0,500.0,235.0,1500.0
+1288,Success,PayPal,05-04-2022,26,Male,28.0,Clothing,Jacket,South,4.0,30.0,9.0,120.0
+1323,Pending,Credit Card,15-08-2022,136,Female,29.0,Beauty,Moisturizer,north,3.0,300.0,114.0,900.0
+1618,Failed,Bank Transfer,15-09-2022,118,Female,27.0,Beauty,Lip Balm,west,1.0,50.0,13.5,50.0
+1720,Success,PayPal,10-10-2022,28,Female,56.0,Beauty,Lip Balm,east,3.0,500.0,190.0,1500.0
+415,Pending,Credit Card,05-01-2022,85,Male,53.0,Clothing,Sweater,east,2.0,30.0,8.1,60.0
+736,Failed,Bank Transfer,18-12-2022,97,Male,29.0,Clothing,Shirt,north,4.0,25.0,9.75,100.0
+929,Success,PayPal,11-03-2022,40,Female,23.0,Beauty,Moisturizer,South,3.0,25.0,10.5,75.0
+1415,Pending,Credit Card,06-03-2022,146,Male,53.0,Clothing,Shirt,west,2.0,30.0,15.3,60.0
+1736,Failed,Bank Transfer,28-08-2022,87,Male,29.0,Clothing,Sweater,west,4.0,25.0,10.25,100.0
+1929,Success,PayPal,15-09-2022,62,Female,23.0,Beauty,Lip Balm,north,3.0,25.0,12.75,75.0
+264,Pending,Credit Card,26-12-2022,111,Male,47.0,Clothing,Pant,north,3.0,300.0,150.0,900.0
+913,Failed,Bank Transfer,12-10-2022,78,Male,29.0,Electronics,Fan,South,3.0,30.0,16.5,90.0
+940,Success,PayPal,05-01-2022,46,Female,20.0,Electronics,Light,South,1.0,30.0,9.6,30.0
+1264,Pending,Credit Card,27-05-2022,82,Male,47.0,Clothing,Jacket,west,3.0,300.0,123.0,900.0
+1913,Failed,Bank Transfer,23-06-2022,101,Male,29.0,Electronics,Headphone,east,3.0,30.0,14.1,90.0
+1940,Success,PayPal,15-06-2022,56,Female,20.0,Electronics,Headphone,east,1.0,30.0,11.1,30.0
+101,Pending,Credit Card,08-01-2022,24,Male,32.0,Clothing,Jacket,South,2.0,300.0,135.0,600.0
+1101,Failed,Bank Transfer,17-05-2022,15,Male,32.0,Clothing,Jacket,west,2.0,300.0,132.0,600.0
+189,Success,PayPal,02-01-2022,143,Male,63.0,Beauty,Moisturizer,east,1.0,50.0,14.5,50.0
+317,Pending,Credit Card,04-05-2022,117,Male,22.0,Electronics,Fan,South,3.0,30.0,12.0,90.0
+322,Failed,Bank Transfer,19-10-2022,13,Male,51.0,Electronics,Fan,north,1.0,500.0,125.0,500.0
+329,Success,PayPal,27-10-2022,52,Female,46.0,Electronics,Fan,west,4.0,25.0,8.0,100.0
+1189,Pending,Credit Card,07-12-2022,104,Male,63.0,Beauty,Face Wash,east,1.0,50.0,20.5,50.0
+1317,Failed,Bank Transfer,25-08-2022,144,Male,22.0,Electronics,Speaker,north,3.0,30.0,12.0,90.0
+1322,Success,PayPal,14-11-2022,10,Male,51.0,Electronics,Speaker,north,1.0,500.0,250.0,500.0
+1329,Pending,Credit Card,27-01-2022,119,Female,46.0,Electronics,Headphone,west,4.0,25.0,9.25,100.0
+235,Failed,Bank Transfer,10-03-2022,132,Female,23.0,Electronics,Headphone,west,2.0,500.0,275.0,1000.0
+300,Success,PayPal,08-01-2022,138,Female,19.0,Electronics,Fan,east,4.0,50.0,26.5,200.0
+964,Pending,Credit Card,26-08-2022,15,Male,24.0,Clothing,Jacket,west,3.0,300.0,156.0,900.0
+1235,Failed,Bank Transfer,04-04-2022,87,Female,23.0,Electronics,Headphone,east,2.0,500.0,220.0,1000.0
+1300,Success,PayPal,08-08-2022,7,Female,19.0,Electronics,Light,north,4.0,50.0,24.0,200.0
+1964,Pending,Credit Card,02-08-2022,115,Male,24.0,Clothing,Pant,South,3.0,300.0,111.0,900.0
+269,Failed,Bank Transfer,19-09-2022,87,Male,25.0,Clothing,Jacket,north,4.0,500.0,250.0,2000.0
+320,Success,PayPal,20-04-2022,57,Female,28.0,Electronics,Light,north,4.0,300.0,159.0,1200.0
+673,Pending,Credit Card,04-07-2022,18,Female,43.0,Clothing,Sweater,South,3.0,500.0,270.0,1500.0
+1269,Failed,Bank Transfer,01-01-2022,71,Male,25.0,Clothing,Jacket,South,4.0,500.0,145.0,2000.0
+1320,Success,PayPal,02-11-2022,102,Female,28.0,Electronics,Speaker,east,4.0,300.0,84.0,1200.0
+1673,Pending,Credit Card,14-06-2022,42,Female,43.0,Clothing,Pant,east,3.0,500.0,185.0,1500.0
+142,Failed,Bank Transfer,08-04-2022,61,Male,35.0,Electronics,Headphone,west,4.0,300.0,138.0,1200.0
+223,Success,PayPal,15-01-2022,61,Female,64.0,Clothing,Sweater,west,1.0,25.0,12.0,25.0
+666,Pending,Credit Card,03-03-2022,49,Male,51.0,Electronics,Speaker,east,3.0,50.0,16.0,150.0
+1142,Failed,Bank Transfer,09-11-2022,2,Male,35.0,Electronics,Light,South,4.0,300.0,114.0,1200.0
+1223,Success,PayPal,20-02-2022,106,Female,64.0,Clothing,Sweater,north,1.0,25.0,9.75,25.0
+1666,Pending,Credit Card,08-12-2022,125,Male,51.0,Electronics,Headphone,west,3.0,50.0,21.0,150.0
+107,Failed,Bank Transfer,06-10-2022,75,Female,21.0,Clothing,Jacket,west,4.0,300.0,78.0,1200.0
+933,Success,PayPal,19-09-2022,81,Male,22.0,Beauty,Face Serum,west,1.0,30.0,12.9,30.0
+1107,Pending,Credit Card,31-12-2022,62,Female,21.0,Clothing,Shirt,east,4.0,300.0,102.0,1200.0
+1933,Failed,Bank Transfer,12-01-2022,121,Male,22.0,Beauty,Moisturizer,east,1.0,30.0,14.4,30.0
+237,Success,PayPal,11-04-2022,105,Female,50.0,Beauty,Lip Balm,west,2.0,500.0,165.0,1000.0
+335,Pending,Credit Card,02-02-2022,2,Female,47.0,Beauty,Moisturizer,South,4.0,30.0,10.8,120.0
+1237,Failed,Bank Transfer,23-02-2022,48,Female,50.0,Beauty,Moisturizer,east,2.0,500.0,215.0,1000.0
+1335,Success,PayPal,27-05-2022,117,Female,47.0,Beauty,Face Wash,north,4.0,30.0,8.7,120.0
+63,Pending,Credit Card,03-02-2022,127,Male,57.0,Electronics,Fan,east,2.0,25.0,6.25,50.0
+195,Failed,Bank Transfer,14-08-2022,10,Male,52.0,Clothing,Shirt,north,1.0,30.0,9.3,30.0
+333,Success,PayPal,06-10-2022,21,Female,54.0,Electronics,Fan,east,4.0,300.0,99.0,1200.0
+379,Pending,Credit Card,01-06-2022,76,Female,47.0,Clothing,Pant,north,1.0,25.0,8.5,25.0
+490,Failed,Bank Transfer,27-01-2022,43,Male,34.0,Clothing,Sweater,west,3.0,50.0,18.5,150.0
+530,Success,PayPal,01-05-2022,8,Female,18.0,Electronics,Light,west,4.0,30.0,9.0,120.0
+740,Pending,Credit Card,01-12-2022,33,Female,25.0,Beauty,Lip Balm,east,4.0,50.0,13.0,200.0
+793,Failed,Bank Transfer,27-05-2022,1,Male,54.0,Beauty,Face Wash,north,1.0,30.0,14.7,30.0
+1063,Success,PayPal,04-08-2022,56,Male,57.0,Electronics,Fan,east,2.0,25.0,11.0,50.0
+1195,Pending,Credit Card,21-09-2022,55,Male,52.0,Clothing,Sweater,South,1.0,30.0,12.0,30.0
+1333,Failed,Bank Transfer,01-11-2022,151,Female,54.0,Electronics,Headphone,South,4.0,300.0,165.0,1200.0
+1379,Success,PayPal,02-01-2022,69,Female,47.0,Clothing,Sweater,South,1.0,25.0,7.25,25.0
+1490,Pending,Credit Card,26-10-2022,155,Male,34.0,Clothing,Jacket,east,3.0,50.0,17.0,150.0
+1530,Failed,Bank Transfer,10-12-2022,93,Female,18.0,Electronics,Headphone,north,4.0,30.0,12.3,120.0
+1740,Success,PayPal,16-07-2022,66,Female,25.0,Beauty,Lip Balm,west,4.0,50.0,27.0,200.0
+1793,Pending,Credit Card,11-12-2022,88,Male,54.0,Beauty,Moisturizer,north,1.0,30.0,10.8,30.0
+85,Failed,Bank Transfer,03-09-2022,68,Male,31.0,Clothing,Shirt,west,3.0,50.0,19.0,150.0
+232,Success,PayPal,12-08-2022,150,Female,43.0,Beauty,Moisturizer,north,1.0,25.0,12.75,25.0
+240,Pending,Credit Card,05-11-2022,95,Female,23.0,Beauty,Lip Balm,west,1.0,300.0,123.0,300.0
+993,Failed,Bank Transfer,07-09-2022,134,Female,48.0,Electronics,Light,east,3.0,50.0,17.0,150.0
+1085,Success,PayPal,12-08-2022,76,Male,31.0,Clothing,Pant,north,3.0,50.0,17.0,150.0
+1232,Pending,Credit Card,23-05-2022,146,Female,43.0,Beauty,Face Wash,north,1.0,25.0,6.25,25.0
+1240,Failed,Bank Transfer,07-08-2022,144,Female,23.0,Beauty,Face Wash,east,1.0,300.0,90.0,300.0
+1993,Success,PayPal,29-12-2022,123,Female,48.0,Electronics,Fan,west,3.0,50.0,26.5,150.0
+366,Pending,Credit Card,29-10-2022,116,Male,57.0,Clothing,Shirt,South,2.0,50.0,17.5,100.0
+372,Failed,Bank Transfer,19-06-2022,27,Female,24.0,Beauty,Face Serum,South,3.0,500.0,140.0,1500.0
+596,Success,PayPal,12-02-2022,87,Female,64.0,Electronics,Speaker,west,1.0,300.0,93.0,300.0
+936,Pending,Credit Card,05-01-2022,143,Male,57.0,Beauty,Moisturizer,South,4.0,50.0,19.5,200.0
+1366,Failed,Bank Transfer,01-01-2022,25,Male,57.0,Clothing,Jacket,north,2.0,50.0,23.5,100.0
+1372,Success,PayPal,18-03-2022,60,Female,24.0,Beauty,Face Wash,east,3.0,500.0,145.0,1500.0
+1596,Pending,Credit Card,28-03-2022,7,Female,64.0,Electronics,Light,west,1.0,300.0,141.0,300.0
+1936,Failed,Bank Transfer,19-06-2022,60,Male,57.0,Beauty,Moisturizer,east,4.0,50.0,12.5,200.0
+284,Success,PayPal,12-11-2022,129,Male,43.0,Clothing,Shirt,South,4.0,50.0,20.5,200.0
+434,Pending,Credit Card,26-10-2022,50,Female,43.0,Electronics,Speaker,west,2.0,25.0,8.25,50.0
+775,Failed,Bank Transfer,06-05-2022,98,Female,46.0,Electronics,Fan,north,4.0,25.0,9.5,100.0
+977,Success,PayPal,26-07-2022,46,Female,35.0,Electronics,Speaker,South,3.0,25.0,13.75,75.0
+1284,Pending,Credit Card,16-12-2022,145,Male,43.0,Clothing,Pant,west,4.0,50.0,18.0,200.0
+1434,Failed,Bank Transfer,04-02-2022,147,Female,43.0,Electronics,Light,north,2.0,25.0,7.0,50.0
+1775,Success,PayPal,18-12-2022,78,Female,46.0,Electronics,Fan,north,4.0,25.0,13.75,100.0
+1977,Pending,Credit Card,05-08-2022,63,Female,35.0,Electronics,Light,South,3.0,25.0,12.0,75.0
+649,Failed,Bank Transfer,21-06-2022,44,Female,58.0,Clothing,Pant,west,2.0,300.0,135.0,600.0
+1649,Success,PayPal,21-10-2022,72,Female,58.0,Clothing,Pant,west,2.0,300.0,75.0,600.0
+54,Pending,Credit Card,20-10-2022,142,Female,38.0,Electronics,Light,South,3.0,500.0,200.0,1500.0
+68,Failed,Bank Transfer,15-12-2022,146,Male,25.0,Electronics,Light,South,1.0,300.0,84.0,300.0
+192,Success,PayPal,08-11-2022,134,Male,62.0,Beauty,Face Wash,west,2.0,50.0,13.0,100.0
+1054,Pending,Credit Card,10-01-2022,49,Female,38.0,Electronics,Speaker,west,3.0,500.0,140.0,1500.0
+1068,Failed,Bank Transfer,14-09-2022,136,Male,25.0,Electronics,Speaker,west,1.0,300.0,111.0,300.0
+1192,Success,PayPal,29-03-2022,37,Male,62.0,Beauty,Face Wash,east,2.0,50.0,20.5,100.0
+331,Pending,Credit Card,16-08-2022,28,Male,28.0,Electronics,Speaker,east,3.0,30.0,10.2,90.0
+346,Failed,Bank Transfer,05-09-2022,38,Male,59.0,Clothing,Pant,north,2.0,500.0,215.0,1000.0
+657,Success,PayPal,29-01-2022,46,Male,40.0,Clothing,Sweater,east,1.0,25.0,8.0,25.0
+732,Pending,Credit Card,13-10-2022,136,Male,61.0,Electronics,Fan,north,2.0,500.0,250.0,1000.0
+972,Failed,Bank Transfer,16-08-2022,139,Male,49.0,Beauty,Lip Balm,west,4.0,25.0,6.75,100.0
+1331,Success,PayPal,15-05-2022,36,Male,28.0,Electronics,Speaker,South,3.0,30.0,13.8,90.0
+1346,Pending,Credit Card,10-04-2022,112,Male,59.0,Clothing,Pant,South,2.0,500.0,130.0,1000.0
+1657,Failed,Bank Transfer,09-08-2022,61,Male,40.0,Clothing,Sweater,east,1.0,25.0,8.0,25.0
+1732,Success,PayPal,25-02-2022,55,Male,61.0,Electronics,Light,west,2.0,500.0,215.0,1000.0
+1972,Pending,Credit Card,21-12-2022,5,Male,49.0,Beauty,Lip Balm,east,4.0,25.0,9.25,100.0
+714,Failed,Bank Transfer,29-10-2022,20,Female,18.0,Clothing,Jacket,east,1.0,500.0,190.0,500.0
+1714,Success,PayPal,23-11-2022,111,Female,18.0,Clothing,Sweater,north,1.0,500.0,245.0,500.0
+193,Pending,Credit Card,27-03-2022,55,Male,35.0,Beauty,Lip Balm,west,3.0,500.0,180.0,1500.0
+577,Failed,Bank Transfer,21-04-2022,45,Male,21.0,Beauty,Moisturizer,west,4.0,500.0,215.0,2000.0
+848,Success,PayPal,24-01-2022,15,Female,63.0,Clothing,Pant,north,3.0,25.0,9.75,75.0
+945,Pending,Credit Card,01-10-2022,120,Male,30.0,Beauty,Face Serum,north,1.0,25.0,13.25,25.0
+1193,Failed,Bank Transfer,11-05-2022,50,Male,35.0,Beauty,Lip Balm,north,3.0,500.0,145.0,1500.0
+1577,Success,PayPal,11-09-2022,145,Male,21.0,Beauty,Lip Balm,east,4.0,500.0,160.0,2000.0
+1848,Pending,Credit Card,27-12-2022,63,Female,63.0,Clothing,Sweater,west,3.0,25.0,12.5,75.0
+1945,Failed,Bank Transfer,19-04-2022,33,Male,30.0,Beauty,Face Wash,east,1.0,25.0,10.75,25.0
+11,Success,PayPal,27-02-2022,151,Male,23.0,Clothing,Sweater,east,2.0,50.0,23.5,100.0
+821,Pending,Credit Card,23-11-2022,40,Male,49.0,Electronics,Fan,north,1.0,300.0,129.0,300.0
+1011,Failed,Bank Transfer,01-04-2022,15,Male,23.0,Clothing,Sweater,east,2.0,50.0,19.0,100.0
+1821,Success,PayPal,03-10-2022,42,Male,49.0,Electronics,Fan,north,1.0,300.0,108.0,300.0
+133,Pending,Credit Card,23-06-2022,70,Male,20.0,Electronics,Speaker,west,3.0,300.0,87.0,900.0
+1133,Failed,Bank Transfer,05-03-2022,58,Male,20.0,Electronics,Headphone,east,3.0,300.0,159.0,900.0
+16,Success,PayPal,25-06-2022,82,Male,19.0,Clothing,Sweater,west,3.0,500.0,180.0,1500.0
+42,Pending,Credit Card,08-12-2022,63,Male,22.0,Clothing,Sweater,west,3.0,300.0,147.0,900.0
+292,Failed,Bank Transfer,10-10-2022,111,Male,20.0,Beauty,Face Serum,west,4.0,300.0,141.0,1200.0
+416,Success,PayPal,21-08-2022,55,Male,53.0,Electronics,Speaker,west,4.0,500.0,245.0,2000.0
+584,Pending,Credit Card,31-12-2022,106,Female,27.0,Beauty,Lip Balm,west,4.0,50.0,16.5,200.0
+861,Failed,Bank Transfer,30-09-2022,22,Female,41.0,Clothing,Shirt,north,3.0,30.0,9.6,90.0
+1016,Success,PayPal,12-12-2022,52,Male,19.0,Clothing,Pant,South,3.0,500.0,200.0,1500.0
+1042,Pending,Credit Card,11-02-2022,7,Male,22.0,Clothing,Shirt,east,3.0,300.0,150.0,900.0
+1292,Failed,Bank Transfer,15-05-2022,88,Male,20.0,Beauty,Moisturizer,South,4.0,300.0,90.0,1200.0
+1416,Success,PayPal,29-12-2022,111,Male,53.0,Electronics,Light,South,4.0,500.0,125.0,2000.0
+1584,Pending,Credit Card,03-09-2022,62,Female,27.0,Beauty,Moisturizer,west,4.0,50.0,16.5,200.0
+1861,Failed,Bank Transfer,04-07-2022,145,Female,41.0,Clothing,Sweater,east,3.0,30.0,10.2,90.0
+256,Success,PayPal,09-01-2022,3,Male,23.0,Clothing,Pant,east,2.0,500.0,270.0,1000.0
+1256,Pending,Credit Card,05-11-2022,29,Male,23.0,Clothing,Sweater,north,2.0,500.0,190.0,1000.0
+44,Failed,Bank Transfer,03-03-2022,93,Female,22.0,Clothing,Sweater,South,1.0,25.0,11.75,25.0
+257,Success,PayPal,10-12-2022,130,Male,19.0,Beauty,Face Wash,east,4.0,500.0,165.0,2000.0
+1044,Pending,Credit Card,20-02-2022,70,Female,22.0,Clothing,Pant,east,1.0,25.0,7.5,25.0
+1257,Failed,Bank Transfer,10-05-2022,29,Male,19.0,Beauty,Face Wash,east,4.0,500.0,255.0,2000.0
+268,Success,PayPal,14-04-2022,93,Female,28.0,Electronics,Light,north,1.0,30.0,8.7,30.0
+287,Pending,Credit Card,26-08-2022,88,Male,54.0,Clothing,Sweater,north,4.0,25.0,10.0,100.0
+966,Failed,Bank Transfer,07-11-2022,119,Male,60.0,Electronics,Headphone,South,2.0,500.0,190.0,1000.0
+1268,Success,PayPal,09-06-2022,15,Female,28.0,Electronics,Headphone,north,1.0,30.0,14.1,30.0
+1287,Pending,Credit Card,13-09-2022,120,Male,54.0,Clothing,Shirt,South,4.0,25.0,7.0,100.0
+1966,Failed,Bank Transfer,20-07-2022,74,Male,60.0,Electronics,Headphone,west,2.0,500.0,200.0,1000.0
+70,Success,PayPal,27-12-2022,147,Female,43.0,Clothing,Sweater,north,1.0,300.0,84.0,300.0
+371,Pending,Credit Card,18-12-2022,32,Female,20.0,Beauty,Lip Balm,west,1.0,25.0,13.0,25.0
+900,Failed,Bank Transfer,10-11-2022,130,Male,21.0,Clothing,Shirt,South,2.0,30.0,15.6,60.0
+1070,Success,PayPal,14-07-2022,102,Female,43.0,Clothing,Pant,South,1.0,300.0,120.0,300.0
+1371,Pending,Credit Card,06-05-2022,41,Female,20.0,Beauty,Lip Balm,east,1.0,25.0,13.5,25.0
+1900,Failed,Bank Transfer,21-01-2022,65,Male,21.0,Clothing,Jacket,South,2.0,30.0,10.8,60.0
+8,Success,PayPal,27-12-2022,148,Male,30.0,Electronics,Speaker,South,4.0,25.0,11.0,100.0
+41,Pending,Credit Card,11-10-2022,88,Male,34.0,Clothing,Shirt,South,2.0,25.0,13.25,50.0
+454,Failed,Bank Transfer,12-03-2022,13,Female,46.0,Beauty,Face Wash,north,1.0,25.0,13.0,25.0
+780,Success,PayPal,06-07-2022,107,Male,52.0,Electronics,Fan,north,2.0,25.0,13.25,50.0
+920,Pending,Credit Card,20-08-2022,99,Female,28.0,Beauty,Face Wash,east,3.0,25.0,6.75,75.0
+1008,Failed,Bank Transfer,10-01-2022,116,Male,30.0,Electronics,Fan,east,4.0,25.0,13.0,100.0
+1041,Success,PayPal,10-05-2022,74,Male,34.0,Clothing,Shirt,South,2.0,25.0,11.0,50.0
+1454,Pending,Credit Card,25-06-2022,22,Female,46.0,Beauty,Lip Balm,South,1.0,25.0,6.75,25.0
+1780,Failed,Bank Transfer,11-12-2022,32,Male,52.0,Electronics,Headphone,east,2.0,25.0,10.5,50.0
+1920,Success,PayPal,24-10-2022,23,Female,28.0,Beauty,Lip Balm,west,3.0,25.0,9.25,75.0
+396,Pending,Credit Card,15-12-2022,29,Female,55.0,Beauty,Lip Balm,west,1.0,30.0,10.8,30.0
+1396,Failed,Bank Transfer,07-06-2022,9,Female,55.0,Beauty,Face Wash,South,1.0,30.0,8.4,30.0
+168,Success,PayPal,29-04-2022,138,Male,53.0,Clothing,Pant,South,1.0,300.0,102.0,300.0
+400,Pending,Credit Card,08-03-2022,2,Male,53.0,Clothing,Pant,north,4.0,50.0,24.0,200.0
+611,Failed,Bank Transfer,21-07-2022,11,Male,51.0,Beauty,Lip Balm,east,3.0,500.0,180.0,1500.0
+800,Success,PayPal,19-09-2022,111,Male,32.0,Clothing,Shirt,west,4.0,300.0,87.0,1200.0
+1168,Pending,Credit Card,10-07-2022,68,Male,53.0,Clothing,Shirt,west,1.0,300.0,150.0,300.0
+1400,Failed,Bank Transfer,12-09-2022,115,Male,53.0,Clothing,Pant,north,4.0,50.0,20.0,200.0
+1611,Success,PayPal,17-11-2022,125,Male,51.0,Beauty,Lip Balm,north,3.0,500.0,180.0,1500.0
+1800,Pending,Credit Card,21-08-2022,1,Male,32.0,Clothing,Pant,west,4.0,300.0,111.0,1200.0
+272,Failed,Bank Transfer,10-06-2022,112,Female,61.0,Electronics,Fan,north,2.0,50.0,27.5,100.0
+473,Success,PayPal,25-09-2022,1,Male,64.0,Beauty,Lip Balm,South,1.0,50.0,14.5,50.0
+506,Pending,Credit Card,29-04-2022,9,Male,34.0,Beauty,Moisturizer,east,3.0,500.0,200.0,1500.0
+766,Failed,Bank Transfer,04-01-2022,128,Male,38.0,Electronics,Fan,South,3.0,300.0,165.0,900.0
+1272,Success,PayPal,14-04-2022,66,Female,61.0,Electronics,Light,South,2.0,50.0,17.0,100.0
+1473,Pending,Credit Card,19-03-2022,30,Male,64.0,Beauty,Moisturizer,north,1.0,50.0,13.0,50.0
+1506,Failed,Bank Transfer,09-01-2022,52,Male,34.0,Beauty,Face Serum,South,3.0,500.0,245.0,1500.0
+1766,Success,PayPal,22-11-2022,6,Male,38.0,Electronics,Light,west,3.0,300.0,129.0,900.0
+135,Pending,Credit Card,18-04-2022,104,Male,20.0,Clothing,Sweater,east,2.0,25.0,13.0,50.0
+1135,Failed,Bank Transfer,14-01-2022,124,Male,20.0,Clothing,Jacket,east,2.0,25.0,12.5,50.0
+2,Success,PayPal,24-06-2022,104,Female,26.0,Clothing,Shirt,north,2.0,500.0,135.0,1000.0
+158,Pending,Credit Card,21-01-2022,141,Female,44.0,Electronics,Speaker,north,2.0,300.0,132.0,600.0
+185,Failed,Bank Transfer,27-06-2022,57,Male,24.0,Clothing,Sweater,north,1.0,25.0,7.0,25.0
+433,Success,PayPal,29-07-2022,144,Male,29.0,Beauty,Lip Balm,east,4.0,50.0,20.0,200.0
+1002,Pending,Credit Card,02-03-2022,69,Female,26.0,Clothing,Jacket,east,2.0,500.0,270.0,1000.0
+1158,Failed,Bank Transfer,24-02-2022,77,Female,44.0,Electronics,Speaker,South,2.0,300.0,138.0,600.0
+1185,Success,PayPal,04-10-2022,153,Male,24.0,Clothing,Shirt,west,1.0,25.0,10.25,25.0
+1433,Pending,Credit Card,16-01-2022,113,Male,29.0,Beauty,Face Wash,north,4.0,50.0,15.5,200.0
+152,Failed,Bank Transfer,16-06-2022,120,Male,43.0,Electronics,Fan,west,4.0,500.0,210.0,2000.0
+753,Success,PayPal,06-07-2022,70,Female,32.0,Clothing,Pant,east,1.0,30.0,15.9,30.0
+763,Pending,Credit Card,23-04-2022,58,Male,34.0,Clothing,Sweater,north,2.0,25.0,11.5,50.0
+932,Failed,Bank Transfer,08-10-2022,120,Female,45.0,Beauty,Lip Balm,east,4.0,25.0,7.75,100.0
+1152,Success,PayPal,26-12-2022,87,Male,43.0,Electronics,Speaker,east,4.0,500.0,170.0,2000.0
+1753,Pending,Credit Card,17-07-2022,28,Female,32.0,Clothing,Pant,east,1.0,30.0,10.5,30.0
+1763,Failed,Bank Transfer,30-06-2022,93,Male,34.0,Clothing,Sweater,west,2.0,25.0,13.5,50.0
+1932,Success,PayPal,08-11-2022,96,Female,45.0,Beauty,Moisturizer,South,4.0,25.0,6.25,100.0
+399,Pending,Credit Card,07-12-2022,136,Female,64.0,Beauty,Moisturizer,north,2.0,30.0,12.9,60.0
+500,Failed,Bank Transfer,14-10-2022,120,Female,60.0,Beauty,Face Serum,north,4.0,25.0,11.5,100.0
+514,Success,PayPal,04-11-2022,139,Female,18.0,Electronics,Speaker,east,1.0,300.0,96.0,300.0
+1399,Pending,Credit Card,28-01-2022,15,Female,64.0,Beauty,Moisturizer,east,2.0,30.0,16.2,60.0
+1500,Failed,Bank Transfer,20-04-2022,53,Female,60.0,Beauty,Face Wash,east,4.0,25.0,8.5,100.0
+1514,Success,PayPal,12-07-2022,59,Female,18.0,Electronics,Speaker,north,1.0,300.0,75.0,300.0
+947,Pending,Credit Card,31-07-2022,4,Male,50.0,Beauty,Moisturizer,west,1.0,300.0,129.0,300.0
+1947,Failed,Bank Transfer,05-03-2022,134,Male,50.0,Beauty,Face Serum,north,1.0,300.0,75.0,300.0
+220,Success,PayPal,07-05-2022,138,Male,64.0,Beauty,Moisturizer,South,1.0,500.0,140.0,500.0
+339,Pending,Credit Card,18-08-2022,33,Female,22.0,Electronics,Fan,South,2.0,25.0,10.25,50.0
+785,Failed,Bank Transfer,19-10-2022,88,Female,31.0,Beauty,Face Wash,west,4.0,50.0,13.0,200.0
+885,Success,PayPal,17-09-2022,121,Female,52.0,Clothing,Sweater,east,4.0,30.0,14.4,120.0
+888,Pending,Credit Card,01-12-2022,63,Female,52.0,Electronics,Headphone,west,4.0,25.0,12.75,100.0
+1220,Failed,Bank Transfer,29-06-2022,47,Male,64.0,Beauty,Moisturizer,north,1.0,500.0,240.0,500.0
+1339,Success,PayPal,10-11-2022,132,Female,22.0,Electronics,Light,north,2.0,25.0,7.5,50.0
+1785,Pending,Credit Card,20-02-2022,144,Female,31.0,Beauty,Face Serum,South,4.0,50.0,17.0,200.0
+1885,Failed,Bank Transfer,09-11-2022,148,Female,52.0,Clothing,Sweater,South,4.0,30.0,10.8,120.0
+1888,Success,PayPal,14-06-2022,49,Female,52.0,Electronics,Headphone,north,4.0,25.0,12.5,100.0
+621,Pending,Credit Card,13-04-2022,138,Female,40.0,Beauty,Face Wash,east,2.0,500.0,275.0,1000.0
+1621,Failed,Bank Transfer,22-09-2022,2,Female,40.0,Beauty,Face Serum,east,2.0,500.0,160.0,1000.0
+52,Success,PayPal,19-09-2022,55,Female,36.0,Beauty,Moisturizer,east,1.0,300.0,111.0,300.0
+536,Pending,Credit Card,20-08-2022,17,Female,55.0,Beauty,Face Serum,north,4.0,30.0,8.7,120.0
+1052,Failed,Bank Transfer,12-02-2022,94,Female,36.0,Beauty,Lip Balm,South,1.0,300.0,120.0,300.0
+1536,Success,PayPal,11-05-2022,14,Female,55.0,Beauty,Moisturizer,west,4.0,30.0,13.5,120.0
+197,Pending,Credit Card,03-04-2022,14,Female,42.0,Clothing,Sweater,South,4.0,50.0,25.5,200.0
+750,Failed,Bank Transfer,13-11-2022,69,Female,35.0,Clothing,Shirt,north,3.0,25.0,8.75,75.0
+910,Success,PayPal,21-08-2022,138,Female,20.0,Beauty,Face Serum,north,3.0,50.0,22.5,150.0
+917,Pending,Credit Card,15-02-2022,120,Female,57.0,Electronics,Speaker,west,4.0,50.0,16.5,200.0
+1197,Failed,Bank Transfer,13-08-2022,77,Female,42.0,Clothing,Shirt,east,4.0,50.0,19.0,200.0
+1750,Success,PayPal,20-01-2022,138,Female,35.0,Clothing,Sweater,west,3.0,25.0,7.25,75.0
+1910,Pending,Credit Card,09-10-2022,141,Female,20.0,Beauty,Face Serum,South,3.0,50.0,18.0,150.0
+1917,Failed,Bank Transfer,02-05-2022,52,Female,57.0,Electronics,Speaker,west,4.0,50.0,24.0,200.0
+198,Success,PayPal,21-05-2022,30,Female,54.0,Beauty,Lip Balm,west,3.0,300.0,114.0,900.0
+444,Pending,Credit Card,06-10-2022,51,Female,61.0,Clothing,Jacket,South,3.0,30.0,15.9,90.0
+547,Failed,Bank Transfer,14-11-2022,3,Male,63.0,Clothing,Pant,South,4.0,500.0,250.0,2000.0
+705,Success,PayPal,30-09-2022,37,Male,60.0,Electronics,Light,west,2.0,25.0,6.25,50.0
+1198,Pending,Credit Card,07-08-2022,147,Female,54.0,Beauty,Lip Balm,north,3.0,300.0,159.0,900.0
+1444,Failed,Bank Transfer,29-04-2022,135,Female,61.0,Clothing,Shirt,west,3.0,30.0,14.1,90.0
+1547,Success,PayPal,11-08-2022,142,Male,63.0,Clothing,Shirt,west,4.0,500.0,235.0,2000.0
+1705,Pending,Credit Card,14-08-2022,94,Male,60.0,Electronics,Headphone,South,2.0,25.0,8.75,50.0
+423,Failed,Bank Transfer,18-07-2022,41,Female,27.0,Clothing,Shirt,west,1.0,25.0,11.75,25.0
+1423,Success,PayPal,15-06-2022,131,Female,27.0,Clothing,Jacket,north,1.0,25.0,11.0,25.0
+248,Pending,Credit Card,02-07-2022,5,Male,26.0,Clothing,Sweater,north,3.0,300.0,126.0,900.0
+360,Failed,Bank Transfer,09-09-2022,26,Male,42.0,Clothing,Pant,South,4.0,25.0,10.5,100.0
+377,Success,PayPal,13-09-2022,141,Female,46.0,Clothing,Jacket,north,4.0,50.0,18.0,200.0
+1248,Pending,Credit Card,08-09-2022,68,Male,26.0,Clothing,Jacket,South,3.0,300.0,111.0,900.0
+1360,Failed,Bank Transfer,18-06-2022,93,Male,42.0,Clothing,Sweater,north,4.0,25.0,6.25,100.0
+1377,Success,PayPal,21-03-2022,71,Female,46.0,Clothing,Pant,west,4.0,50.0,14.0,200.0
+397,Pending,Credit Card,26-10-2023,59,Female,30.0,Beauty,Face Wash,east,1.0,25.0,10.5,25.0
+623,Failed,Bank Transfer,15-11-2023,39,Male,34.0,Clothing,Sweater,west,3.0,50.0,26.0,150.0
+1397,Success,PayPal,01-01-2023,6,Female,30.0,Beauty,Face Serum,east,1.0,25.0,11.75,25.0
+1623,Pending,Credit Card,05-03-2023,76,Male,34.0,Clothing,Sweater,South,3.0,50.0,22.0,150.0
+717,Failed,Bank Transfer,30-11-2023,8,Male,57.0,Clothing,Sweater,South,1.0,500.0,190.0,500.0
+1717,Success,PayPal,12-01-2023,21,Male,57.0,Clothing,Shirt,north,1.0,500.0,175.0,500.0
+130,Pending,Credit Card,19-06-2023,114,Female,57.0,Clothing,Sweater,west,1.0,500.0,125.0,500.0
+658,Failed,Bank Transfer,30-10-2023,93,Male,59.0,Clothing,Jacket,South,1.0,25.0,6.5,25.0
+1130,Success,PayPal,20-02-2023,28,Female,57.0,Clothing,Sweater,north,1.0,500.0,180.0,500.0
+1658,Pending,Credit Card,10-04-2023,148,Male,59.0,Clothing,Sweater,east,1.0,25.0,12.25,25.0
+7,Failed,Bank Transfer,06-07-2023,38,Male,46.0,Clothing,Jacket,north,2.0,25.0,13.25,50.0
+119,Success,PayPal,01-09-2023,127,Female,60.0,Clothing,Shirt,South,3.0,50.0,27.5,150.0
+278,Pending,Credit Card,22-12-2023,71,Female,37.0,Clothing,Shirt,west,4.0,25.0,13.5,100.0
+1007,Failed,Bank Transfer,09-06-2023,15,Male,46.0,Clothing,Jacket,east,2.0,25.0,11.5,50.0
+1119,Success,PayPal,19-11-2023,1,Female,60.0,Clothing,Pant,west,3.0,50.0,25.5,150.0
+1278,Pending,Credit Card,19-07-2023,28,Female,37.0,Clothing,Sweater,South,4.0,25.0,6.75,100.0
+117,Failed,Bank Transfer,04-08-2023,8,Male,19.0,Electronics,Light,north,2.0,500.0,230.0,1000.0
+1117,Success,PayPal,11-09-2023,144,Male,19.0,Electronics,Fan,east,2.0,500.0,210.0,1000.0
+442,Pending,Credit Card,30-06-2023,24,Female,60.0,Clothing,Jacket,South,4.0,25.0,13.25,100.0
+590,Failed,Bank Transfer,04-05-2023,151,Male,36.0,Clothing,Jacket,north,3.0,300.0,135.0,900.0
+607,Success,PayPal,05-05-2023,109,Male,54.0,Clothing,Jacket,north,3.0,25.0,13.25,75.0
+1442,Pending,Credit Card,16-02-2023,96,Female,60.0,Clothing,Sweater,north,4.0,25.0,11.25,100.0
+1590,Failed,Bank Transfer,10-08-2023,142,Male,36.0,Clothing,Sweater,east,3.0,300.0,147.0,900.0
+1607,Success,PayPal,16-01-2023,53,Male,54.0,Clothing,Jacket,South,3.0,25.0,7.75,75.0
+436,Pending,Credit Card,22-10-2023,21,Female,57.0,Clothing,Sweater,west,4.0,30.0,13.5,120.0
+942,Failed,Bank Transfer,01-12-2023,35,Male,51.0,Clothing,Sweater,South,3.0,500.0,160.0,1500.0
+1436,Success,PayPal,20-01-2023,1,Female,57.0,Clothing,Jacket,South,4.0,30.0,9.9,120.0
+1942,Pending,Credit Card,16-09-2023,112,Male,51.0,Clothing,Pant,South,3.0,500.0,265.0,1500.0
+659,Failed,Bank Transfer,09-06-2023,75,Female,39.0,Electronics,Fan,west,1.0,30.0,8.1,30.0
+941,Success,PayPal,28-04-2023,39,Female,57.0,Clothing,Jacket,South,2.0,25.0,6.5,50.0
+1659,Pending,Credit Card,27-07-2023,22,Female,39.0,Electronics,Fan,west,1.0,30.0,9.0,30.0
+1941,Failed,Bank Transfer,06-01-2023,48,Female,57.0,Clothing,Pant,South,2.0,25.0,12.0,50.0
+136,Success,PayPal,26-12-2023,25,Male,44.0,Electronics,Headphone,South,2.0,300.0,141.0,600.0
+175,Pending,Credit Card,25-01-2023,23,Female,31.0,Electronics,Light,west,4.0,25.0,12.5,100.0
+663,Failed,Bank Transfer,16-08-2023,133,Male,23.0,Clothing,Shirt,west,4.0,300.0,87.0,1200.0
+748,Success,PayPal,01-03-2023,132,Male,25.0,Clothing,Jacket,South,3.0,50.0,24.0,150.0
+806,Pending,Credit Card,22-01-2023,14,Female,35.0,Beauty,Lip Balm,South,3.0,300.0,165.0,900.0
+1136,Failed,Bank Transfer,02-07-2023,93,Male,44.0,Electronics,Headphone,north,2.0,300.0,81.0,600.0
+1175,Success,PayPal,02-06-2023,103,Female,31.0,Electronics,Fan,east,4.0,25.0,11.5,100.0
+1663,Pending,Credit Card,07-12-2023,33,Male,23.0,Clothing,Pant,north,4.0,300.0,81.0,1200.0
+1748,Failed,Bank Transfer,02-03-2023,119,Male,25.0,Clothing,Pant,west,3.0,50.0,15.5,150.0
+1806,Success,PayPal,14-06-2023,61,Female,35.0,Beauty,Lip Balm,South,3.0,300.0,102.0,900.0
+38,Pending,Credit Card,25-02-2023,147,Male,38.0,Beauty,Moisturizer,west,4.0,50.0,26.0,200.0
+313,Failed,Bank Transfer,16-12-2023,11,Female,55.0,Beauty,Face Wash,South,3.0,500.0,140.0,1500.0
+402,Success,PayPal,12-07-2023,63,Female,41.0,Clothing,Sweater,west,2.0,300.0,135.0,600.0
+459,Pending,Credit Card,23-05-2023,122,Male,28.0,Clothing,Shirt,east,4.0,300.0,75.0,1200.0
+1038,Failed,Bank Transfer,30-12-2023,11,Male,38.0,Beauty,Face Wash,east,4.0,50.0,20.5,200.0
+1313,Success,PayPal,04-06-2023,10,Female,55.0,Beauty,Face Wash,South,3.0,500.0,170.0,1500.0
+1402,Success,PayPal,24-06-2023,110,Female,41.0,Clothing,Jacket,east,2.0,300.0,156.0,600.0
+1459,Pending,Credit Card,10-11-2023,13,Male,28.0,Clothing,Sweater,South,4.0,300.0,144.0,1200.0
+161,Failed,Bank Transfer,01-07-2023,104,Male,64.0,Beauty,Face Wash,east,2.0,500.0,195.0,1000.0
+328,Success,PayPal,29-10-2023,9,Male,39.0,Beauty,Face Serum,east,2.0,50.0,27.0,100.0
+383,Pending,Credit Card,24-03-2023,64,Female,46.0,Beauty,Lip Balm,west,3.0,30.0,7.8,90.0
+973,Failed,Bank Transfer,03-09-2023,51,Male,60.0,Clothing,Sweater,South,1.0,50.0,13.0,50.0
+978,Success,PayPal,27-07-2023,16,Female,53.0,Clothing,Pant,east,3.0,50.0,19.0,150.0
+1161,Pending,Credit Card,29-06-2023,30,Male,64.0,Beauty,Face Serum,west,2.0,500.0,160.0,1000.0
+1328,Failed,Bank Transfer,10-12-2023,60,Male,39.0,Beauty,Face Serum,South,2.0,50.0,24.5,100.0
+1383,Success,PayPal,06-09-2023,68,Female,46.0,Beauty,Lip Balm,South,3.0,30.0,14.1,90.0
+1973,Pending,Credit Card,19-08-2023,22,Male,60.0,Clothing,Shirt,west,1.0,50.0,21.5,50.0
+1978,Failed,Bank Transfer,31-08-2023,41,Female,53.0,Clothing,Jacket,east,3.0,50.0,15.5,150.0
+33,Success,PayPal,24-12-2023,33,Female,50.0,Electronics,Headphone,west,2.0,50.0,21.0,100.0
+138,Pending,Credit Card,27-04-2023,127,Male,49.0,Clothing,Pant,west,4.0,50.0,26.5,200.0
+471,Failed,Bank Transfer,08-03-2023,136,Male,32.0,Clothing,Shirt,west,3.0,50.0,13.0,150.0
+636,Success,PayPal,09-05-2023,60,Female,21.0,Beauty,Lip Balm,South,3.0,500.0,230.0,1500.0
+1033,Pending,Credit Card,12-04-2023,32,Female,50.0,Electronics,Fan,east,2.0,50.0,19.0,100.0
+1138,Failed,Bank Transfer,16-10-2023,27,Male,49.0,Clothing,Sweater,west,4.0,50.0,14.5,200.0
+1471,Success,PayPal,25-06-2023,30,Male,32.0,Clothing,Pant,west,3.0,50.0,13.0,150.0
+1636,Pending,Credit Card,22-07-2023,50,Female,21.0,Beauty,Lip Balm,east,3.0,500.0,150.0,1500.0
+177,Failed,Bank Transfer,24-03-2023,30,Male,45.0,Beauty,Moisturizer,west,2.0,50.0,26.5,100.0
+426,Success,PayPal,13-12-2023,137,Male,23.0,Electronics,Speaker,east,3.0,50.0,12.5,150.0
+1177,Pending,Credit Card,20-02-2023,89,Male,45.0,Beauty,Face Wash,South,2.0,50.0,15.0,100.0
+1426,Failed,Bank Transfer,12-12-2023,114,Male,23.0,Electronics,Headphone,north,3.0,50.0,25.0,150.0
+76,Success,PayPal,09-09-2023,70,Female,22.0,Electronics,Fan,north,2.0,50.0,14.5,100.0
+91,Pending,Credit Card,14-04-2023,152,Female,55.0,Electronics,Fan,north,1.0,500.0,235.0,500.0
+461,Failed,Bank Transfer,18-07-2023,21,Female,18.0,Beauty,Moisturizer,west,2.0,500.0,265.0,1000.0
+764,Success,PayPal,07-11-2023,47,Female,40.0,Clothing,Jacket,east,1.0,25.0,11.25,25.0
+1076,Pending,Credit Card,14-07-2023,99,Female,22.0,Electronics,Fan,west,2.0,50.0,15.0,100.0
+1091,Failed,Bank Transfer,15-07-2023,139,Female,55.0,Electronics,Fan,north,1.0,500.0,235.0,500.0
+1461,Success,PayPal,01-05-2023,63,Female,18.0,Beauty,Face Serum,north,2.0,500.0,180.0,1000.0
+1764,Pending,Credit Card,02-11-2023,13,Female,40.0,Clothing,Shirt,east,1.0,25.0,11.75,25.0
+202,Failed,Bank Transfer,25-01-2023,61,Female,34.0,Clothing,Shirt,west,4.0,300.0,120.0,1200.0
+301,Success,PayPal,30-07-2023,104,Male,30.0,Clothing,Shirt,west,4.0,30.0,9.6,120.0
+703,Pending,Credit Card,31-07-2023,140,Male,34.0,Electronics,Speaker,west,2.0,50.0,18.5,100.0
+1202,Failed,Bank Transfer,13-11-2023,89,Female,34.0,Clothing,Pant,east,4.0,300.0,144.0,1200.0
+1301,Success,PayPal,24-09-2023,70,Male,30.0,Clothing,Jacket,South,4.0,30.0,10.5,120.0
+1703,Pending,Credit Card,10-06-2023,2,Male,34.0,Electronics,Headphone,west,2.0,50.0,17.0,100.0
+294,Failed,Bank Transfer,09-10-2023,89,Female,23.0,Clothing,Pant,South,3.0,30.0,15.3,90.0
+760,Success,PayPal,26-06-2023,14,Male,27.0,Beauty,Moisturizer,west,1.0,500.0,125.0,500.0
+1294,Pending,Credit Card,24-01-2023,8,Female,23.0,Clothing,Shirt,east,3.0,30.0,10.5,90.0
+1760,Failed,Bank Transfer,23-08-2023,44,Male,27.0,Beauty,Moisturizer,South,1.0,500.0,230.0,500.0
+575,Success,PayPal,12-12-2023,14,Male,60.0,Clothing,Sweater,South,2.0,50.0,23.0,100.0
+1575,Pending,Credit Card,28-07-2023,26,Male,60.0,Clothing,Shirt,north,2.0,50.0,22.5,100.0
+88,Failed,Bank Transfer,16-02-2023,122,Male,56.0,Clothing,Sweater,north,1.0,500.0,185.0,500.0
+1088,Success,PayPal,14-09-2023,6,Male,56.0,Clothing,Shirt,north,1.0,500.0,155.0,500.0
+975,Pending,Credit Card,09-01-2023,145,Female,56.0,Clothing,Sweater,north,4.0,50.0,19.5,200.0
+1975,Failed,Bank Transfer,21-08-2023,63,Female,56.0,Clothing,Jacket,South,4.0,50.0,25.5,200.0
+553,Success,PayPal,20-03-2023,106,Male,24.0,Clothing,Shirt,west,4.0,300.0,81.0,1200.0
+1553,Pending,Credit Card,29-01-2023,42,Male,24.0,Clothing,Sweater,South,4.0,300.0,99.0,1200.0
+462,Failed,Bank Transfer,26-08-2023,71,Male,63.0,Electronics,Fan,South,4.0,300.0,132.0,1200.0
+614,Success,PayPal,13-02-2023,61,Female,39.0,Beauty,Lip Balm,east,4.0,300.0,120.0,1200.0
+808,Pending,Credit Card,22-11-2023,30,Male,33.0,Beauty,Face Wash,east,4.0,500.0,195.0,2000.0
+1462,Failed,Bank Transfer,13-11-2023,124,Male,63.0,Electronics,Fan,east,4.0,300.0,114.0,1200.0
+1614,Success,PayPal,23-08-2023,135,Female,39.0,Beauty,Moisturizer,north,4.0,300.0,105.0,1200.0
+1808,Pending,Credit Card,12-02-2023,109,Male,33.0,Beauty,Face Serum,west,4.0,500.0,210.0,2000.0
+166,Failed,Bank Transfer,28-01-2023,32,Male,34.0,Clothing,Sweater,west,4.0,500.0,225.0,2000.0
+465,Success,PayPal,22-02-2023,40,Female,43.0,Electronics,Light,east,3.0,50.0,15.5,150.0
+502,Pending,Credit Card,22-07-2023,31,Male,43.0,Electronics,Speaker,north,3.0,50.0,22.5,150.0
+905,Failed,Bank Transfer,01-10-2023,96,Male,58.0,Beauty,Lip Balm,west,1.0,300.0,111.0,300.0
+1166,Success,PayPal,19-07-2023,65,Male,34.0,Clothing,Pant,east,4.0,500.0,245.0,2000.0
+1465,Pending,Credit Card,17-04-2023,131,Female,43.0,Electronics,Light,west,3.0,50.0,26.0,150.0
+1502,Failed,Bank Transfer,08-04-2023,152,Male,43.0,Electronics,Headphone,north,3.0,50.0,18.0,150.0
+1905,Success,PayPal,29-08-2023,26,Male,58.0,Beauty,Face Serum,east,1.0,300.0,102.0,300.0
+280,Pending,Credit Card,17-11-2023,76,Female,37.0,Clothing,Jacket,east,3.0,500.0,240.0,1500.0
+719,Failed,Bank Transfer,02-07-2023,37,Female,42.0,Clothing,Jacket,South,2.0,30.0,12.0,60.0
+834,Success,PayPal,26-11-2023,13,Female,56.0,Beauty,Face Wash,west,2.0,30.0,14.7,60.0
+1280,Pending,Credit Card,24-08-2023,116,Female,37.0,Clothing,Pant,South,3.0,500.0,255.0,1500.0
+1719,Failed,Bank Transfer,28-12-2023,4,Female,42.0,Clothing,Shirt,east,2.0,30.0,10.8,60.0
+1834,Success,PayPal,14-04-2023,102,Female,56.0,Beauty,Face Serum,east,2.0,30.0,12.9,60.0
+891,Pending,Credit Card,09-01-2023,24,Male,41.0,Electronics,Fan,South,3.0,300.0,99.0,900.0
+928,Failed,Bank Transfer,05-11-2023,54,Female,35.0,Clothing,Shirt,east,4.0,300.0,90.0,1200.0
+1891,Success,PayPal,22-12-2023,81,Male,41.0,Electronics,Headphone,South,3.0,300.0,105.0,900.0
+1928,Pending,Credit Card,29-07-2023,93,Female,35.0,Clothing,Sweater,South,4.0,300.0,75.0,1200.0
+332,Failed,Bank Transfer,24-04-2023,138,Male,58.0,Electronics,Headphone,north,4.0,300.0,105.0,1200.0
+1332,Success,PayPal,04-12-2023,146,Male,58.0,Electronics,Headphone,north,4.0,300.0,123.0,1200.0
+255,Pending,Credit Card,15-10-2023,19,Male,48.0,Clothing,Shirt,South,1.0,30.0,14.7,30.0
+275,Failed,Bank Transfer,05-03-2023,2,Male,43.0,Clothing,Shirt,west,2.0,500.0,260.0,1000.0
+314,Success,PayPal,15-10-2023,1,Male,52.0,Clothing,Pant,north,4.0,30.0,7.8,120.0
+517,Pending,Credit Card,20-08-2023,3,Female,47.0,Clothing,Shirt,South,4.0,25.0,9.25,100.0
+847,Failed,Bank Transfer,10-01-2023,2,Female,18.0,Electronics,Light,north,4.0,300.0,162.0,1200.0
+1255,Success,PayPal,20-01-2023,4,Male,48.0,Clothing,Pant,South,1.0,30.0,7.8,30.0
+1275,Pending,Credit Card,02-03-2023,5,Male,43.0,Clothing,Shirt,north,2.0,500.0,250.0,1000.0
+1314,Failed,Bank Transfer,23-05-2023,2,Male,52.0,Clothing,Shirt,South,4.0,30.0,16.2,120.0
+1517,Success,PayPal,21-02-2023,2,Female,47.0,Clothing,Jacket,west,4.0,25.0,6.75,100.0
+1847,Pending,Credit Card,28-07-2023,5,Female,18.0,Electronics,Speaker,South,4.0,300.0,123.0,1200.0
+61,Failed,Bank Transfer,07-07-2023,4,Male,21.0,Beauty,Face Serum,west,4.0,50.0,20.0,200.0
+274,Success,PayPal,14-04-2023,4,Female,23.0,Clothing,Jacket,South,2.0,500.0,150.0,1000.0
+486,Pending,Credit Card,02-12-2023,4,Female,35.0,Electronics,Light,west,1.0,25.0,6.5,25.0
+548,Failed,Bank Transfer,14-04-2023,4,Female,51.0,Clothing,Shirt,north,2.0,30.0,15.6,60.0
+886,Success,PayPal,11-12-2023,4,Male,37.0,Electronics,Fan,east,3.0,300.0,165.0,900.0
+892,Pending,Credit Card,13-09-2023,1,Male,20.0,Electronics,Fan,east,1.0,50.0,24.0,50.0
+1061,Failed,Bank Transfer,18-09-2023,3,Male,21.0,Beauty,Face Wash,west,4.0,50.0,12.5,200.0
+1274,Success,PayPal,06-10-2023,2,Female,23.0,Clothing,Sweater,north,2.0,500.0,185.0,1000.0
+1486,Pending,Credit Card,22-11-2023,4,Female,35.0,Electronics,Fan,west,1.0,25.0,8.75,25.0
+1548,Failed,Bank Transfer,13-01-2023,1,Female,51.0,Clothing,Shirt,west,2.0,30.0,12.6,60.0
+1886,Success,PayPal,26-07-2023,1,Male,37.0,Electronics,Fan,west,3.0,300.0,147.0,900.0
+1892,Pending,Credit Card,01-10-2023,3,Male,20.0,Electronics,Speaker,east,1.0,50.0,23.5,50.0
+601,Failed,Bank Transfer,05-06-2023,5,Male,19.0,Clothing,Jacket,east,1.0,30.0,13.2,30.0
+901,Success,PayPal,02-08-2023,2,Male,31.0,Electronics,Fan,west,1.0,30.0,12.0,30.0
+1601,Pending,Credit Card,14-09-2023,1,Male,19.0,Clothing,Pant,north,1.0,30.0,13.5,30.0
+1901,Failed,Bank Transfer,29-11-2023,4,Male,31.0,Electronics,Light,east,1.0,30.0,8.4,30.0
+527,Success,PayPal,21-04-2023,1,Male,57.0,Clothing,Pant,east,2.0,25.0,11.5,50.0
+1527,Pending,Credit Card,29-09-2023,1,Male,57.0,Clothing,Sweater,north,2.0,25.0,11.75,50.0
+23,Failed,Bank Transfer,28-09-2023,4,Female,35.0,Clothing,Pant,west,4.0,30.0,14.7,120.0
+174,Success,PayPal,15-11-2023,2,Female,39.0,Beauty,Face Wash,north,1.0,300.0,126.0,300.0
+589,Pending,Credit Card,08-07-2023,5,Female,36.0,Beauty,Moisturizer,South,2.0,500.0,145.0,1000.0
+774,Failed,Bank Transfer,06-11-2023,2,Female,40.0,Clothing,Shirt,east,2.0,25.0,6.5,50.0
+1000,Success,PayPal,01-04-2023,1,Male,47.0,Electronics,Headphone,South,4.0,30.0,8.4,120.0
+1023,Pending,Credit Card,23-05-2023,5,Female,35.0,Clothing,Sweater,west,4.0,30.0,8.1,120.0
+1174,Failed,Bank Transfer,17-05-2023,2,Female,39.0,Beauty,Lip Balm,west,1.0,300.0,132.0,300.0
+1589,Success,PayPal,01-07-2023,5,Female,36.0,Beauty,Face Wash,north,2.0,500.0,145.0,1000.0
+1774,Pending,Credit Card,09-03-2023,2,Female,40.0,Clothing,Pant,west,2.0,25.0,8.0,50.0
+2000,Failed,Bank Transfer,31-03-2023,4,Male,47.0,Electronics,Fan,north,4.0,30.0,10.8,120.0
+210,Success,PayPal,07-10-2023,2,Male,37.0,Electronics,Fan,north,4.0,50.0,19.0,200.0
+478,Pending,Credit Card,24-07-2023,3,Female,58.0,Clothing,Shirt,South,2.0,30.0,8.1,60.0
+745,Failed,Bank Transfer,14-08-2023,3,Male,54.0,Beauty,Face Wash,east,2.0,50.0,17.0,100.0
+1210,Success,PayPal,10-03-2023,5,Male,37.0,Electronics,Speaker,South,4.0,50.0,12.5,200.0
+1478,Pending,Credit Card,31-08-2023,1,Female,58.0,Clothing,Shirt,South,2.0,30.0,13.5,60.0
+1745,Failed,Bank Transfer,28-09-2023,4,Male,54.0,Beauty,Moisturizer,north,2.0,50.0,21.0,100.0
+354,Success,PayPal,16-12-2023,5,Female,49.0,Beauty,Face Wash,east,4.0,50.0,24.5,200.0
+408,Pending,Credit Card,22-12-2023,4,Female,64.0,Beauty,Moisturizer,South,1.0,500.0,140.0,500.0
+1354,Failed,Bank Transfer,17-09-2023,5,Female,49.0,Beauty,Moisturizer,South,4.0,50.0,26.5,200.0
+1408,Success,PayPal,28-08-2023,2,Female,64.0,Beauty,Face Wash,east,1.0,500.0,250.0,500.0
+674,Pending,Credit Card,30-03-2023,2,Female,38.0,Clothing,Sweater,west,1.0,300.0,84.0,300.0
+1674,Failed,Bank Transfer,22-11-2023,1,Female,38.0,Clothing,Pant,east,1.0,300.0,123.0,300.0
+967,Success,PayPal,04-08-2023,4,Male,62.0,Beauty,Lip Balm,west,1.0,25.0,13.25,25.0
+1967,Pending,Credit Card,23-02-2023,4,Male,62.0,Beauty,Moisturizer,east,1.0,25.0,12.25,25.0
+79,Failed,Bank Transfer,13-04-2023,1,Male,34.0,Beauty,Moisturizer,north,1.0,300.0,96.0,300.0
+406,Success,PayPal,01-04-2023,3,Female,22.0,Beauty,Lip Balm,South,4.0,25.0,11.0,100.0
+450,Pending,Credit Card,01-12-2023,2,Female,59.0,Beauty,Moisturizer,South,2.0,25.0,11.0,50.0
+562,Failed,Bank Transfer,09-11-2023,3,Male,54.0,Electronics,Headphone,west,2.0,25.0,7.25,50.0
+1079,Success,PayPal,21-08-2023,1,Male,34.0,Beauty,Moisturizer,South,1.0,300.0,117.0,300.0
+1406,Pending,Credit Card,22-06-2023,2,Female,22.0,Beauty,Moisturizer,South,4.0,25.0,10.0,100.0
+1450,Failed,Bank Transfer,16-07-2023,1,Female,59.0,Beauty,Lip Balm,west,2.0,25.0,10.25,50.0
+1562,Success,PayPal,26-11-2023,5,Male,54.0,Electronics,Fan,west,2.0,25.0,12.75,50.0
+108,Pending,Credit Card,24-01-2023,5,Female,27.0,Beauty,Lip Balm,north,3.0,25.0,13.5,75.0
+111,Failed,Bank Transfer,15-04-2023,5,Female,34.0,Electronics,Speaker,west,3.0,500.0,130.0,1500.0
+207,Success,PayPal,06-08-2023,3,Female,42.0,Beauty,Moisturizer,west,2.0,25.0,10.25,50.0
+724,Pending,Credit Card,14-06-2023,3,Male,61.0,Clothing,Pant,east,3.0,50.0,20.0,150.0
+836,Failed,Bank Transfer,21-06-2023,2,Female,22.0,Clothing,Pant,South,1.0,50.0,27.5,50.0
+969,Success,PayPal,27-11-2023,2,Female,40.0,Clothing,Pant,South,3.0,300.0,84.0,900.0
+1108,Pending,Credit Card,08-07-2023,1,Female,27.0,Beauty,Face Serum,north,3.0,25.0,10.0,75.0
+1111,Failed,Bank Transfer,30-04-2023,2,Female,34.0,Electronics,Headphone,north,3.0,500.0,185.0,1500.0
+1207,Success,PayPal,30-06-2023,3,Female,42.0,Beauty,Moisturizer,west,2.0,25.0,10.0,50.0
+1724,Pending,Credit Card,15-09-2023,4,Male,61.0,Clothing,Jacket,west,3.0,50.0,17.0,150.0
+1836,Failed,Bank Transfer,13-02-2023,3,Female,22.0,Clothing,Jacket,South,1.0,50.0,23.5,50.0
+1969,Success,PayPal,05-03-2023,4,Female,40.0,Clothing,Pant,north,3.0,300.0,126.0,900.0
+246,Pending,Credit Card,07-12-2023,4,Female,48.0,Electronics,Light,east,2.0,25.0,13.25,50.0
+298,Failed,Bank Transfer,05-10-2023,3,Male,27.0,Beauty,Moisturizer,north,4.0,300.0,84.0,1200.0
+374,Success,PayPal,27-10-2023,4,Female,59.0,Beauty,Lip Balm,South,3.0,25.0,7.75,75.0
+572,Pending,Credit Card,13-12-2023,5,Male,31.0,Clothing,Jacket,east,4.0,500.0,185.0,2000.0
+665,Failed,Bank Transfer,03-10-2023,1,Male,57.0,Clothing,Jacket,west,1.0,50.0,19.0,50.0
+1246,Success,PayPal,26-04-2023,3,Female,48.0,Electronics,Headphone,east,2.0,25.0,11.5,50.0
+1298,Pending,Credit Card,02-05-2023,1,Male,27.0,Beauty,Lip Balm,north,4.0,300.0,120.0,1200.0
+1374,Failed,Bank Transfer,23-03-2023,3,Female,59.0,Beauty,Lip Balm,South,3.0,25.0,8.25,75.0
+1572,Success,PayPal,18-06-2023,1,Male,31.0,Clothing,Jacket,South,4.0,500.0,175.0,2000.0
+1665,Pending,Credit Card,01-11-2023,4,Male,57.0,Clothing,Pant,north,1.0,50.0,14.0,50.0
+39,Failed,Bank Transfer,11-07-2023,5,Male,23.0,Clothing,Sweater,South,4.0,30.0,8.7,120.0
+893,Success,PayPal,29-04-2023,1,Male,49.0,Electronics,Fan,east,1.0,50.0,17.0,50.0
+1039,Pending,Credit Card,03-12-2023,1,Male,23.0,Clothing,Pant,north,4.0,30.0,13.8,120.0
+1893,Failed,Bank Transfer,25-02-2023,3,Male,49.0,Electronics,Fan,north,1.0,50.0,22.5,50.0
+17,Success,PayPal,25-02-2023,3,Female,27.0,Clothing,Sweater,east,4.0,25.0,13.0,100.0
+316,Pending,Credit Card,01-02-2023,3,Female,48.0,Clothing,Sweater,South,2.0,25.0,13.75,50.0
+755,Failed,Bank Transfer,27-11-2023,1,Female,58.0,Clothing,Shirt,South,3.0,25.0,6.75,75.0
+1017,Success,PayPal,05-09-2023,2,Female,27.0,Clothing,Shirt,east,4.0,25.0,12.0,100.0
+1316,Pending,Credit Card,21-07-2023,1,Female,48.0,Clothing,Jacket,west,2.0,25.0,11.75,50.0
+1755,Failed,Bank Transfer,23-05-2023,2,Female,58.0,Clothing,Shirt,north,3.0,25.0,8.0,75.0
+28,Success,PayPal,11-12-2023,3,Female,43.0,Beauty,Lip Balm,east,1.0,500.0,150.0,500.0
+98,Pending,Credit Card,09-04-2023,1,Female,55.0,Beauty,Face Serum,South,2.0,50.0,19.5,100.0
+129,Failed,Bank Transfer,17-04-2023,1,Female,21.0,Beauty,Lip Balm,South,2.0,300.0,75.0,600.0
+230,Success,PayPal,26-03-2023,5,Male,54.0,Beauty,Face Wash,South,1.0,25.0,12.5,25.0
+613,Pending,Credit Card,08-05-2023,2,Female,52.0,Clothing,Shirt,west,3.0,30.0,11.4,90.0
+691,Failed,Bank Transfer,12-05-2023,5,Female,51.0,Clothing,Shirt,east,3.0,30.0,14.7,90.0
+693,Success,PayPal,08-06-2023,1,Male,41.0,Beauty,Face Serum,South,3.0,500.0,270.0,1500.0
+1028,Pending,Credit Card,09-03-2023,1,Female,43.0,Beauty,Face Wash,east,1.0,500.0,250.0,500.0
+1098,Failed,Bank Transfer,06-07-2023,3,Female,55.0,Beauty,Face Serum,South,2.0,50.0,19.5,100.0
+1129,Success,PayPal,08-09-2023,1,Female,21.0,Beauty,Lip Balm,east,2.0,300.0,156.0,600.0
+1230,Pending,Credit Card,04-12-2023,1,Male,54.0,Beauty,Lip Balm,east,1.0,25.0,13.25,25.0
+1613,Failed,Bank Transfer,14-12-2023,4,Female,52.0,Clothing,Sweater,west,3.0,30.0,9.9,90.0
+1691,Success,PayPal,07-01-2023,1,Female,51.0,Clothing,Jacket,South,3.0,30.0,13.5,90.0
+1693,Pending,Credit Card,20-02-2023,1,Male,41.0,Beauty,Face Serum,South,3.0,500.0,130.0,1500.0
+477,Failed,Bank Transfer,03-12-2023,3,Male,43.0,Clothing,Jacket,north,4.0,30.0,16.2,120.0
+863,Success,PayPal,12-11-2023,4,Female,30.0,Electronics,Headphone,South,2.0,25.0,11.25,50.0
+1477,Pending,Credit Card,08-01-2023,3,Male,43.0,Clothing,Sweater,east,4.0,30.0,15.6,120.0
+1863,Failed,Bank Transfer,26-05-2023,4,Female,30.0,Electronics,Headphone,north,2.0,25.0,10.0,50.0
+6,Success,PayPal,15-11-2023,2,Female,45.0,Beauty,Face Serum,west,1.0,30.0,15.0,30.0
+483,Pending,Credit Card,06-02-2023,2,Male,55.0,Clothing,Pant,east,1.0,30.0,8.4,30.0
+738,Failed,Bank Transfer,05-02-2023,5,Male,41.0,Clothing,Pant,South,2.0,50.0,26.0,100.0
+1006,Success,PayPal,29-10-2023,2,Female,45.0,Beauty,Face Wash,South,1.0,30.0,14.1,30.0
+1483,Pending,Credit Card,05-03-2023,1,Male,55.0,Clothing,Shirt,west,1.0,30.0,8.7,30.0
+1738,Failed,Bank Transfer,12-11-2023,1,Male,41.0,Clothing,Pant,north,2.0,50.0,16.0,100.0
+222,Success,PayPal,07-01-2023,4,Male,51.0,Clothing,Pant,west,4.0,30.0,10.5,120.0
+588,Pending,Credit Card,18-10-2023,5,Male,38.0,Electronics,Fan,north,2.0,30.0,13.8,60.0
+953,Failed,Bank Transfer,02-07-2023,1,Male,45.0,Beauty,Face Serum,north,3.0,30.0,12.6,90.0
+1222,Success,PayPal,17-09-2023,3,Male,51.0,Clothing,Pant,west,4.0,30.0,11.1,120.0
+1588,Pending,Credit Card,25-06-2023,4,Male,38.0,Electronics,Speaker,north,2.0,30.0,13.2,60.0
+1953,Failed,Bank Transfer,15-05-2023,3,Male,45.0,Beauty,Moisturizer,South,3.0,30.0,10.2,90.0
+66,Success,PayPal,18-06-2023,3,Female,45.0,Electronics,Speaker,east,1.0,30.0,9.0,30.0
+482,Pending,Credit Card,12-08-2023,3,Female,28.0,Clothing,Shirt,west,4.0,300.0,141.0,1200.0
+903,Failed,Bank Transfer,27-07-2023,3,Female,51.0,Beauty,Moisturizer,west,4.0,50.0,14.0,200.0
+1066,Success,PayPal,06-10-2023,4,Female,45.0,Electronics,Speaker,west,1.0,30.0,8.4,30.0
+1482,Pending,Credit Card,10-02-2023,1,Female,28.0,Clothing,Jacket,east,4.0,300.0,114.0,1200.0
+1903,Failed,Bank Transfer,27-07-2023,5,Female,51.0,Beauty,Face Wash,east,4.0,50.0,19.0,200.0
+102,Success,PayPal,17-04-2023,5,Female,47.0,Beauty,Moisturizer,South,2.0,25.0,7.25,50.0
+228,Pending,Credit Card,03-04-2023,4,Female,59.0,Electronics,Speaker,north,2.0,30.0,10.8,60.0
+236,Failed,Bank Transfer,01-04-2023,5,Female,54.0,Clothing,Jacket,north,1.0,25.0,6.5,25.0
+1102,Success,PayPal,21-08-2023,5,Female,47.0,Beauty,Face Serum,west,2.0,25.0,6.5,50.0
+1228,Pending,Credit Card,24-06-2023,5,Female,59.0,Electronics,Speaker,east,2.0,30.0,11.4,60.0
+1236,Failed,Bank Transfer,09-08-2023,4,Female,54.0,Clothing,Pant,east,1.0,25.0,8.75,25.0
+660,Success,PayPal,29-07-2023,2,Female,38.0,Beauty,Face Wash,west,2.0,500.0,270.0,1000.0
+884,Pending,Credit Card,18-02-2023,1,Female,26.0,Clothing,Pant,north,2.0,30.0,7.5,60.0
+987,Failed,Bank Transfer,08-11-2023,1,Female,30.0,Clothing,Jacket,west,3.0,300.0,165.0,900.0
+1660,Success,PayPal,23-09-2023,2,Female,38.0,Beauty,Face Serum,west,2.0,500.0,160.0,1000.0
+1884,Pending,Credit Card,09-07-2023,2,Female,26.0,Clothing,Shirt,east,2.0,30.0,11.4,60.0
+1987,Failed,Bank Transfer,26-05-2023,2,Female,30.0,Clothing,Jacket,north,3.0,300.0,129.0,900.0
+18,Success,PayPal,06-09-2023,5,Female,47.0,Electronics,Headphone,east,2.0,25.0,12.5,50.0
+69,Pending,Credit Card,14-11-2023,1,Female,56.0,Beauty,Moisturizer,west,3.0,25.0,8.5,75.0
+995,Failed,Bank Transfer,04-03-2023,4,Female,41.0,Clothing,Jacket,east,1.0,30.0,9.9,30.0
+1018,Success,PayPal,06-07-2023,4,Female,47.0,Electronics,Fan,west,2.0,25.0,13.0,50.0
+1069,Pending,Credit Card,13-10-2023,2,Female,56.0,Beauty,Moisturizer,South,3.0,25.0,6.75,75.0
+1995,Failed,Bank Transfer,10-12-2023,5,Female,41.0,Clothing,Pant,west,1.0,30.0,14.7,30.0
+337,Success,PayPal,22-08-2023,1,Male,38.0,Clothing,Jacket,South,1.0,500.0,275.0,500.0
+585,Pending,Credit Card,06-06-2023,3,Female,24.0,Clothing,Jacket,west,1.0,25.0,13.75,25.0
+652,Failed,Bank Transfer,31-10-2023,4,Female,34.0,Beauty,Face Wash,north,2.0,50.0,20.5,100.0
+1337,Success,PayPal,21-07-2023,2,Male,38.0,Clothing,Sweater,South,1.0,500.0,225.0,500.0
+1585,Pending,Credit Card,05-10-2023,2,Female,24.0,Clothing,Sweater,north,1.0,25.0,7.25,25.0
+1652,Failed,Bank Transfer,16-11-2023,2,Female,34.0,Beauty,Moisturizer,east,2.0,50.0,20.5,100.0
+242,Success,PayPal,01-10-2023,1,Male,21.0,Clothing,Sweater,north,1.0,25.0,8.0,25.0
+293,Pending,Credit Card,27-05-2023,4,Male,50.0,Electronics,Headphone,South,3.0,30.0,9.6,90.0
+460,Failed,Bank Transfer,01-05-2023,2,Male,40.0,Beauty,Lip Balm,east,1.0,50.0,19.0,50.0
+1242,Success,PayPal,27-11-2023,5,Male,21.0,Clothing,Sweater,west,1.0,25.0,11.25,25.0
+1293,Pending,Credit Card,01-07-2023,3,Male,50.0,Electronics,Speaker,west,3.0,30.0,14.1,90.0
+1460,Failed,Bank Transfer,25-01-2023,4,Male,40.0,Beauty,Face Serum,east,1.0,50.0,22.0,50.0
+188,Success,PayPal,31-08-2023,3,Male,40.0,Clothing,Jacket,west,3.0,25.0,8.5,75.0
+357,Pending,Credit Card,18-05-2023,4,Female,40.0,Electronics,Headphone,west,3.0,25.0,7.5,75.0
+646,Failed,Bank Transfer,26-05-2023,3,Male,38.0,Clothing,Jacket,South,3.0,30.0,13.5,90.0
+749,Success,PayPal,26-07-2023,2,Male,42.0,Beauty,Face Wash,west,1.0,30.0,8.4,30.0
+974,Pending,Credit Card,28-12-2023,3,Male,47.0,Beauty,Lip Balm,east,1.0,30.0,11.7,30.0
+1188,Failed,Bank Transfer,04-06-2023,2,Male,40.0,Clothing,Sweater,South,3.0,25.0,10.75,75.0
+1357,Success,PayPal,20-03-2023,3,Female,40.0,Electronics,Fan,east,3.0,25.0,11.5,75.0
+1646,Pending,Credit Card,18-01-2023,1,Male,38.0,Clothing,Jacket,west,3.0,30.0,15.6,90.0
+1749,Failed,Bank Transfer,07-05-2023,2,Male,42.0,Beauty,Moisturizer,east,1.0,30.0,9.0,30.0
+1974,Success,PayPal,19-02-2023,3,Male,47.0,Beauty,Moisturizer,east,1.0,30.0,12.9,30.0
+190,Pending,Credit Card,25-01-2023,2,Female,60.0,Beauty,Face Wash,west,3.0,30.0,10.5,90.0
+849,Failed,Bank Transfer,25-06-2023,5,Male,32.0,Clothing,Pant,east,2.0,25.0,12.5,50.0
+853,Success,PayPal,14-05-2023,3,Male,21.0,Beauty,Face Wash,north,2.0,500.0,155.0,1000.0
+1190,Pending,Credit Card,29-09-2023,4,Female,60.0,Beauty,Face Wash,north,3.0,30.0,10.8,90.0
+1849,Failed,Bank Transfer,21-07-2023,1,Male,32.0,Clothing,Pant,west,2.0,25.0,12.0,50.0
+1853,Success,PayPal,29-05-2023,2,Male,21.0,Beauty,Lip Balm,west,2.0,500.0,190.0,1000.0
+252,Pending,Credit Card,05-05-2023,1,Male,54.0,Electronics,Fan,east,1.0,300.0,84.0,300.0
+606,Failed,Bank Transfer,13-06-2023,2,Male,22.0,Electronics,Headphone,west,1.0,50.0,19.5,50.0
+779,Success,PayPal,15-05-2023,3,Female,56.0,Electronics,Speaker,north,2.0,500.0,155.0,1000.0
+824,Pending,Credit Card,25-02-2023,3,Male,63.0,Clothing,Pant,east,4.0,30.0,9.3,120.0
+866,Failed,Bank Transfer,06-07-2023,4,Male,24.0,Electronics,Light,South,1.0,50.0,22.5,50.0
+1252,Success,PayPal,30-12-2023,5,Male,54.0,Electronics,Speaker,west,1.0,300.0,117.0,300.0
+1606,Pending,Credit Card,19-10-2023,2,Male,22.0,Electronics,Headphone,east,1.0,50.0,26.5,50.0
+1779,Failed,Bank Transfer,02-01-2023,3,Female,56.0,Electronics,Fan,east,2.0,500.0,190.0,1000.0
+1824,Success,PayPal,24-01-2023,4,Male,63.0,Clothing,Shirt,north,4.0,30.0,12.6,120.0
+1866,Pending,Credit Card,17-08-2023,5,Male,24.0,Electronics,Fan,west,1.0,50.0,20.0,50.0
+5,Failed,Bank Transfer,05-09-2023,3,Male,30.0,Beauty,Face Serum,west,2.0,50.0,24.0,100.0
+90,Success,PayPal,10-09-2023,3,Female,51.0,Electronics,Fan,east,1.0,30.0,13.5,30.0
+380,Pending,Credit Card,30-08-2023,2,Male,56.0,Electronics,Light,east,2.0,300.0,102.0,600.0
+593,Failed,Bank Transfer,18-01-2023,2,Male,35.0,Electronics,Speaker,South,2.0,30.0,13.2,60.0
+820,Success,PayPal,17-02-2023,1,Male,49.0,Electronics,Headphone,South,4.0,50.0,24.0,200.0
+1005,Pending,Credit Card,12-08-2023,2,Male,30.0,Beauty,Lip Balm,north,2.0,50.0,17.5,100.0
+1090,Failed,Bank Transfer,18-02-2023,4,Female,51.0,Electronics,Speaker,north,1.0,30.0,7.5,30.0
+1380,Success,PayPal,09-02-2023,3,Male,56.0,Electronics,Fan,west,2.0,300.0,159.0,600.0
+1593,Pending,Credit Card,24-02-2023,5,Male,35.0,Electronics,Light,north,2.0,30.0,14.4,60.0
+1820,Failed,Bank Transfer,13-05-2023,1,Male,49.0,Electronics,Light,west,4.0,50.0,22.0,200.0
+120,Success,PayPal,31-03-2023,4,Male,60.0,Beauty,Face Wash,South,1.0,50.0,12.5,50.0
+221,Pending,Credit Card,27-11-2023,3,Male,39.0,Beauty,Face Wash,South,2.0,300.0,111.0,600.0
+341,Failed,Bank Transfer,20-01-2023,5,Male,31.0,Clothing,Sweater,South,4.0,50.0,18.5,200.0
+640,Success,PayPal,25-12-2023,3,Female,51.0,Electronics,Fan,west,4.0,30.0,12.6,120.0
+744,Pending,Credit Card,23-05-2023,1,Male,40.0,Electronics,Headphone,west,1.0,25.0,6.5,25.0
+1120,Failed,Bank Transfer,02-03-2023,4,Male,60.0,Beauty,Moisturizer,west,1.0,50.0,26.5,50.0
+1221,Success,PayPal,14-09-2023,5,Male,39.0,Beauty,Moisturizer,east,2.0,300.0,114.0,600.0
+1341,Pending,Credit Card,30-01-2023,1,Male,31.0,Clothing,Pant,north,4.0,50.0,21.0,200.0
+1640,Failed,Bank Transfer,10-06-2023,5,Female,51.0,Electronics,Headphone,west,4.0,30.0,14.1,120.0
+1744,Success,PayPal,07-07-2023,4,Male,40.0,Electronics,Headphone,east,1.0,25.0,8.75,25.0
+273,Pending,Credit Card,26-09-2023,1,Female,22.0,Beauty,Face Wash,north,1.0,50.0,14.5,50.0
+283,Failed,Bank Transfer,01-06-2023,3,Female,18.0,Electronics,Light,north,1.0,500.0,165.0,500.0
+452,Success,PayPal,30-01-2023,4,Female,48.0,Clothing,Pant,east,3.0,500.0,240.0,1500.0
+469,Pending,Credit Card,21-03-2023,4,Male,18.0,Beauty,Lip Balm,west,3.0,25.0,8.75,75.0
+620,Failed,Bank Transfer,06-11-2023,4,Male,63.0,Electronics,Speaker,west,3.0,25.0,7.0,75.0
+946,Success,PayPal,08-08-2023,2,Male,62.0,Electronics,Headphone,west,4.0,500.0,235.0,2000.0
+1273,Pending,Credit Card,20-06-2023,1,Female,22.0,Beauty,Face Wash,north,1.0,50.0,25.5,50.0
+1283,Failed,Bank Transfer,14-10-2023,1,Female,18.0,Electronics,Headphone,South,1.0,500.0,130.0,500.0
+1452,Success,PayPal,06-08-2023,3,Female,48.0,Clothing,Pant,north,3.0,500.0,185.0,1500.0
+1469,Pending,Credit Card,08-12-2023,3,Male,18.0,Beauty,Face Serum,west,3.0,25.0,12.5,75.0
+1620,Failed,Bank Transfer,03-02-2023,5,Male,63.0,Electronics,Fan,South,3.0,25.0,7.75,75.0
+1946,Success,PayPal,27-07-2023,5,Male,62.0,Electronics,Speaker,north,4.0,500.0,165.0,2000.0
+148,Pending,Credit Card,03-07-2023,5,Male,18.0,Clothing,Sweater,South,2.0,30.0,9.9,60.0
+414,Failed,Bank Transfer,10-05-2023,1,Male,48.0,Beauty,Face Serum,east,4.0,25.0,9.75,100.0
+883,Success,PayPal,20-08-2023,5,Male,40.0,Electronics,Headphone,north,1.0,500.0,245.0,500.0
+1148,Pending,Credit Card,11-08-2023,2,Male,18.0,Clothing,Jacket,east,2.0,30.0,10.8,60.0
+1414,Failed,Bank Transfer,22-11-2023,4,Male,48.0,Beauty,Moisturizer,east,4.0,25.0,11.25,100.0
+1883,Success,PayPal,20-09-2023,3,Male,40.0,Electronics,Light,north,1.0,500.0,200.0,500.0
+731,Pending,Credit Card,30-09-2023,1,Male,54.0,Clothing,Jacket,north,4.0,500.0,165.0,2000.0
+930,Failed,Bank Transfer,12-01-2023,1,Male,54.0,Clothing,Jacket,South,4.0,50.0,26.0,200.0
+1731,Success,PayPal,19-12-2023,3,Male,54.0,Clothing,Pant,South,4.0,500.0,195.0,2000.0
+1930,Pending,Credit Card,21-12-2023,5,Male,54.0,Clothing,Pant,South,4.0,50.0,13.0,200.0
+518,Failed,Bank Transfer,31-07-2023,2,Female,40.0,Clothing,Pant,west,1.0,30.0,16.2,30.0
+1518,Success,PayPal,18-05-2023,3,Female,40.0,Clothing,Pant,South,1.0,30.0,12.6,30.0
+758,Pending,Credit Card,23-04-2023,1,Male,64.0,Clothing,Pant,South,4.0,25.0,6.75,100.0
+1758,Failed,Bank Transfer,22-07-2023,3,Male,64.0,Clothing,Jacket,east,4.0,25.0,7.5,100.0
+639,Success,PayPal,01-08-2023,4,Female,62.0,Beauty,Moisturizer,north,4.0,50.0,26.5,200.0
+838,Pending,Credit Card,30-09-2023,1,Male,47.0,Electronics,Light,north,2.0,300.0,153.0,600.0
+1639,Failed,Bank Transfer,20-12-2023,5,Female,62.0,Beauty,Moisturizer,west,4.0,50.0,24.0,200.0
+1838,Success,PayPal,28-06-2023,4,Male,47.0,Electronics,Headphone,South,2.0,300.0,102.0,600.0
+353,Pending,Credit Card,18-03-2023,5,Male,31.0,Electronics,Speaker,South,1.0,500.0,270.0,500.0
+501,Failed,Bank Transfer,28-06-2023,2,Male,39.0,Electronics,Headphone,east,2.0,30.0,9.0,60.0
+721,Success,PayPal,23-06-2023,5,Female,52.0,Clothing,Sweater,west,1.0,500.0,145.0,500.0
+1353,Pending,Credit Card,04-09-2023,3,Male,31.0,Electronics,Speaker,east,1.0,500.0,235.0,500.0
+1501,Failed,Bank Transfer,31-01-2023,1,Male,39.0,Electronics,Headphone,South,2.0,30.0,13.5,60.0
+1721,Success,PayPal,21-01-2023,3,Female,52.0,Clothing,Jacket,South,1.0,500.0,215.0,500.0
+123,Pending,Credit Card,11-08-2023,3,Female,40.0,Electronics,Light,east,2.0,30.0,11.7,60.0
+164,Failed,Bank Transfer,28-02-2023,3,Female,47.0,Beauty,Moisturizer,north,3.0,500.0,185.0,1500.0
+425,Success,PayPal,11-06-2023,2,Female,55.0,Electronics,Fan,west,4.0,30.0,15.6,120.0
+1123,Pending,Credit Card,11-12-2023,1,Female,40.0,Electronics,Headphone,west,2.0,30.0,10.8,60.0
+1164,Failed,Bank Transfer,07-04-2023,1,Female,47.0,Beauty,Lip Balm,east,3.0,500.0,245.0,1500.0
+1425,Success,PayPal,02-12-2023,1,Female,55.0,Electronics,Light,west,4.0,30.0,10.2,120.0
+48,Pending,Credit Card,06-10-2023,2,Male,54.0,Electronics,Speaker,east,3.0,300.0,123.0,900.0
+118,Failed,Bank Transfer,13-03-2023,3,Female,30.0,Electronics,Fan,north,4.0,500.0,270.0,2000.0
+203,Success,PayPal,12-03-2023,4,Male,56.0,Clothing,Pant,east,2.0,500.0,175.0,1000.0
+305,Pending,Credit Card,22-03-2023,4,Female,18.0,Beauty,Lip Balm,east,1.0,30.0,14.4,30.0
+358,Failed,Bank Transfer,12-10-2023,4,Female,32.0,Beauty,Face Serum,east,1.0,300.0,132.0,300.0
+376,Success,PayPal,29-01-2023,4,Female,64.0,Beauty,Lip Balm,east,1.0,30.0,12.0,30.0
+398,Pending,Credit Card,23-02-2023,5,Female,48.0,Clothing,Pant,north,2.0,300.0,114.0,600.0
+411,Failed,Bank Transfer,25-07-2023,3,Male,62.0,Electronics,Speaker,north,4.0,50.0,24.5,200.0
+504,Success,PayPal,31-03-2023,4,Female,38.0,Beauty,Face Wash,west,3.0,50.0,22.0,150.0
+970,Pending,Credit Card,25-05-2023,2,Male,59.0,Electronics,Headphone,north,4.0,500.0,220.0,2000.0
+996,Failed,Bank Transfer,03-07-2023,2,Male,62.0,Clothing,Shirt,east,1.0,50.0,13.5,50.0
+1048,Success,PayPal,12-07-2023,3,Male,54.0,Electronics,Light,west,3.0,300.0,93.0,900.0
+1118,Pending,Credit Card,13-10-2023,1,Female,30.0,Electronics,Speaker,north,4.0,500.0,170.0,2000.0
+1203,Failed,Bank Transfer,26-11-2023,2,Male,56.0,Clothing,Sweater,west,2.0,500.0,145.0,1000.0
+1305,Success,PayPal,05-04-2023,5,Female,18.0,Beauty,Moisturizer,South,1.0,30.0,7.8,30.0
+1358,Pending,Credit Card,04-05-2023,5,Female,32.0,Beauty,Moisturizer,east,1.0,300.0,156.0,300.0
+1376,Failed,Bank Transfer,15-07-2023,3,Female,64.0,Beauty,Lip Balm,west,1.0,30.0,9.9,30.0
+1398,Success,PayPal,19-07-2023,1,Female,48.0,Clothing,Jacket,north,2.0,300.0,120.0,600.0
+1411,Pending,Credit Card,24-11-2023,1,Male,62.0,Electronics,Headphone,north,4.0,50.0,26.0,200.0
+1504,Failed,Bank Transfer,25-01-2023,4,Female,38.0,Beauty,Lip Balm,west,3.0,50.0,25.5,150.0
+1970,Success,PayPal,22-05-2023,5,Male,59.0,Electronics,Speaker,north,4.0,500.0,230.0,2000.0
+1996,Pending,Credit Card,07-12-2023,2,Male,62.0,Clothing,Pant,west,1.0,50.0,25.0,50.0
+81,Failed,Bank Transfer,07-06-2023,4,Male,40.0,Electronics,Light,west,1.0,50.0,14.5,50.0
+155,Success,PayPal,18-07-2023,3,Male,31.0,Electronics,Light,north,4.0,500.0,150.0,2000.0
+470,Pending,Credit Card,26-12-2023,4,Female,57.0,Clothing,Pant,west,2.0,500.0,165.0,1000.0
+1081,Failed,Bank Transfer,27-06-2023,5,Male,40.0,Electronics,Fan,west,1.0,50.0,17.0,50.0
+1155,Success,PayPal,03-12-2023,3,Male,31.0,Electronics,Headphone,east,4.0,500.0,255.0,2000.0
+1470,Pending,Credit Card,26-06-2023,1,Female,57.0,Clothing,Shirt,east,2.0,500.0,165.0,1000.0
+106,Failed,Bank Transfer,17-05-2023,1,Female,46.0,Clothing,Sweater,South,1.0,50.0,15.0,50.0
+818,Success,PayPal,29-05-2023,4,Male,30.0,Electronics,Light,west,1.0,500.0,265.0,500.0
+1106,Pending,Credit Card,12-08-2023,3,Female,46.0,Clothing,Jacket,north,1.0,50.0,14.0,50.0
+1818,Failed,Bank Transfer,20-09-2023,4,Male,30.0,Electronics,Headphone,east,1.0,500.0,150.0,500.0
+94,Success,PayPal,13-03-2023,5,Female,47.0,Beauty,Face Serum,west,2.0,500.0,250.0,1000.0
+811,Pending,Credit Card,15-04-2023,2,Male,61.0,Beauty,Lip Balm,east,2.0,25.0,6.75,50.0
+881,Failed,Bank Transfer,21-12-2023,4,Male,22.0,Electronics,Light,west,1.0,300.0,99.0,300.0
+1094,Success,PayPal,15-06-2023,1,Female,47.0,Beauty,Moisturizer,South,2.0,500.0,210.0,1000.0
+1811,Pending,Credit Card,09-12-2023,5,Male,61.0,Beauty,Lip Balm,north,2.0,25.0,8.5,50.0
+1881,Failed,Bank Transfer,11-07-2023,5,Male,22.0,Electronics,Headphone,west,1.0,300.0,147.0,300.0
+403,Success,PayPal,22-04-2023,5,Male,32.0,Clothing,Jacket,north,2.0,300.0,78.0,600.0
+653,Pending,Credit Card,25-11-2023,3,Male,54.0,Clothing,Jacket,east,3.0,25.0,9.25,75.0
+694,Failed,Bank Transfer,30-06-2023,3,Female,39.0,Electronics,Fan,South,2.0,25.0,10.0,50.0
+1403,Success,PayPal,25-03-2023,4,Male,32.0,Clothing,Pant,north,2.0,300.0,162.0,600.0
+1653,Pending,Credit Card,23-07-2023,2,Male,54.0,Clothing,Shirt,South,3.0,25.0,12.75,75.0
+1694,Failed,Bank Transfer,10-01-2023,4,Female,39.0,Electronics,Fan,north,2.0,25.0,9.75,50.0
+4,Success,PayPal,27-08-2023,3,Male,37.0,Clothing,Sweater,South,1.0,500.0,200.0,500.0
+647,Pending,Credit Card,01-03-2023,5,Male,59.0,Clothing,Shirt,north,3.0,500.0,190.0,1500.0
+911,Failed,Bank Transfer,15-07-2023,3,Male,42.0,Electronics,Light,north,3.0,300.0,84.0,900.0
+1004,Success,PayPal,11-01-2023,2,Male,37.0,Clothing,Sweater,west,1.0,500.0,230.0,500.0
+1647,Pending,Credit Card,01-05-2023,5,Male,59.0,Clothing,Jacket,South,3.0,500.0,240.0,1500.0
+1911,Failed,Bank Transfer,13-12-2023,4,Male,42.0,Electronics,Headphone,west,3.0,300.0,75.0,900.0
+419,Success,PayPal,31-03-2023,5,Female,44.0,Clothing,Jacket,west,3.0,30.0,11.7,90.0
+642,Pending,Credit Card,04-05-2023,1,Female,54.0,Clothing,Pant,South,4.0,25.0,12.0,100.0
+843,Failed,Bank Transfer,25-01-2023,3,Male,21.0,Beauty,Moisturizer,west,3.0,500.0,180.0,1500.0
+895,Success,PayPal,31-08-2023,3,Female,55.0,Clothing,Shirt,east,4.0,30.0,14.4,120.0
+1419,Pending,Credit Card,05-02-2023,3,Female,44.0,Clothing,Sweater,east,3.0,30.0,9.3,90.0
+1642,Failed,Bank Transfer,27-12-2023,4,Female,54.0,Clothing,Shirt,South,4.0,25.0,11.5,100.0
+1843,Success,PayPal,21-09-2023,1,Male,21.0,Beauty,Lip Balm,west,3.0,500.0,240.0,1500.0
+1895,Pending,Credit Card,27-03-2023,4,Female,55.0,Clothing,Sweater,north,4.0,30.0,15.3,120.0
+31,Failed,Bank Transfer,31-12-2023,3,Male,44.0,Electronics,Headphone,South,4.0,300.0,129.0,1200.0
+37,Success,PayPal,26-05-2023,2,Female,18.0,Beauty,Lip Balm,South,3.0,25.0,8.75,75.0
+72,Pending,Credit Card,06-12-2023,5,Female,20.0,Electronics,Speaker,west,4.0,500.0,195.0,2000.0
+243,Failed,Bank Transfer,24-06-2023,5,Female,47.0,Electronics,Speaker,east,3.0,300.0,156.0,900.0
+281,Success,PayPal,18-09-2023,4,Female,29.0,Beauty,Face Wash,South,4.0,500.0,275.0,2000.0
+489,Pending,Credit Card,31-10-2023,1,Male,44.0,Electronics,Fan,north,1.0,30.0,14.4,30.0
+491,Failed,Bank Transfer,30-12-2023,4,Female,60.0,Electronics,Speaker,South,3.0,300.0,78.0,900.0
+729,Success,PayPal,26-08-2023,3,Male,29.0,Clothing,Shirt,north,4.0,300.0,84.0,1200.0
+822,Pending,Credit Card,16-02-2023,3,Female,52.0,Beauty,Lip Balm,east,3.0,50.0,13.5,150.0
+1031,Failed,Bank Transfer,12-11-2023,3,Male,44.0,Electronics,Fan,east,4.0,300.0,126.0,1200.0
+1037,Success,PayPal,17-10-2023,2,Female,18.0,Beauty,Moisturizer,west,3.0,25.0,11.5,75.0
+1072,Pending,Credit Card,24-02-2023,4,Female,20.0,Electronics,Headphone,South,4.0,500.0,180.0,2000.0
+1243,Failed,Bank Transfer,08-12-2023,4,Female,47.0,Electronics,Speaker,west,3.0,300.0,138.0,900.0
+1281,Success,PayPal,14-03-2023,4,Female,29.0,Beauty,Moisturizer,north,4.0,500.0,165.0,2000.0
+1489,Pending,Credit Card,28-04-2023,2,Male,44.0,Electronics,Speaker,west,1.0,30.0,10.5,30.0
+1491,Failed,Bank Transfer,26-05-2023,107,Female,60.0,Electronics,Light,South,3.0,300.0,129.0,900.0
+1729,Success,PayPal,22-11-2023,82,Male,29.0,Clothing,Sweater,north,4.0,300.0,81.0,1200.0
+1822,Pending,Credit Card,09-09-2023,15,Female,52.0,Beauty,Face Serum,east,3.0,50.0,21.0,150.0
+840,Failed,Bank Transfer,01-07-2023,60,Male,62.0,Clothing,Pant,north,2.0,25.0,11.75,50.0
+1840,Success,PayPal,12-05-2023,138,Male,62.0,Clothing,Pant,west,2.0,25.0,11.0,50.0
+404,Pending,Credit Card,13-02-2023,59,Male,46.0,Electronics,Fan,west,2.0,500.0,160.0,1000.0
+899,Failed,Bank Transfer,22-05-2023,147,Male,26.0,Clothing,Jacket,north,2.0,300.0,153.0,600.0
+990,Success,PayPal,29-03-2023,68,Female,58.0,Beauty,Face Serum,east,2.0,500.0,235.0,1000.0
+1404,Pending,Credit Card,20-08-2023,155,Male,46.0,Electronics,Light,South,2.0,500.0,185.0,1000.0
+1899,Failed,Bank Transfer,03-05-2023,51,Male,26.0,Clothing,Pant,west,2.0,300.0,99.0,600.0
+1990,Success,PayPal,22-11-2023,48,Female,58.0,Beauty,Face Serum,north,2.0,500.0,155.0,1000.0
+382,Pending,Credit Card,14-07-2023,29,Female,53.0,Clothing,Shirt,north,2.0,500.0,245.0,1000.0
+578,Failed,Bank Transfer,05-12-2023,68,Female,54.0,Clothing,Jacket,east,4.0,30.0,9.3,120.0
+923,Success,PayPal,10-06-2023,62,Male,32.0,Beauty,Moisturizer,west,3.0,300.0,165.0,900.0
+1382,Pending,Credit Card,20-05-2023,139,Female,53.0,Clothing,Pant,South,2.0,500.0,185.0,1000.0
+1578,Failed,Bank Transfer,20-11-2023,66,Female,54.0,Clothing,Jacket,north,4.0,30.0,12.0,120.0
+1923,Success,PayPal,03-04-2022,74,Male,32.0,Beauty,Moisturizer,west,3.0,300.0,159.0,900.0
+307,Pending,Credit Card,11-11-2022,32,Female,26.0,Electronics,Headphone,west,2.0,25.0,8.5,50.0
+561,Failed,Bank Transfer,29-07-2022,34,Female,64.0,Clothing,Jacket,north,4.0,500.0,250.0,2000.0
+651,Success,PayPal,28-09-2023,30,Male,51.0,Clothing,Sweater,South,3.0,50.0,26.0,150.0
+1307,Pending,Credit Card,29-01-2022,68,Female,26.0,Electronics,Speaker,South,2.0,25.0,11.75,50.0
+1561,Failed,Bank Transfer,17-09-2023,16,Female,64.0,Clothing,Sweater,north,4.0,500.0,170.0,2000.0
+1651,Success,PayPal,04-12-2022,155,Male,51.0,Clothing,Pant,east,3.0,50.0,23.5,150.0
+988,Success,PayPal,05-08-2022,85,Female,63.0,Clothing,Jacket,east,3.0,25.0,8.0,75.0
+1988,Pending,Credit Card,30-11-2023,144,Female,63.0,Clothing,Shirt,east,3.0,25.0,7.25,75.0
+67,Failed,Bank Transfer,19-08-2023,119,Female,48.0,Beauty,Moisturizer,east,4.0,300.0,129.0,1200.0
+1067,Success,PayPal,03-10-2023,105,Female,48.0,Beauty,Face Wash,east,4.0,300.0,129.0,1200.0
+915,Pending,Credit Card,11-10-2023,95,Female,26.0,Beauty,Lip Balm,north,3.0,30.0,12.9,90.0
+985,Failed,Bank Transfer,13-06-2023,113,Female,19.0,Electronics,Light,South,2.0,25.0,9.0,50.0
+1915,Success,PayPal,10-07-2023,53,Female,26.0,Beauty,Face Wash,South,3.0,30.0,9.3,90.0
+1985,Pending,Credit Card,31-03-2023,113,Female,19.0,Electronics,Speaker,east,2.0,25.0,9.75,50.0
+56,Failed,Bank Transfer,27-12-2022,97,Female,26.0,Clothing,Shirt,north,3.0,300.0,120.0,900.0
+159,Success,PayPal,10-11-2022,42,Male,26.0,Clothing,Pant,north,4.0,50.0,23.5,200.0
+862,Pending,Credit Card,11-12-2022,29,Male,28.0,Electronics,Light,north,4.0,300.0,78.0,1200.0
+1056,Failed,Bank Transfer,17-04-2022,54,Female,26.0,Clothing,Sweater,west,3.0,300.0,114.0,900.0
+1159,Success,PayPal,02-04-2023,41,Male,26.0,Clothing,Jacket,west,4.0,50.0,18.0,200.0
+1862,Pending,Credit Card,06-02-2022,64,Male,28.0,Electronics,Speaker,west,4.0,300.0,165.0,1200.0
+315,Failed,Bank Transfer,03-07-2023,122,Male,47.0,Clothing,Jacket,west,2.0,30.0,15.0,60.0
+545,Success,PayPal,19-12-2023,61,Male,27.0,Clothing,Shirt,north,2.0,25.0,8.25,50.0
+902,Pending,Credit Card,14-02-2022,108,Female,54.0,Beauty,Face Serum,north,1.0,50.0,21.5,50.0
+1315,Failed,Bank Transfer,31-08-2022,14,Male,47.0,Clothing,Sweater,east,2.0,30.0,12.9,60.0
+1545,Success,PayPal,15-07-2023,16,Male,27.0,Clothing,Pant,east,2.0,25.0,8.25,50.0
+1902,Pending,Credit Card,21-12-2022,97,Female,54.0,Beauty,Moisturizer,north,1.0,50.0,14.0,50.0
+170,Failed,Bank Transfer,21-09-2023,125,Female,25.0,Clothing,Sweater,north,2.0,25.0,12.5,50.0
+685,Success,PayPal,04-07-2023,90,Male,57.0,Electronics,Headphone,South,2.0,25.0,7.75,50.0
+958,Pending,Credit Card,01-01-2022,116,Male,62.0,Electronics,Headphone,west,2.0,25.0,11.0,50.0
+1170,Failed,Bank Transfer,06-01-2023,96,Female,25.0,Clothing,Jacket,north,2.0,25.0,8.0,50.0
+1685,Success,PayPal,20-04-2022,76,Male,57.0,Electronics,Fan,west,2.0,25.0,8.75,50.0
+1958,Pending,Credit Card,27-11-2022,125,Male,62.0,Electronics,Speaker,South,2.0,25.0,11.75,50.0
+363,Failed,Bank Transfer,23-05-2022,92,Male,64.0,Beauty,Lip Balm,north,1.0,25.0,13.5,25.0
+394,Success,PayPal,19-08-2022,105,Female,27.0,Clothing,Jacket,east,1.0,500.0,165.0,500.0
+537,Pending,Credit Card,01-10-2023,98,Female,21.0,Beauty,Face Wash,north,1.0,500.0,275.0,500.0
+1363,Failed,Bank Transfer,04-07-2023,33,Male,64.0,Beauty,Lip Balm,west,1.0,25.0,7.75,25.0
+1394,Success,PayPal,17-04-2022,14,Female,27.0,Clothing,Shirt,east,1.0,500.0,250.0,500.0
+1537,Pending,Credit Card,29-11-2022,116,Female,21.0,Beauty,Lip Balm,west,1.0,500.0,140.0,500.0
+387,Failed,Bank Transfer,26-01-2023,118,Male,44.0,Beauty,Moisturizer,west,1.0,30.0,9.0,30.0
+556,Success,PayPal,05-02-2022,42,Female,18.0,Electronics,Light,South,1.0,50.0,12.5,50.0
+782,Pending,Credit Card,13-04-2022,71,Male,59.0,Clothing,Sweater,north,3.0,300.0,150.0,900.0
+906,Failed,Bank Transfer,19-07-2022,6,Female,20.0,Clothing,Jacket,west,1.0,50.0,17.0,50.0
+1387,Success,PayPal,26-07-2022,37,Male,44.0,Beauty,Lip Balm,South,1.0,30.0,15.6,30.0
+1556,Pending,Credit Card,17-05-2023,35,Female,18.0,Electronics,Headphone,north,1.0,50.0,22.5,50.0
+1782,Failed,Bank Transfer,07-04-2023,116,Male,59.0,Clothing,Jacket,north,3.0,300.0,141.0,900.0
+1906,Success,PayPal,01-10-2022,58,Female,20.0,Clothing,Shirt,north,1.0,50.0,26.5,50.0
+560,Pending,Credit Card,23-10-2023,7,Female,25.0,Electronics,Light,east,1.0,50.0,19.0,50.0
+944,Failed,Bank Transfer,23-08-2022,136,Male,44.0,Clothing,Shirt,east,2.0,25.0,12.0,50.0
+1560,Success,PayPal,13-11-2022,91,Female,25.0,Electronics,Headphone,west,1.0,50.0,18.5,50.0
+1944,Pending,Credit Card,18-07-2023,63,Male,44.0,Clothing,Jacket,west,2.0,25.0,6.5,50.0
+481,Failed,Bank Transfer,13-07-2023,48,Female,43.0,Electronics,Speaker,north,4.0,300.0,114.0,1200.0
+867,Success,PayPal,24-07-2022,152,Male,21.0,Electronics,Headphone,west,1.0,500.0,185.0,500.0
+882,Pending,Credit Card,22-10-2023,144,Female,64.0,Electronics,Light,north,2.0,25.0,13.25,50.0
+961,Failed,Bank Transfer,22-03-2023,86,Male,53.0,Beauty,Moisturizer,South,4.0,50.0,23.0,200.0
+1481,Success,PayPal,09-11-2023,20,Female,43.0,Electronics,Headphone,South,4.0,300.0,114.0,1200.0
+1867,Pending,Credit Card,16-05-2023,144,Male,21.0,Electronics,Light,South,1.0,500.0,190.0,500.0
+1882,Failed,Bank Transfer,21-06-2023,15,Female,64.0,Electronics,Speaker,west,2.0,25.0,9.0,50.0
+1961,Success,PayPal,15-05-2022,95,Male,53.0,Beauty,Moisturizer,east,4.0,50.0,20.5,200.0
+187,Pending,Credit Card,20-02-2022,88,Female,64.0,Clothing,Pant,South,2.0,50.0,21.0,100.0
+446,Failed,Bank Transfer,02-11-2022,104,Male,21.0,Electronics,Speaker,South,1.0,50.0,13.0,50.0
+1187,Success,PayPal,07-07-2023,52,Female,64.0,Clothing,Sweater,west,2.0,50.0,12.5,100.0
+1446,Pending,Credit Card,23-01-2022,155,Male,21.0,Electronics,Headphone,north,1.0,50.0,23.5,50.0
+539,Failed,Bank Transfer,30-11-2023,135,Male,25.0,Beauty,Face Serum,South,1.0,500.0,205.0,500.0
+587,Success,PayPal,04-09-2023,91,Female,40.0,Beauty,Lip Balm,north,4.0,300.0,99.0,1200.0
+1539,Pending,Credit Card,06-12-2022,96,Male,25.0,Beauty,Face Wash,north,1.0,500.0,170.0,500.0
+1587,Failed,Bank Transfer,05-11-2022,140,Female,40.0,Beauty,Face Serum,north,4.0,300.0,105.0,1200.0
+212,Success,PayPal,12-10-2023,105,Male,21.0,Clothing,Jacket,west,3.0,500.0,215.0,1500.0
+765,Pending,Credit Card,16-10-2022,77,Male,43.0,Clothing,Sweater,west,4.0,50.0,12.5,200.0
+769,Failed,Bank Transfer,09-09-2022,18,Female,31.0,Electronics,Fan,east,4.0,30.0,10.2,120.0
+1212,Success,PayPal,16-03-2022,142,Male,21.0,Clothing,Jacket,west,3.0,500.0,265.0,1500.0
+1765,Pending,Credit Card,18-10-2022,13,Male,43.0,Clothing,Pant,north,4.0,50.0,16.0,200.0
+1769,Failed,Bank Transfer,08-10-2023,116,Female,31.0,Electronics,Headphone,north,4.0,30.0,9.3,120.0
+321,Success,PayPal,24-09-2023,30,Female,26.0,Electronics,Speaker,east,2.0,25.0,9.5,50.0
+356,Pending,Credit Card,27-08-2023,71,Male,50.0,Electronics,Headphone,South,3.0,500.0,255.0,1500.0
+510,Failed,Bank Transfer,29-05-2023,14,Female,39.0,Beauty,Lip Balm,north,4.0,50.0,13.0,200.0
+534,Success,PayPal,27-04-2023,112,Male,45.0,Clothing,Jacket,west,2.0,500.0,140.0,1000.0
+1321,Pending,Credit Card,23-04-2023,155,Female,26.0,Electronics,Headphone,South,2.0,25.0,10.5,50.0
+1356,Failed,Bank Transfer,18-12-2023,11,Male,50.0,Electronics,Headphone,west,3.0,500.0,245.0,1500.0
+1510,Success,PayPal,20-11-2022,124,Female,39.0,Beauty,Face Wash,west,4.0,50.0,19.0,200.0
+1534,Pending,Credit Card,13-06-2022,72,Male,45.0,Clothing,Pant,east,2.0,500.0,270.0,1000.0
+104,Failed,Bank Transfer,09-06-2022,129,Female,34.0,Beauty,Lip Balm,west,2.0,500.0,190.0,1000.0
+110,Success,PayPal,18-11-2022,149,Male,27.0,Clothing,Pant,north,3.0,300.0,99.0,900.0
+352,Pending,Credit Card,28-07-2023,54,Male,57.0,Electronics,Speaker,west,2.0,500.0,175.0,1000.0
+365,Failed,Bank Transfer,23-02-2023,151,Male,31.0,Clothing,Shirt,east,1.0,300.0,93.0,300.0
+887,Success,PayPal,24-02-2022,44,Male,59.0,Clothing,Jacket,west,4.0,25.0,10.0,100.0
+1104,Pending,Credit Card,11-07-2022,70,Female,34.0,Beauty,Lip Balm,east,2.0,500.0,150.0,1000.0
+1110,Failed,Bank Transfer,26-10-2022,62,Male,27.0,Clothing,Shirt,South,3.0,300.0,114.0,900.0
+1352,Success,PayPal,19-10-2023,14,Male,57.0,Electronics,Headphone,west,2.0,500.0,260.0,1000.0
+1365,Pending,Credit Card,08-11-2023,18,Male,31.0,Clothing,Shirt,east,1.0,300.0,156.0,300.0
+1887,Failed,Bank Transfer,11-12-2023,113,Male,59.0,Clothing,Shirt,west,4.0,25.0,10.0,100.0
+629,Success,PayPal,05-01-2023,39,Male,62.0,Electronics,Speaker,east,2.0,25.0,8.0,50.0
+1629,Pending,Credit Card,17-02-2022,144,Male,62.0,Electronics,Headphone,north,2.0,25.0,10.75,50.0
+655,Failed,Bank Transfer,31-10-2022,19,Female,55.0,Clothing,Shirt,South,1.0,500.0,210.0,500.0
+1655,Success,PayPal,28-05-2023,8,Female,55.0,Clothing,Sweater,South,1.0,500.0,125.0,500.0
+567,Pending,Credit Card,08-05-2023,5,Female,25.0,Clothing,Pant,north,3.0,300.0,144.0,900.0
+1567,Failed,Bank Transfer,07-04-2023,76,Female,25.0,Clothing,Jacket,north,3.0,300.0,162.0,900.0
+182,Success,PayPal,21-06-2023,27,Male,62.0,Beauty,Lip Balm,west,4.0,30.0,10.2,120.0
+819,Pending,Credit Card,15-08-2023,111,Female,35.0,Beauty,Face Serum,north,2.0,50.0,26.0,100.0
+1182,Failed,Bank Transfer,03-01-2023,14,Male,62.0,Beauty,Lip Balm,west,4.0,30.0,12.9,120.0
+1819,Success,PayPal,05-11-2022,83,Female,35.0,Beauty,Moisturizer,north,2.0,50.0,13.5,100.0
+100,Pending,Credit Card,08-02-2022,21,Male,41.0,Electronics,Fan,north,1.0,30.0,9.3,30.0
+833,Failed,Bank Transfer,09-05-2023,85,Male,42.0,Beauty,Moisturizer,west,4.0,50.0,24.5,200.0
+1100,Success,PayPal,20-01-2023,136,Male,41.0,Electronics,Light,east,1.0,30.0,13.2,30.0
+1833,Pending,Credit Card,30-01-2022,56,Male,42.0,Beauty,Lip Balm,east,4.0,50.0,18.0,200.0
+542,Failed,Bank Transfer,01-06-2023,50,Female,20.0,Beauty,Moisturizer,South,1.0,50.0,24.0,50.0
+723,Success,PayPal,14-07-2022,120,Female,54.0,Beauty,Face Wash,west,4.0,50.0,20.5,200.0
+726,Pending,Credit Card,05-06-2022,72,Male,47.0,Clothing,Jacket,east,4.0,300.0,126.0,1200.0
+1542,Failed,Bank Transfer,17-05-2023,147,Female,20.0,Beauty,Lip Balm,east,1.0,50.0,14.5,50.0
+1723,Success,PayPal,10-02-2022,40,Female,54.0,Beauty,Lip Balm,South,4.0,50.0,18.0,200.0
+1726,Pending,Credit Card,26-06-2023,13,Male,47.0,Clothing,Sweater,west,4.0,300.0,93.0,1200.0
+488,Failed,Bank Transfer,05-07-2022,26,Female,51.0,Electronics,Speaker,South,3.0,300.0,123.0,900.0
+1488,Success,PayPal,12-11-2022,9,Female,51.0,Electronics,Fan,east,3.0,300.0,126.0,900.0
+239,Pending,Credit Card,19-09-2022,1,Male,38.0,Electronics,Headphone,South,3.0,500.0,165.0,1500.0
+498,Failed,Bank Transfer,22-03-2022,41,Female,50.0,Clothing,Jacket,South,4.0,25.0,8.25,100.0
+532,Success,PayPal,15-08-2022,92,Female,64.0,Clothing,Jacket,north,4.0,30.0,12.9,120.0
+669,Pending,Credit Card,23-01-2022,110,Male,24.0,Beauty,Lip Balm,east,4.0,300.0,87.0,1200.0
+877,Failed,Bank Transfer,01-10-2022,134,Female,58.0,Clothing,Shirt,east,1.0,25.0,6.75,25.0
+1239,Success,PayPal,08-07-2022,134,Male,38.0,Electronics,Fan,west,3.0,500.0,255.0,1500.0
+1498,Pending,Credit Card,29-08-2022,51,Female,50.0,Clothing,Pant,north,4.0,25.0,12.5,100.0
+1532,Failed,Bank Transfer,23-03-2022,51,Female,64.0,Clothing,Pant,west,4.0,30.0,15.6,120.0
+1669,Success,PayPal,04-08-2022,83,Male,24.0,Beauty,Lip Balm,South,4.0,300.0,123.0,1200.0
+1877,Pending,Credit Card,25-01-2023,72,Female,58.0,Clothing,Sweater,north,1.0,25.0,10.5,25.0
+422,Failed,Bank Transfer,21-08-2022,67,Female,28.0,Clothing,Shirt,west,3.0,30.0,13.2,90.0
+466,Success,PayPal,11-01-2023,66,Male,63.0,Electronics,Speaker,South,4.0,25.0,13.75,100.0
+1422,Pending,Credit Card,07-05-2022,35,Female,28.0,Clothing,Jacket,north,3.0,30.0,13.5,90.0
+1466,Failed,Bank Transfer,16-01-2023,64,Male,63.0,Electronics,Speaker,north,4.0,25.0,10.75,100.0
+583,Success,PayPal,28-01-2022,131,Female,24.0,Electronics,Fan,east,4.0,25.0,7.75,100.0
+654,Pending,Credit Card,14-08-2023,92,Male,42.0,Clothing,Shirt,west,3.0,25.0,9.25,75.0
+1583,Failed,Bank Transfer,12-11-2023,102,Female,24.0,Electronics,Light,north,4.0,25.0,13.0,100.0
+1654,Success,PayPal,13-10-2023,111,Male,42.0,Clothing,Shirt,South,3.0,25.0,6.25,75.0
+40,Pending,Credit Card,07-06-2022,78,Male,45.0,Beauty,Face Serum,west,1.0,50.0,24.5,50.0
+699,Failed,Bank Transfer,21-11-2022,129,Female,37.0,Clothing,Jacket,west,4.0,30.0,16.2,120.0
+727,Success,PayPal,15-11-2023,32,Male,55.0,Beauty,Face Serum,west,3.0,300.0,105.0,900.0
+830,Pending,Credit Card,29-09-2022,77,Female,64.0,Clothing,Jacket,east,3.0,50.0,18.5,150.0
+1040,Failed,Bank Transfer,12-12-2023,112,Male,45.0,Beauty,Moisturizer,north,1.0,50.0,21.0,50.0
+1699,Success,PayPal,29-07-2023,23,Female,37.0,Clothing,Jacket,north,4.0,30.0,12.9,120.0
+1727,Pending,Credit Card,08-08-2023,72,Male,55.0,Beauty,Lip Balm,South,3.0,300.0,75.0,900.0
+1830,Failed,Bank Transfer,04-03-2023,87,Female,64.0,Clothing,Shirt,west,3.0,50.0,21.0,150.0
+224,Success,PayPal,11-11-2022,99,Female,25.0,Clothing,Sweater,east,1.0,50.0,24.0,50.0
+271,Pending,Credit Card,12-09-2023,44,Female,62.0,Beauty,Face Serum,north,4.0,30.0,9.3,120.0
+1224,Failed,Bank Transfer,20-01-2022,103,Female,25.0,Clothing,Pant,South,1.0,50.0,20.0,50.0
+1271,Success,PayPal,19-01-2022,27,Female,62.0,Beauty,Face Serum,west,4.0,30.0,9.0,120.0
+36,Pending,Credit Card,22-02-2023,40,Male,52.0,Beauty,Lip Balm,north,3.0,300.0,144.0,900.0
+157,Failed,Bank Transfer,15-05-2022,98,Male,62.0,Electronics,Speaker,north,4.0,500.0,170.0,2000.0
+796,Success,PayPal,01-10-2022,38,Male,43.0,Beauty,Moisturizer,east,4.0,30.0,7.8,120.0
+839,Pending,Credit Card,11-11-2023,130,Female,20.0,Electronics,Headphone,west,4.0,300.0,96.0,1200.0
+927,Failed,Bank Transfer,21-02-2022,83,Male,43.0,Electronics,Fan,north,4.0,500.0,250.0,2000.0
+1036,Success,PayPal,17-08-2022,121,Male,52.0,Beauty,Lip Balm,South,3.0,300.0,117.0,900.0
+1157,Pending,Credit Card,23-12-2022,81,Male,62.0,Electronics,Light,South,4.0,500.0,270.0,2000.0
+1796,Failed,Bank Transfer,12-11-2023,69,Male,43.0,Beauty,Lip Balm,east,4.0,30.0,11.1,120.0
+1839,Success,PayPal,28-08-2022,92,Female,20.0,Electronics,Speaker,South,4.0,300.0,156.0,1200.0
+1927,Pending,Credit Card,06-09-2023,46,Male,43.0,Electronics,Fan,South,4.0,500.0,180.0,2000.0
+407,Failed,Bank Transfer,16-07-2022,117,Female,46.0,Electronics,Speaker,north,3.0,300.0,138.0,900.0
+1407,Success,PayPal,10-04-2022,54,Female,46.0,Electronics,Light,north,3.0,300.0,120.0,900.0
+46,Pending,Credit Card,08-11-2022,54,Female,20.0,Electronics,Speaker,South,4.0,300.0,84.0,1200.0
+509,Failed,Bank Transfer,10-07-2023,70,Female,37.0,Electronics,Light,west,3.0,300.0,141.0,900.0
+874,Success,PayPal,17-01-2022,90,Male,60.0,Beauty,Moisturizer,South,1.0,30.0,12.6,30.0
+1046,Pending,Credit Card,21-07-2023,5,Female,20.0,Electronics,Headphone,north,4.0,300.0,156.0,1200.0
+1509,Failed,Bank Transfer,25-11-2022,67,Female,37.0,Electronics,Speaker,South,3.0,300.0,129.0,900.0
+1874,Success,PayPal,14-05-2022,126,Male,60.0,Beauty,Face Wash,east,1.0,30.0,12.6,30.0
+788,Pending,Credit Card,20-06-2022,90,Female,52.0,Beauty,Moisturizer,South,3.0,300.0,105.0,900.0
+1788,Failed,Bank Transfer,03-05-2022,98,Female,52.0,Beauty,Lip Balm,South,3.0,300.0,150.0,900.0
+378,Success,PayPal,03-11-2022,81,Male,50.0,Beauty,Face Serum,South,1.0,300.0,165.0,300.0
+1378,Pending,Credit Card,28-04-2022,27,Male,50.0,Beauty,Lip Balm,east,1.0,300.0,132.0,300.0
+480,Failed,Bank Transfer,22-12-2022,126,Female,42.0,Beauty,Face Wash,east,4.0,500.0,225.0,2000.0
+492,Success,PayPal,16-12-2023,4,Male,61.0,Beauty,Moisturizer,west,4.0,25.0,6.5,100.0
+737,Pending,Credit Card,23-03-2023,26,Female,33.0,Clothing,Shirt,east,1.0,50.0,14.0,50.0
+1480,Failed,Bank Transfer,26-11-2023,3,Female,42.0,Beauty,Moisturizer,east,4.0,500.0,165.0,2000.0
+1492,Success,PayPal,26-08-2023,146,Male,61.0,Beauty,Face Serum,west,4.0,25.0,10.0,100.0
+1737,Pending,Credit Card,14-11-2022,40,Female,33.0,Clothing,Pant,north,1.0,50.0,14.0,50.0
+684,Failed,Bank Transfer,20-06-2023,54,Female,28.0,Clothing,Shirt,north,2.0,500.0,225.0,1000.0
+878,Success,PayPal,26-10-2023,31,Female,20.0,Clothing,Shirt,South,1.0,30.0,11.7,30.0
+1684,Pending,Credit Card,23-01-2023,43,Female,28.0,Clothing,Pant,north,2.0,500.0,200.0,1000.0
+1878,Failed,Bank Transfer,24-01-2023,97,Female,20.0,Clothing,Pant,north,1.0,30.0,7.5,30.0
+78,Success,PayPal,17-02-2023,68,Female,47.0,Clothing,Pant,west,3.0,500.0,265.0,1500.0
+260,Pending,Credit Card,19-01-2023,107,Male,28.0,Beauty,Face Wash,east,2.0,30.0,10.5,60.0
+455,Failed,Bank Transfer,21-11-2023,134,Male,31.0,Electronics,Fan,east,4.0,25.0,13.25,100.0
+837,Success,PayPal,15-01-2023,53,Male,18.0,Beauty,Lip Balm,west,3.0,30.0,7.5,90.0
+1078,Pending,Credit Card,04-05-2023,16,Female,47.0,Clothing,Sweater,west,3.0,500.0,125.0,1500.0
+1260,Failed,Bank Transfer,19-07-2023,117,Male,28.0,Beauty,Face Wash,South,2.0,30.0,13.5,60.0
+1455,Success,PayPal,27-08-2022,32,Male,31.0,Electronics,Speaker,west,4.0,25.0,13.75,100.0
+1837,Pending,Credit Card,29-03-2023,32,Male,18.0,Beauty,Face Serum,north,3.0,30.0,8.1,90.0
+45,Failed,Bank Transfer,20-03-2022,121,Female,55.0,Electronics,Light,north,1.0,30.0,10.5,30.0
+449,Success,PayPal,03-01-2022,58,Male,25.0,Electronics,Speaker,South,4.0,50.0,26.5,200.0
+1045,Pending,Credit Card,26-02-2022,110,Female,55.0,Electronics,Fan,north,1.0,30.0,9.9,30.0
+1449,Failed,Bank Transfer,26-04-2022,12,Male,25.0,Electronics,Fan,South,4.0,50.0,23.5,200.0
+904,Success,PayPal,01-04-2022,43,Male,28.0,Clothing,Shirt,east,1.0,500.0,160.0,500.0
+1904,Pending,Credit Card,25-11-2022,117,Male,28.0,Clothing,Sweater,east,1.0,500.0,220.0,500.0
+59,Failed,Bank Transfer,14-11-2022,61,Male,62.0,Clothing,Shirt,west,1.0,50.0,27.0,50.0
+128,Success,PayPal,21-12-2022,77,Male,25.0,Beauty,Face Serum,east,1.0,500.0,180.0,500.0
+186,Pending,Credit Card,31-03-2022,92,Male,20.0,Clothing,Pant,west,4.0,50.0,23.5,200.0
+802,Failed,Bank Transfer,22-09-2023,57,Female,46.0,Beauty,Face Wash,west,1.0,30.0,9.9,30.0
+1059,Success,PayPal,12-07-2022,89,Male,62.0,Clothing,Shirt,South,1.0,50.0,12.5,50.0
+1128,Pending,Credit Card,04-01-2022,60,Male,25.0,Beauty,Face Wash,east,1.0,500.0,135.0,500.0
+1186,Failed,Bank Transfer,10-09-2023,5,Male,20.0,Clothing,Sweater,South,4.0,50.0,18.5,200.0
+1802,Success,PayPal,13-07-2022,33,Female,46.0,Beauty,Face Serum,east,1.0,30.0,9.6,30.0
+75,Pending,Credit Card,15-05-2023,110,Male,61.0,Beauty,Face Wash,west,4.0,50.0,13.5,200.0
+447,Failed,Bank Transfer,18-04-2023,37,Male,22.0,Beauty,Face Serum,South,4.0,500.0,245.0,2000.0
+528,Success,PayPal,11-12-2023,102,Female,36.0,Clothing,Pant,north,2.0,30.0,9.6,60.0
+1075,Pending,Credit Card,14-09-2022,92,Male,61.0,Beauty,Moisturizer,South,4.0,50.0,21.5,200.0
+1447,Failed,Bank Transfer,30-05-2022,137,Male,22.0,Beauty,Moisturizer,north,4.0,500.0,155.0,2000.0
+1528,Success,PayPal,06-07-2023,126,Female,36.0,Clothing,Jacket,South,2.0,30.0,12.3,60.0
+759,Pending,Credit Card,23-05-2023,75,Male,49.0,Electronics,Speaker,east,2.0,50.0,21.5,100.0
+870,Failed,Bank Transfer,11-04-2022,16,Female,46.0,Electronics,Light,east,4.0,30.0,11.1,120.0
+1759,Success,PayPal,03-11-2022,102,Male,49.0,Electronics,Speaker,east,2.0,50.0,23.0,100.0
+1870,Pending,Credit Card,09-11-2023,119,Female,46.0,Electronics,Fan,north,4.0,30.0,10.5,120.0
+77,Failed,Bank Transfer,07-04-2022,44,Female,47.0,Clothing,Shirt,west,2.0,50.0,24.0,100.0
+381,Success,PayPal,30-01-2022,63,Female,44.0,Clothing,Jacket,South,4.0,25.0,12.25,100.0
+439,Pending,Credit Card,06-05-2022,42,Male,50.0,Clothing,Jacket,north,3.0,25.0,11.75,75.0
+792,Failed,Bank Transfer,04-01-2023,4,Female,20.0,Beauty,Lip Balm,north,1.0,50.0,26.5,50.0
+1077,Success,PayPal,16-12-2022,141,Female,47.0,Clothing,Jacket,west,2.0,50.0,15.0,100.0
+1381,Pending,Credit Card,26-10-2022,48,Female,44.0,Clothing,Shirt,South,4.0,25.0,7.75,100.0
+1439,Failed,Bank Transfer,18-11-2023,76,Male,50.0,Clothing,Pant,east,3.0,25.0,7.25,75.0
+1792,Success,PayPal,26-08-2023,88,Female,20.0,Beauty,Lip Balm,west,1.0,50.0,26.5,50.0
+176,Pending,Credit Card,26-05-2023,53,Female,43.0,Beauty,Moisturizer,South,2.0,50.0,25.5,100.0
+216,Failed,Bank Transfer,04-11-2022,141,Male,62.0,Electronics,Light,north,2.0,50.0,26.5,100.0
+1176,Success,PayPal,04-01-2023,34,Female,43.0,Beauty,Face Serum,South,2.0,50.0,21.0,100.0
+1216,Pending,Credit Card,01-03-2023,23,Male,62.0,Electronics,Headphone,north,2.0,50.0,13.0,100.0
+772,Failed,Bank Transfer,14-04-2023,25,Male,26.0,Electronics,Light,north,1.0,30.0,16.2,30.0
+1772,Success,PayPal,03-02-2022,59,Male,26.0,Electronics,Speaker,north,1.0,30.0,13.2,30.0
+53,Pending,Credit Card,06-01-2022,32,Male,34.0,Electronics,Light,north,2.0,50.0,22.0,100.0
+1053,Failed,Bank Transfer,10-02-2023,40,Male,34.0,Electronics,Headphone,South,2.0,50.0,20.5,100.0
+43,Success,PayPal,18-03-2023,118,Female,48.0,Clothing,Shirt,west,1.0,300.0,111.0,300.0
+71,Pending,Credit Card,16-02-2023,32,Female,51.0,Beauty,Lip Balm,east,4.0,25.0,11.5,100.0
+93,Failed,Bank Transfer,25-01-2022,148,Female,35.0,Beauty,Lip Balm,east,4.0,500.0,140.0,2000.0
+302,Success,PayPal,09-02-2023,26,Male,57.0,Beauty,Lip Balm,east,2.0,300.0,135.0,600.0
+551,Pending,Credit Card,21-03-2023,99,Male,45.0,Electronics,Headphone,west,3.0,300.0,141.0,900.0
+681,Failed,Bank Transfer,04-08-2023,24,Female,43.0,Electronics,Fan,north,2.0,30.0,8.4,60.0
+722,Success,PayPal,24-02-2023,25,Male,20.0,Beauty,Face Wash,South,3.0,300.0,162.0,900.0
+728,Pending,Credit Card,02-06-2022,78,Male,51.0,Electronics,Light,east,3.0,50.0,18.0,150.0
+829,Failed,Bank Transfer,24-03-2022,52,Male,61.0,Beauty,Moisturizer,west,3.0,30.0,9.6,90.0
+955,Success,PayPal,16-01-2022,16,Male,58.0,Clothing,Sweater,South,1.0,25.0,12.5,25.0
+1043,Pending,Credit Card,30-11-2023,20,Female,48.0,Clothing,Sweater,north,1.0,300.0,87.0,300.0
+1071,Failed,Bank Transfer,21-09-2023,155,Female,51.0,Beauty,Lip Balm,north,4.0,25.0,6.75,100.0
+1093,Success,PayPal,06-11-2023,87,Female,35.0,Beauty,Moisturizer,east,4.0,500.0,270.0,2000.0
+1302,Pending,Credit Card,21-12-2022,20,Male,57.0,Beauty,Face Serum,west,2.0,300.0,102.0,600.0
+1551,Failed,Bank Transfer,12-11-2023,84,Male,45.0,Electronics,Light,north,3.0,300.0,81.0,900.0
+1681,Success,PayPal,09-11-2022,53,Female,43.0,Electronics,Light,north,2.0,30.0,11.1,60.0
+1722,Pending,Credit Card,30-01-2022,22,Male,20.0,Beauty,Moisturizer,east,3.0,300.0,159.0,900.0
+1728,Failed,Bank Transfer,23-05-2023,77,Male,51.0,Electronics,Headphone,west,3.0,50.0,25.0,150.0
+1829,Success,PayPal,30-05-2022,58,Male,61.0,Beauty,Face Serum,west,3.0,30.0,12.0,90.0
+1955,Pending,Credit Card,15-09-2022,134,Male,58.0,Clothing,Jacket,north,1.0,25.0,6.5,25.0
+144,Failed,Bank Transfer,26-03-2022,119,Female,59.0,Beauty,Lip Balm,east,3.0,500.0,255.0,1500.0
+474,Success,PayPal,08-05-2022,145,Female,26.0,Clothing,Pant,South,3.0,500.0,210.0,1500.0
+1144,Pending,Credit Card,30-12-2022,148,Female,59.0,Beauty,Face Wash,South,3.0,500.0,125.0,1500.0
+1474,Failed,Bank Transfer,15-05-2022,84,Female,26.0,Clothing,Pant,north,3.0,500.0,255.0,1500.0
+603,Success,PayPal,18-04-2022,95,Female,40.0,Clothing,Sweater,north,3.0,30.0,14.1,90.0
+661,Pending,Credit Card,05-08-2022,10,Female,44.0,Clothing,Jacket,west,4.0,25.0,7.0,100.0
+1603,Failed,Bank Transfer,04-12-2023,132,Female,40.0,Clothing,Jacket,west,3.0,30.0,13.2,90.0
+1661,Success,PayPal,07-07-2023,20,Female,44.0,Clothing,Sweater,east,4.0,25.0,6.25,100.0
+143,Pending,Credit Card,11-02-2023,118,Female,45.0,Clothing,Sweater,north,1.0,50.0,27.5,50.0
+515,Failed,Bank Transfer,13-02-2022,71,Female,49.0,Clothing,Shirt,South,3.0,300.0,75.0,900.0
+1143,Success,PayPal,01-05-2023,23,Female,45.0,Clothing,Jacket,South,1.0,50.0,15.0,50.0
+1515,Pending,Credit Card,04-02-2023,107,Female,49.0,Clothing,Sweater,west,3.0,300.0,135.0,900.0
+304,Failed,Bank Transfer,23-03-2023,59,Female,37.0,Electronics,Light,west,2.0,30.0,15.6,60.0
+676,Success,PayPal,10-07-2023,80,Male,63.0,Electronics,Headphone,South,3.0,500.0,205.0,1500.0
+686,Pending,Credit Card,06-01-2022,68,Female,28.0,Electronics,Light,north,4.0,50.0,23.5,200.0
+698,Failed,Bank Transfer,17-03-2022,116,Female,64.0,Electronics,Light,South,1.0,300.0,123.0,300.0
+1304,Success,PayPal,26-09-2022,4,Female,37.0,Electronics,Headphone,east,2.0,30.0,9.3,60.0
+1676,Pending,Credit Card,21-09-2023,91,Male,63.0,Electronics,Speaker,north,3.0,500.0,210.0,1500.0
+1686,Failed,Bank Transfer,10-12-2023,151,Female,28.0,Electronics,Fan,west,4.0,50.0,26.0,200.0
+1698,Success,PayPal,07-04-2022,146,Female,64.0,Electronics,Fan,South,1.0,300.0,105.0,300.0
+709,Pending,Credit Card,22-09-2022,61,Female,19.0,Electronics,Speaker,east,2.0,500.0,140.0,1000.0
+1709,Failed,Bank Transfer,13-09-2023,97,Female,19.0,Electronics,Speaker,north,2.0,500.0,185.0,1000.0
+114,Success,PayPal,17-04-2022,92,Female,22.0,Beauty,Face Wash,east,4.0,25.0,9.25,100.0
+359,Pending,Credit Card,15-12-2022,122,Male,50.0,Clothing,Pant,east,1.0,50.0,22.5,50.0
+1114,Failed,Bank Transfer,18-08-2022,100,Female,22.0,Beauty,Face Serum,east,4.0,25.0,12.0,100.0
+1359,Success,PayPal,17-05-2022,55,Male,50.0,Clothing,Jacket,South,1.0,50.0,19.0,50.0
+773,Pending,Credit Card,14-01-2023,3,Male,25.0,Electronics,Headphone,west,4.0,500.0,175.0,2000.0
+1773,Failed,Bank Transfer,12-12-2023,80,Male,25.0,Electronics,Headphone,west,4.0,500.0,165.0,2000.0
+127,Success,PayPal,20-05-2023,40,Female,33.0,Clothing,Sweater,South,2.0,25.0,7.5,50.0
+213,Pending,Credit Card,13-08-2023,113,Male,27.0,Beauty,Face Wash,north,3.0,500.0,275.0,1500.0
+487,Failed,Bank Transfer,09-04-2023,36,Male,44.0,Clothing,Pant,west,4.0,500.0,235.0,2000.0
+495,Success,PayPal,24-06-2022,131,Male,24.0,Beauty,Face Serum,west,2.0,30.0,11.7,60.0
+605,Pending,Credit Card,19-10-2023,76,Male,37.0,Electronics,Speaker,west,2.0,500.0,180.0,1000.0
+1127,Failed,Bank Transfer,15-03-2022,87,Female,33.0,Clothing,Pant,north,2.0,25.0,13.0,50.0
+1213,Success,PayPal,21-06-2023,41,Male,27.0,Beauty,Face Wash,South,3.0,500.0,185.0,1500.0
+1487,Pending,Credit Card,01-02-2023,131,Male,44.0,Clothing,Jacket,west,4.0,500.0,140.0,2000.0
+1495,Failed,Bank Transfer,14-03-2023,113,Male,24.0,Beauty,Face Wash,east,2.0,30.0,16.2,60.0
+1605,Success,PayPal,24-01-2022,2,Male,37.0,Electronics,Fan,South,2.0,500.0,165.0,1000.0
+105,Pending,Credit Card,18-06-2023,82,Female,22.0,Electronics,Fan,north,1.0,500.0,230.0,500.0
+299,Failed,Bank Transfer,25-01-2023,76,Male,61.0,Electronics,Headphone,east,2.0,500.0,230.0,1000.0
+934,Success,PayPal,22-11-2022,111,Male,30.0,Beauty,Moisturizer,east,1.0,500.0,240.0,500.0
+1105,Pending,Credit Card,12-11-2022,19,Female,22.0,Electronics,Light,west,1.0,500.0,270.0,500.0
+1299,Failed,Bank Transfer,08-05-2022,11,Male,61.0,Electronics,Speaker,South,2.0,500.0,250.0,1000.0
+1934,Success,PayPal,08-09-2022,69,Male,30.0,Beauty,Face Serum,South,1.0,500.0,150.0,500.0
+270,Pending,Credit Card,17-12-2022,84,Male,43.0,Electronics,Fan,west,1.0,300.0,117.0,300.0
+338,Failed,Bank Transfer,05-02-2022,44,Male,54.0,Beauty,Lip Balm,north,2.0,50.0,20.0,100.0
+543,Success,PayPal,16-04-2022,121,Male,49.0,Beauty,Face Serum,west,2.0,300.0,75.0,600.0
+1270,Pending,Credit Card,25-08-2022,84,Male,43.0,Electronics,Fan,South,1.0,300.0,108.0,300.0
+1338,Failed,Bank Transfer,25-01-2022,31,Male,54.0,Beauty,Face Wash,South,2.0,50.0,19.0,100.0
+1543,Success,PayPal,03-10-2022,73,Male,49.0,Beauty,Moisturizer,west,2.0,300.0,123.0,600.0
+557,Pending,Credit Card,27-09-2023,155,Female,20.0,Beauty,Lip Balm,South,3.0,30.0,12.9,90.0
+702,Failed,Bank Transfer,03-03-2023,66,Female,60.0,Clothing,Pant,west,2.0,300.0,78.0,600.0
+864,Success,PayPal,31-07-2023,139,Female,51.0,Electronics,Fan,north,1.0,500.0,215.0,500.0
+1557,Pending,Credit Card,04-08-2022,14,Female,20.0,Beauty,Face Serum,South,3.0,30.0,10.2,90.0
+1702,Failed,Bank Transfer,31-07-2023,102,Female,60.0,Clothing,Pant,South,2.0,300.0,87.0,600.0
+1864,Success,PayPal,30-04-2023,112,Female,51.0,Electronics,Headphone,east,1.0,500.0,190.0,500.0
+254,Pending,Credit Card,14-12-2022,104,Male,41.0,Electronics,Fan,north,1.0,500.0,165.0,500.0
+295,Failed,Bank Transfer,01-02-2022,80,Female,27.0,Beauty,Face Serum,west,3.0,300.0,105.0,900.0
+457,Success,PayPal,28-11-2022,38,Female,58.0,Beauty,Face Serum,east,3.0,300.0,147.0,900.0
+668,Pending,Credit Card,17-06-2022,135,Female,62.0,Electronics,Headphone,north,3.0,50.0,24.5,150.0
+850,Failed,Bank Transfer,14-09-2023,58,Female,26.0,Beauty,Face Serum,north,2.0,500.0,235.0,1000.0
+1254,Success,PayPal,12-04-2023,86,Male,41.0,Electronics,Light,east,1.0,500.0,180.0,500.0
+1295,Pending,Credit Card,04-11-2023,86,Female,27.0,Beauty,Moisturizer,east,3.0,300.0,81.0,900.0
+1457,Failed,Bank Transfer,25-03-2023,140,Female,58.0,Beauty,Face Wash,west,3.0,300.0,108.0,900.0
+1668,Success,PayPal,13-03-2023,132,Female,62.0,Electronics,Light,north,3.0,50.0,14.0,150.0
+1850,Pending,Credit Card,16-02-2022,154,Female,26.0,Beauty,Face Serum,west,2.0,500.0,240.0,1000.0
+541,Failed,Bank Transfer,25-12-2022,39,Male,56.0,Beauty,Lip Balm,west,1.0,500.0,215.0,500.0
+980,Success,PayPal,14-10-2022,147,Female,31.0,Electronics,Headphone,west,3.0,25.0,12.5,75.0
+1541,Pending,Credit Card,02-10-2023,57,Male,56.0,Beauty,Face Wash,east,1.0,500.0,195.0,500.0
+1980,Failed,Bank Transfer,23-08-2023,112,Female,31.0,Electronics,Light,north,3.0,25.0,6.5,75.0
+262,Success,PayPal,15-09-2023,30,Female,32.0,Beauty,Face Serum,west,4.0,30.0,12.6,120.0
+467,Pending,Credit Card,24-01-2022,151,Female,53.0,Electronics,Headphone,west,3.0,50.0,14.5,150.0
+1262,Failed,Bank Transfer,13-08-2022,127,Female,32.0,Beauty,Lip Balm,east,4.0,30.0,8.4,120.0
+1467,Success,PayPal,13-08-2023,89,Female,53.0,Electronics,Light,South,3.0,50.0,14.0,150.0
+463,Pending,Credit Card,29-01-2023,55,Female,54.0,Beauty,Face Serum,north,3.0,500.0,175.0,1500.0
+1463,Failed,Bank Transfer,29-07-2022,98,Female,54.0,Beauty,Face Wash,west,3.0,500.0,170.0,1500.0
+598,Success,PayPal,23-06-2022,7,Male,37.0,Beauty,Lip Balm,South,4.0,30.0,11.1,120.0
+667,Pending,Credit Card,01-12-2022,22,Female,29.0,Electronics,Headphone,east,1.0,500.0,190.0,500.0
+672,Failed,Bank Transfer,17-02-2022,1,Female,34.0,Beauty,Face Wash,north,2.0,50.0,27.5,100.0
+1598,Success,PayPal,15-01-2023,126,Male,37.0,Beauty,Face Wash,east,4.0,30.0,9.9,120.0
+1667,Pending,Credit Card,04-07-2022,40,Female,29.0,Electronics,Fan,north,1.0,500.0,125.0,500.0
+1672,Failed,Bank Transfer,28-03-2023,87,Female,34.0,Beauty,Lip Balm,west,2.0,50.0,15.5,100.0
+949,Success,PayPal,20-06-2023,21,Female,41.0,Electronics,Speaker,east,2.0,25.0,9.0,50.0
+1949,Pending,Credit Card,11-11-2022,105,Female,41.0,Electronics,Speaker,east,2.0,25.0,12.5,50.0
+27,Failed,Bank Transfer,14-12-2023,39,Female,38.0,Beauty,Lip Balm,east,2.0,25.0,8.25,50.0
+347,Success,PayPal,26-03-2022,26,Male,42.0,Electronics,Speaker,east,1.0,25.0,7.0,25.0
+687,Pending,Credit Card,27-06-2022,86,Female,53.0,Electronics,Headphone,north,1.0,300.0,150.0,300.0
+1027,Failed,Bank Transfer,30-04-2022,131,Female,38.0,Beauty,Face Serum,east,2.0,25.0,7.5,50.0
+1347,Success,PayPal,21-11-2023,7,Male,42.0,Electronics,Fan,South,1.0,25.0,13.0,25.0
+1687,Pending,Credit Card,17-02-2023,102,Female,53.0,Electronics,Fan,South,1.0,300.0,81.0,300.0
+549,Failed,Bank Transfer,03-11-2022,114,Female,50.0,Beauty,Face Wash,north,2.0,50.0,12.5,100.0
+675,Success,PayPal,19-07-2023,26,Female,45.0,Clothing,Sweater,east,2.0,30.0,15.9,60.0
+730,Pending,Credit Card,20-02-2022,131,Female,36.0,Clothing,Jacket,west,2.0,25.0,13.25,50.0
+798,Failed,Bank Transfer,20-01-2023,73,Male,61.0,Clothing,Jacket,west,1.0,50.0,15.0,50.0
+1549,Success,PayPal,15-11-2023,109,Female,50.0,Beauty,Moisturizer,west,2.0,50.0,14.5,100.0
+1675,Pending,Credit Card,17-05-2022,152,Female,45.0,Clothing,Jacket,west,2.0,30.0,16.2,60.0
+1730,Failed,Bank Transfer,14-08-2023,116,Female,36.0,Clothing,Shirt,west,2.0,25.0,10.75,50.0
+1798,Success,PayPal,18-07-2023,96,Male,61.0,Clothing,Shirt,east,1.0,50.0,20.0,50.0
+13,Pending,Credit Card,08-02-2023,106,Male,22.0,Electronics,Speaker,west,3.0,500.0,245.0,1500.0
+35,Failed,Bank Transfer,29-10-2022,122,Female,58.0,Beauty,Lip Balm,east,3.0,300.0,126.0,900.0
+140,Success,PayPal,07-07-2022,61,Male,38.0,Electronics,Fan,north,1.0,30.0,14.4,30.0
+206,Pending,Credit Card,02-09-2022,31,Male,61.0,Clothing,Pant,South,1.0,25.0,11.75,25.0
+261,Failed,Bank Transfer,06-02-2022,16,Male,21.0,Clothing,Sweater,west,2.0,25.0,8.25,50.0
+279,Success,PayPal,10-08-2023,38,Male,50.0,Clothing,Jacket,north,1.0,500.0,210.0,500.0
+308,Pending,Credit Card,31-03-2022,130,Female,34.0,Beauty,Face Serum,east,4.0,300.0,126.0,1200.0
+418,Failed,Bank Transfer,01-04-2022,95,Female,60.0,Electronics,Speaker,north,2.0,500.0,155.0,1000.0
+1013,Success,PayPal,16-07-2022,111,Male,22.0,Electronics,Headphone,east,3.0,500.0,200.0,1500.0
+1035,Pending,Credit Card,26-04-2023,52,Female,58.0,Beauty,Moisturizer,west,3.0,300.0,105.0,900.0
+1140,Failed,Bank Transfer,22-05-2022,154,Male,38.0,Electronics,Speaker,west,1.0,30.0,15.9,30.0
+1206,Success,PayPal,14-05-2023,68,Male,61.0,Clothing,Pant,north,1.0,25.0,8.5,25.0
+1261,Pending,Credit Card,27-09-2022,116,Male,21.0,Clothing,Shirt,east,2.0,25.0,6.25,50.0
+1279,Failed,Bank Transfer,21-04-2022,116,Male,50.0,Clothing,Pant,South,1.0,500.0,170.0,500.0
+1308,Success,PayPal,19-06-2023,91,Female,34.0,Beauty,Moisturizer,east,4.0,300.0,150.0,1200.0
+1418,Pending,Credit Card,17-09-2022,68,Female,60.0,Electronics,Fan,west,2.0,500.0,215.0,1000.0
+612,Failed,Bank Transfer,23-02-2022,77,Female,61.0,Electronics,Light,west,1.0,500.0,235.0,500.0
+875,Success,PayPal,30-11-2023,134,Female,51.0,Electronics,Fan,east,4.0,500.0,135.0,2000.0
+1612,Pending,Credit Card,18-12-2022,140,Female,61.0,Electronics,Headphone,north,1.0,500.0,230.0,500.0
+1875,Failed,Bank Transfer,03-06-2022,141,Female,51.0,Electronics,Headphone,South,4.0,500.0,165.0,2000.0
+430,Success,PayPal,23-05-2023,100,Female,43.0,Electronics,Speaker,east,3.0,300.0,153.0,900.0
+633,Pending,Credit Card,06-07-2023,35,Male,39.0,Beauty,Face Serum,west,4.0,30.0,12.3,120.0
+1430,Failed,Bank Transfer,31-10-2023,22,Female,43.0,Electronics,Headphone,west,3.0,300.0,132.0,900.0
+1633,Success,PayPal,31-12-2022,152,Male,39.0,Beauty,Moisturizer,west,4.0,30.0,11.4,120.0
+125,Pending,Credit Card,28-09-2022,137,Male,48.0,Clothing,Sweater,west,2.0,50.0,19.0,100.0
+716,Failed,Bank Transfer,13-08-2023,137,Female,60.0,Clothing,Pant,east,4.0,300.0,108.0,1200.0
+790,Success,PayPal,13-04-2023,29,Male,62.0,Clothing,Sweater,west,1.0,25.0,9.25,25.0
+960,Pending,Credit Card,29-03-2023,134,Male,59.0,Clothing,Shirt,north,2.0,30.0,14.4,60.0
+1125,Failed,Bank Transfer,12-11-2023,79,Male,48.0,Clothing,Shirt,east,2.0,50.0,21.5,100.0
+1716,Success,PayPal,12-02-2022,39,Female,60.0,Clothing,Shirt,east,4.0,300.0,87.0,1200.0
+1790,Pending,Credit Card,14-05-2023,147,Male,62.0,Clothing,Jacket,east,1.0,25.0,7.5,25.0
+1960,Failed,Bank Transfer,29-06-2022,67,Male,59.0,Clothing,Shirt,east,2.0,30.0,13.2,60.0
+259,Success,PayPal,11-03-2023,93,Female,45.0,Clothing,Jacket,east,4.0,50.0,22.5,200.0
+443,Pending,Credit Card,19-09-2023,98,Male,29.0,Clothing,Sweater,east,2.0,300.0,114.0,600.0
+529,Failed,Bank Transfer,29-11-2022,46,Female,35.0,Clothing,Jacket,South,3.0,50.0,20.5,150.0
+563,Success,PayPal,21-12-2022,150,Male,20.0,Clothing,Pant,north,2.0,30.0,16.2,60.0
+1259,Pending,Credit Card,03-11-2022,105,Female,45.0,Clothing,Sweater,north,4.0,50.0,21.0,200.0
+1443,Failed,Bank Transfer,18-06-2022,81,Male,29.0,Clothing,Shirt,west,2.0,300.0,147.0,600.0
+1529,Success,PayPal,17-09-2022,105,Female,35.0,Clothing,Shirt,north,3.0,50.0,17.0,150.0
+1563,Pending,Credit Card,13-10-2022,22,Male,20.0,Clothing,Jacket,north,2.0,30.0,15.3,60.0
+801,Failed,Bank Transfer,01-12-2022,153,Male,21.0,Clothing,Pant,east,4.0,50.0,19.0,200.0
+1801,Success,PayPal,10-07-2022,148,Male,21.0,Clothing,Pant,north,4.0,50.0,13.5,200.0
+160,Pending,Credit Card,20-07-2022,127,Female,43.0,Clothing,Shirt,South,2.0,50.0,26.5,100.0
+508,Failed,Bank Transfer,05-07-2023,32,Male,58.0,Beauty,Face Serum,west,2.0,300.0,123.0,600.0
+807,Success,PayPal,26-01-2023,91,Female,50.0,Electronics,Light,South,4.0,50.0,15.5,200.0
+1160,Pending,Credit Card,20-08-2023,105,Female,43.0,Clothing,Sweater,east,2.0,50.0,14.0,100.0
+1508,Failed,Bank Transfer,08-04-2022,90,Male,58.0,Beauty,Lip Balm,north,2.0,300.0,81.0,600.0
+1807,Success,PayPal,04-08-2022,19,Female,50.0,Electronics,Fan,west,4.0,50.0,22.0,200.0
+511,Pending,Credit Card,23-12-2023,146,Male,45.0,Beauty,Face Serum,South,2.0,50.0,24.5,100.0
+521,Failed,Bank Transfer,28-10-2023,133,Female,47.0,Clothing,Shirt,west,4.0,30.0,8.7,120.0
+695,Success,PayPal,03-04-2022,52,Female,22.0,Electronics,Light,east,3.0,50.0,21.0,150.0
+816,Pending,Credit Card,27-09-2023,133,Male,47.0,Beauty,Face Serum,north,2.0,500.0,240.0,1000.0
+1511,Failed,Bank Transfer,09-04-2022,45,Male,45.0,Beauty,Lip Balm,west,2.0,50.0,13.5,100.0
+1521,Success,PayPal,23-07-2023,30,Female,47.0,Clothing,Shirt,east,4.0,30.0,12.9,120.0
+1695,Pending,Credit Card,21-09-2023,85,Female,22.0,Electronics,Light,west,3.0,50.0,23.0,150.0
+1816,Failed,Bank Transfer,17-06-2022,52,Male,47.0,Beauty,Lip Balm,north,2.0,500.0,245.0,1000.0
+217,Success,PayPal,02-05-2022,17,Female,35.0,Electronics,Headphone,west,4.0,50.0,26.5,200.0
+384,Pending,Credit Card,10-04-2022,127,Male,55.0,Clothing,Shirt,north,1.0,500.0,145.0,500.0
+1217,Failed,Bank Transfer,16-10-2023,70,Female,35.0,Electronics,Fan,South,4.0,50.0,18.0,200.0
+1384,Success,PayPal,17-12-2023,106,Male,55.0,Clothing,Shirt,west,1.0,500.0,260.0,500.0
+648,Pending,Credit Card,23-02-2023,41,Male,53.0,Beauty,Face Wash,east,4.0,300.0,138.0,1200.0
+926,Failed,Bank Transfer,06-10-2023,53,Male,22.0,Electronics,Speaker,west,1.0,30.0,15.6,30.0
+1648,Success,PayPal,10-07-2023,16,Male,53.0,Beauty,Moisturizer,east,4.0,300.0,87.0,1200.0
+1926,Pending,Credit Card,07-08-2023,74,Male,22.0,Electronics,Light,north,1.0,30.0,9.6,30.0
+285,Failed,Bank Transfer,01-12-2023,107,Female,31.0,Electronics,Speaker,west,1.0,25.0,13.5,25.0
+427,Success,PayPal,16-11-2023,120,Male,25.0,Electronics,Light,north,1.0,25.0,11.75,25.0
+569,Pending,Credit Card,29-04-2022,132,Male,52.0,Electronics,Light,South,4.0,50.0,19.0,200.0
+570,Failed,Bank Transfer,09-06-2022,91,Male,49.0,Clothing,Sweater,east,1.0,500.0,185.0,500.0
+630,Success,PayPal,21-03-2023,94,Male,42.0,Clothing,Sweater,west,2.0,50.0,25.5,100.0
+957,Pending,Credit Card,19-06-2023,105,Female,60.0,Electronics,Headphone,west,4.0,30.0,9.3,120.0
+1285,Failed,Bank Transfer,01-06-2023,130,Female,31.0,Electronics,Light,north,1.0,25.0,12.25,25.0
+1427,Success,PayPal,15-07-2023,92,Male,25.0,Electronics,Light,west,1.0,25.0,11.5,25.0
+1569,Pending,Credit Card,30-11-2023,35,Male,52.0,Electronics,Speaker,north,4.0,50.0,18.0,200.0
+1570,Failed,Bank Transfer,15-06-2023,109,Male,49.0,Clothing,Pant,east,1.0,500.0,170.0,500.0
+1630,Success,PayPal,22-05-2022,95,Male,42.0,Clothing,Jacket,west,2.0,50.0,16.0,100.0
+1957,Pending,Credit Card,25-10-2022,75,Female,60.0,Electronics,Fan,north,4.0,30.0,14.7,120.0
+635,Failed,Bank Transfer,04-12-2022,89,Female,63.0,Electronics,Fan,north,3.0,300.0,129.0,900.0
+1635,Success,PayPal,17-04-2023,36,Female,63.0,Electronics,Headphone,west,3.0,300.0,159.0,900.0
+29,Pending,Credit Card,08-03-2022,31,Female,42.0,Electronics,Speaker,north,1.0,30.0,13.5,30.0
+277,Failed,Bank Transfer,03-07-2023,139,Male,36.0,Clothing,Pant,South,4.0,25.0,12.25,100.0
+859,Success,PayPal,20-09-2022,46,Female,56.0,Electronics,Speaker,north,3.0,500.0,190.0,1500.0
+1029,Pending,Credit Card,18-07-2023,117,Female,42.0,Electronics,Speaker,east,1.0,30.0,12.3,30.0
+1277,Failed,Bank Transfer,17-10-2023,80,Male,36.0,Clothing,Jacket,north,4.0,25.0,12.75,100.0
+1859,Success,PayPal,14-09-2022,32,Female,56.0,Electronics,Light,east,3.0,500.0,205.0,1500.0
+638,Success,PayPal,10-01-2023,154,Male,46.0,Electronics,Light,east,1.0,500.0,190.0,500.0
+823,Pending,Credit Card,03-12-2023,66,Female,56.0,Electronics,Speaker,South,2.0,50.0,25.0,100.0
+956,Failed,Bank Transfer,24-04-2023,140,Male,30.0,Clothing,Shirt,South,3.0,500.0,135.0,1500.0
+981,Success,PayPal,05-02-2022,5,Female,30.0,Electronics,Speaker,east,2.0,30.0,12.9,60.0
+1638,Pending,Credit Card,13-08-2022,37,Male,46.0,Electronics,Headphone,west,1.0,500.0,155.0,500.0
+1823,Failed,Bank Transfer,08-11-2022,58,Female,56.0,Electronics,Headphone,north,2.0,50.0,26.5,100.0
+1956,Success,PayPal,01-06-2023,62,Male,30.0,Clothing,Pant,north,3.0,500.0,170.0,1500.0
+1981,Pending,Credit Card,05-06-2022,19,Female,30.0,Electronics,Headphone,west,2.0,30.0,11.7,60.0
+219,Failed,Bank Transfer,16-09-2023,79,Female,53.0,Electronics,Light,north,3.0,30.0,10.2,90.0
+1219,Success,PayPal,02-11-2022,149,Female,53.0,Electronics,Headphone,South,3.0,30.0,11.1,90.0
+73,Pending,Credit Card,14-01-2022,42,Male,29.0,Electronics,Fan,east,3.0,30.0,9.0,90.0
+162,Failed,Bank Transfer,11-04-2023,118,Male,39.0,Clothing,Pant,east,2.0,30.0,9.0,60.0
+306,Success,PayPal,04-01-2022,148,Male,54.0,Electronics,Speaker,north,1.0,50.0,26.5,50.0
+725,Pending,Credit Card,21-09-2023,2,Male,61.0,Electronics,Fan,north,1.0,300.0,153.0,300.0
+880,Failed,Bank Transfer,26-09-2023,63,Male,22.0,Beauty,Lip Balm,South,2.0,500.0,175.0,1000.0
+992,Success,PayPal,15-10-2023,134,Female,57.0,Electronics,Fan,east,2.0,30.0,7.8,60.0
+1073,Pending,Credit Card,21-02-2022,82,Male,29.0,Electronics,Speaker,east,3.0,30.0,15.3,90.0
+1162,Failed,Bank Transfer,13-07-2022,101,Male,39.0,Clothing,Shirt,South,2.0,30.0,12.6,60.0
+1306,Success,PayPal,11-11-2023,122,Male,54.0,Electronics,Light,west,1.0,50.0,18.5,50.0
+1725,Pending,Credit Card,16-05-2022,109,Male,61.0,Electronics,Fan,north,1.0,300.0,105.0,300.0
+1880,Failed,Bank Transfer,14-06-2023,37,Male,22.0,Beauty,Lip Balm,west,2.0,500.0,175.0,1000.0
+1992,Success,PayPal,19-05-2023,70,Female,57.0,Electronics,Light,east,2.0,30.0,8.7,60.0
+597,Pending,Credit Card,01-11-2022,84,Male,22.0,Beauty,Moisturizer,east,4.0,300.0,111.0,1200.0
+622,Failed,Bank Transfer,16-10-2022,155,Female,49.0,Beauty,Moisturizer,north,3.0,25.0,6.25,75.0
+1597,Success,PayPal,28-08-2023,32,Male,22.0,Beauty,Face Wash,north,4.0,300.0,78.0,1200.0
+1622,Pending,Credit Card,22-04-2023,54,Female,49.0,Beauty,Moisturizer,South,3.0,25.0,11.75,75.0
+116,Failed,Bank Transfer,22-06-2023,58,Female,23.0,Clothing,Shirt,South,1.0,30.0,15.0,30.0
+364,Success,PayPal,07-06-2022,98,Female,19.0,Beauty,Moisturizer,west,1.0,500.0,200.0,500.0
+368,Pending,Credit Card,31-01-2023,90,Female,56.0,Clothing,Sweater,east,4.0,300.0,132.0,1200.0
+1116,Failed,Bank Transfer,15-08-2022,145,Female,23.0,Clothing,Pant,north,1.0,30.0,12.3,30.0
+1364,Success,PayPal,23-09-2023,72,Female,19.0,Beauty,Moisturizer,east,1.0,500.0,250.0,500.0
+1368,Pending,Credit Card,08-03-2022,145,Female,56.0,Clothing,Shirt,west,4.0,300.0,132.0,1200.0
+50,Failed,Bank Transfer,29-03-2022,71,Female,27.0,Beauty,Moisturizer,west,3.0,25.0,10.5,75.0
+479,Success,PayPal,03-11-2022,90,Male,52.0,Electronics,Fan,north,4.0,300.0,105.0,1200.0
+804,Pending,Credit Card,11-12-2023,99,Male,42.0,Electronics,Speaker,South,1.0,30.0,10.8,30.0
+1050,Failed,Bank Transfer,10-12-2022,24,Female,27.0,Beauty,Face Wash,South,3.0,25.0,11.25,75.0
+1479,Success,PayPal,31-05-2022,108,Male,52.0,Electronics,Speaker,South,4.0,300.0,162.0,1200.0
+1804,Pending,Credit Card,10-01-2023,74,Male,42.0,Electronics,Light,South,1.0,30.0,14.7,30.0
+92,Failed,Bank Transfer,21-03-2022,10,Female,51.0,Electronics,Light,east,4.0,30.0,8.7,120.0
+282,Success,PayPal,05-10-2023,10,Female,64.0,Electronics,Speaker,South,4.0,50.0,56.0,200.0
+718,Pending,Credit Card,02-11-2023,154,Female,59.0,Beauty,Lip Balm,west,3.0,25.0,25.0,75.0
+1092,Failed,Bank Transfer,03-05-2022,58,Female,51.0,Electronics,Headphone,north,4.0,30.0,31.5,120.0
+1282,Success,PayPal,20-02-2023,23,Female,64.0,Electronics,Light,South,4.0,50.0,48.5,200.0
+1718,Pending,Credit Card,25-10-2023,20,Female,59.0,Beauty,Face Serum,west,3.0,25.0,25.5,75.0
+617,Failed,Bank Transfer,06-08-2022,30,Male,34.0,Electronics,Headphone,South,1.0,30.0,28.5,30.0
+624,Success,PayPal,05-02-2022,48,Female,34.0,Beauty,Face Wash,east,3.0,300.0,342.0,900.0
+825,Pending,Credit Card,08-01-2022,51,Female,46.0,Beauty,Face Serum,east,1.0,25.0,27.25,25.0
+1617,Failed,Bank Transfer,01-05-2022,77,Male,34.0,Electronics,Speaker,east,1.0,30.0,35.1,30.0
+1624,Success,PayPal,18-11-2022,121,Female,34.0,Beauty,Moisturizer,west,3.0,300.0,363.0,900.0
+1825,Pending,Credit Card,30-08-2023,105,Female,46.0,Beauty,Lip Balm,east,1.0,25.0,27.0,25.0
+568,Failed,Bank Transfer,11-08-2023,32,Female,51.0,Electronics,Light,north,1.0,300.0,372.0,300.0
+671,Success,PayPal,23-09-2023,2,Male,62.0,Electronics,Light,east,3.0,50.0,61.5,150.0
+756,Pending,Credit Card,17-07-2023,4,Female,62.0,Electronics,Fan,west,4.0,300.0,333.0,1200.0
+815,Failed,Bank Transfer,05-04-2023,139,Female,51.0,Clothing,Jacket,west,3.0,25.0,23.75,75.0
+1568,Success,PayPal,09-10-2022,51,Female,51.0,Electronics,Speaker,north,1.0,300.0,336.0,300.0
+1671,Pending,Credit Card,28-02-2023,47,Male,62.0,Electronics,Fan,east,3.0,50.0,62.5,150.0
+1756,Failed,Bank Transfer,12-05-2022,119,Female,62.0,Electronics,Headphone,east,4.0,300.0,297.0,1200.0
+1815,Success,PayPal,24-05-2023,6,Female,51.0,Clothing,Jacket,east,3.0,25.0,30.5,75.0
+146,Pending,Credit Card,10-11-2022,74,Male,38.0,Clothing,Sweater,west,4.0,50.0,49.0,200.0
+263,Failed,Bank Transfer,04-05-2022,133,Male,23.0,Beauty,Lip Balm,west,2.0,30.0,34.8,60.0
+704,Success,PayPal,11-09-2023,141,Female,62.0,Clothing,Sweater,east,3.0,30.0,34.8,90.0
+1146,Pending,Credit Card,09-10-2023,52,Male,38.0,Clothing,Shirt,west,4.0,50.0,60.0,200.0
+1263,Failed,Bank Transfer,07-09-2022,47,Male,23.0,Beauty,Moisturizer,east,2.0,30.0,35.4,60.0
+1704,Success,PayPal,16-09-2022,155,Female,62.0,Clothing,Shirt,west,3.0,30.0,30.3,90.0
+476,Pending,Credit Card,12-12-2023,131,Female,27.0,Clothing,Shirt,east,4.0,500.0,570.0,2000.0
+733,Failed,Bank Transfer,25-10-2022,143,Male,34.0,Beauty,Face Serum,east,1.0,30.0,28.5,30.0
+924,Success,PayPal,17-09-2022,151,Male,55.0,Beauty,Lip Balm,east,2.0,50.0,55.0,100.0
+984,Pending,Credit Card,20-11-2023,83,Male,56.0,Clothing,Shirt,north,1.0,500.0,480.0,500.0
+1476,Failed,Bank Transfer,11-11-2022,130,Female,27.0,Clothing,Shirt,east,4.0,500.0,555.0,2000.0
+1733,Success,PayPal,03-09-2023,146,Male,34.0,Beauty,Face Wash,South,1.0,30.0,36.6,30.0
+1924,Pending,Credit Card,28-11-2022,107,Male,55.0,Beauty,Face Wash,west,2.0,50.0,54.5,100.0
+1984,Failed,Bank Transfer,09-09-2023,126,Male,56.0,Clothing,Jacket,east,1.0,500.0,530.0,500.0
+251,Success,PayPal,15-09-2022,141,Female,57.0,Beauty,Face Serum,west,4.0,50.0,62.5,200.0
+253,Pending,Credit Card,30-09-2022,66,Female,53.0,Clothing,Sweater,east,4.0,500.0,525.0,2000.0
+574,Failed,Bank Transfer,17-09-2023,24,Female,63.0,Electronics,Fan,west,2.0,25.0,24.75,50.0
+751,Success,PayPal,08-11-2023,115,Female,42.0,Clothing,Jacket,South,2.0,25.0,24.75,50.0
+871,Pending,Credit Card,02-11-2023,57,Male,62.0,Beauty,Face Wash,north,2.0,30.0,33.9,60.0
+1251,Failed,Bank Transfer,11-09-2022,137,Female,57.0,Beauty,Face Serum,South,4.0,50.0,57.5,200.0
+1253,Success,PayPal,03-12-2023,108,Female,53.0,Clothing,Jacket,north,4.0,500.0,605.0,2000.0
+1574,Pending,Credit Card,26-10-2022,150,Female,63.0,Electronics,Light,South,2.0,25.0,24.75,50.0
+1751,Failed,Bank Transfer,27-12-2023,99,Female,42.0,Clothing,Pant,South,2.0,25.0,30.25,50.0
+1871,Success,PayPal,26-09-2022,41,Male,62.0,Beauty,Face Wash,north,2.0,30.0,30.6,60.0
+200,Pending,Credit Card,09-10-2022,130,Male,27.0,Beauty,Lip Balm,north,3.0,50.0,60.0,150.0
+594,Failed,Bank Transfer,07-09-2023,72,Female,19.0,Electronics,Light,north,2.0,300.0,291.0,600.0
+637,Success,PayPal,02-12-2022,21,Male,43.0,Clothing,Sweater,north,2.0,300.0,321.0,600.0
+855,Pending,Credit Card,21-11-2022,13,Male,54.0,Beauty,Face Wash,north,1.0,25.0,25.75,25.0
+1200,Failed,Bank Transfer,18-10-2023,20,Male,27.0,Beauty,Face Serum,South,3.0,50.0,54.5,150.0
+1594,Success,PayPal,01-10-2023,31,Female,19.0,Electronics,Light,South,2.0,300.0,345.0,600.0
+1637,Pending,Credit Card,25-10-2022,97,Male,43.0,Clothing,Pant,South,2.0,300.0,297.0,600.0
+1855,Failed,Bank Transfer,27-12-2023,44,Male,54.0,Beauty,Face Serum,west,1.0,25.0,31.25,25.0
+325,Success,PayPal,16-09-2023,6,Female,52.0,Electronics,Speaker,north,2.0,25.0,31.25,50.0
+682,Pending,Credit Card,23-10-2023,60,Male,46.0,Beauty,Lip Balm,South,4.0,300.0,354.0,1200.0
+931,Failed,Bank Transfer,07-10-2023,48,Male,30.0,Beauty,Face Wash,east,4.0,30.0,29.1,120.0
+1325,Success,PayPal,11-10-2022,18,Female,52.0,Electronics,Fan,north,2.0,25.0,26.75,50.0
+1682,Pending,Credit Card,30-12-2022,71,Male,46.0,Beauty,Face Serum,South,4.0,300.0,315.0,1200.0
+1931,Failed,Bank Transfer,01-12-2022,61,Male,30.0,Beauty,Moisturizer,west,4.0,30.0,34.2,120.0
+925,Success,PayPal,20-12-2022,54,Male,25.0,Electronics,Headphone,north,1.0,300.0,315.0,300.0
+1925,Pending,Credit Card,21-12-2023,81,Male,25.0,Electronics,Headphone,South,1.0,300.0,366.0,300.0
+297,Failed,Bank Transfer,12-09-2022,70,Female,40.0,Electronics,Headphone,east,2.0,500.0,595.0,1000.0
+1297,Success,PayPal,20-10-2023,21,Female,40.0,Electronics,Light,north,2.0,500.0,535.0,1000.0
+814,Pending,Credit Card,01-10-2022,96,Female,59.0,Clothing,Shirt,west,1.0,500.0,540.0,500.0
+894,Failed,Bank Transfer,22-09-2022,111,Male,52.0,Electronics,Headphone,east,1.0,30.0,30.6,30.0
+1814,Success,PayPal,07-09-2022,43,Female,59.0,Clothing,Pant,west,1.0,500.0,620.0,500.0
+1894,Pending,Credit Card,29-12-2023,92,Male,52.0,Electronics,Speaker,east,1.0,30.0,30.0,30.0
+194,Failed,Bank Transfer,11-10-2023,116,Male,55.0,Clothing,Pant,west,4.0,50.0,51.5,200.0
+245,Success,PayPal,01-12-2023,75,Male,47.0,Clothing,Pant,north,3.0,30.0,36.0,90.0
+296,Pending,Credit Card,31-12-2022,73,Female,22.0,Clothing,Pant,South,4.0,300.0,369.0,1200.0
+644,Failed,Bank Transfer,13-10-2022,107,Male,23.0,Beauty,Face Serum,west,3.0,25.0,29.0,75.0
+696,Success,PayPal,09-10-2023,24,Female,50.0,Clothing,Jacket,north,4.0,50.0,48.5,200.0
+1194,Pending,Credit Card,09-10-2023,130,Male,55.0,Clothing,Jacket,South,4.0,50.0,61.5,200.0
+1245,Failed,Bank Transfer,25-10-2022,129,Male,47.0,Clothing,Pant,South,3.0,30.0,36.0,90.0
+1296,Success,PayPal,26-11-2022,45,Female,22.0,Clothing,Pant,north,4.0,300.0,342.0,1200.0
+1644,Pending,Credit Card,11-09-2022,124,Male,23.0,Beauty,Face Wash,east,3.0,25.0,28.75,75.0
+1696,Failed,Bank Transfer,21-11-2022,24,Female,50.0,Clothing,Jacket,north,4.0,50.0,55.0,200.0
+312,Success,PayPal,31-10-2022,18,Male,41.0,Clothing,Jacket,west,4.0,30.0,28.5,120.0
+692,Pending,Credit Card,30-09-2022,110,Female,64.0,Clothing,Shirt,east,2.0,50.0,49.5,100.0
+835,Failed,Bank Transfer,30-09-2022,49,Male,37.0,Clothing,Pant,west,4.0,50.0,60.0,200.0
+1312,Success,PayPal,03-12-2022,73,Male,41.0,Clothing,Shirt,north,4.0,30.0,29.1,120.0
+1692,Pending,Credit Card,11-10-2023,103,Female,64.0,Clothing,Pant,South,2.0,50.0,59.5,100.0
+1835,Failed,Bank Transfer,18-09-2022,98,Male,37.0,Clothing,Jacket,east,4.0,50.0,49.5,200.0
+183,Success,PayPal,01-09-2022,28,Female,43.0,Beauty,Face Serum,north,3.0,300.0,375.0,900.0
+413,Pending,Credit Card,28-11-2023,60,Female,44.0,Beauty,Lip Balm,east,3.0,25.0,25.5,75.0
+799,Failed,Bank Transfer,01-10-2023,86,Male,56.0,Electronics,Light,South,2.0,50.0,60.0,100.0
+851,Success,PayPal,30-11-2023,30,Male,32.0,Electronics,Headphone,South,2.0,25.0,27.75,50.0
+1183,Pending,Credit Card,28-12-2022,54,Female,43.0,Beauty,Face Wash,South,3.0,300.0,342.0,900.0
+1413,Failed,Bank Transfer,12-11-2023,104,Female,44.0,Beauty,Lip Balm,west,3.0,25.0,30.75,75.0
+1799,Success,PayPal,01-10-2023,132,Male,56.0,Electronics,Speaker,South,2.0,50.0,51.0,100.0
+1851,Pending,Credit Card,10-09-2022,87,Male,32.0,Electronics,Light,South,2.0,25.0,25.0,50.0
+858,Failed,Bank Transfer,08-09-2023,85,Male,23.0,Electronics,Light,east,2.0,50.0,50.5,100.0
+919,Success,PayPal,28-10-2023,82,Female,22.0,Beauty,Moisturizer,west,2.0,25.0,27.75,50.0
+935,Pending,Credit Card,10-09-2022,2,Female,34.0,Beauty,Lip Balm,east,1.0,50.0,55.5,50.0
+1858,Failed,Bank Transfer,14-09-2023,49,Male,23.0,Electronics,Fan,west,2.0,50.0,52.0,100.0
+1919,Success,PayPal,25-10-2022,78,Female,22.0,Beauty,Moisturizer,South,2.0,25.0,26.5,50.0
+1935,Pending,Credit Card,16-12-2022,96,Female,34.0,Beauty,Face Serum,east,1.0,50.0,47.5,50.0
+132,Failed,Bank Transfer,22-11-2023,86,Male,42.0,Electronics,Speaker,South,4.0,50.0,62.0,200.0
+1132,Success,PayPal,07-11-2023,14,Male,42.0,Electronics,Headphone,east,4.0,50.0,59.0,200.0
+604,Pending,Credit Card,16-09-2022,139,Female,29.0,Electronics,Light,west,4.0,50.0,50.5,200.0
+832,Failed,Bank Transfer,13-11-2022,106,Male,47.0,Beauty,Moisturizer,east,4.0,500.0,600.0,2000.0
+1604,Success,PayPal,29-12-2022,2,Female,29.0,Electronics,Speaker,east,4.0,50.0,56.0,200.0
+1832,Pending,Credit Card,10-11-2023,57,Male,47.0,Beauty,Face Wash,east,4.0,500.0,480.0,2000.0
+113,Failed,Bank Transfer,08-10-2022,72,Female,41.0,Electronics,Speaker,east,2.0,25.0,26.25,50.0
+1113,Success,PayPal,08-12-2023,141,Female,41.0,Electronics,Headphone,South,2.0,25.0,27.75,50.0
+165,Pending,Credit Card,24-09-2022,75,Female,60.0,Clothing,Shirt,east,4.0,300.0,318.0,1200.0
+1165,Failed,Bank Transfer,01-12-2023,29,Female,60.0,Clothing,Jacket,east,4.0,300.0,291.0,1200.0
+326,Success,PayPal,23-11-2023,108,Female,18.0,Clothing,Shirt,west,3.0,25.0,24.25,75.0
+1326,Pending,Credit Card,01-09-2023,66,Female,18.0,Clothing,Jacket,west,3.0,25.0,28.75,75.0
+19,Failed,Bank Transfer,26-11-2023,30,Female,62.0,Clothing,Shirt,north,2.0,25.0,28.5,50.0
+412,Success,PayPal,04-09-2022,30,Female,19.0,Electronics,Fan,north,4.0,500.0,570.0,2000.0
+632,Pending,Credit Card,25-10-2023,78,Female,26.0,Electronics,Light,east,4.0,25.0,24.75,100.0
+1019,Failed,Bank Transfer,14-12-2023,56,Female,62.0,Clothing,Sweater,north,2.0,25.0,25.75,50.0
+1412,Success,PayPal,13-10-2022,75,Female,19.0,Electronics,Headphone,west,4.0,500.0,615.0,2000.0
+1632,Pending,Credit Card,19-10-2022,29,Female,26.0,Electronics,Headphone,west,4.0,25.0,24.75,100.0
+167,Failed,Bank Transfer,21-09-2023,73,Female,43.0,Clothing,Jacket,South,3.0,50.0,49.0,150.0
+172,Success,PayPal,21-10-2022,52,Male,32.0,Beauty,Face Serum,west,2.0,25.0,28.0,50.0
+375,Pending,Credit Card,22-09-2023,25,Male,32.0,Clothing,Shirt,north,1.0,50.0,52.0,50.0
+538,Failed,Bank Transfer,22-12-2023,102,Male,18.0,Clothing,Pant,north,3.0,50.0,56.5,150.0
+794,Success,PayPal,02-11-2022,145,Female,60.0,Beauty,Moisturizer,east,1.0,300.0,315.0,300.0
+1167,Pending,Credit Card,29-09-2023,9,Female,43.0,Clothing,Jacket,west,3.0,50.0,54.0,150.0
+1172,Failed,Bank Transfer,19-10-2022,150,Male,32.0,Beauty,Lip Balm,west,2.0,25.0,28.5,50.0
+1375,Success,PayPal,01-10-2022,79,Male,32.0,Clothing,Pant,east,1.0,50.0,59.0,50.0
+1538,Pending,Credit Card,12-09-2022,21,Male,18.0,Clothing,Pant,north,3.0,50.0,53.5,150.0
+1794,Failed,Bank Transfer,22-12-2022,26,Female,60.0,Beauty,Face Serum,west,1.0,300.0,351.0,300.0
+131,Success,PayPal,29-09-2023,44,Female,21.0,Beauty,Moisturizer,west,2.0,300.0,375.0,600.0
+330,Pending,Credit Card,11-10-2022,116,Female,25.0,Beauty,Moisturizer,east,4.0,50.0,55.0,200.0
+494,Failed,Bank Transfer,25-09-2023,140,Female,42.0,Beauty,Face Serum,north,4.0,50.0,58.0,200.0
+1131,Success,PayPal,31-12-2022,130,Female,21.0,Beauty,Lip Balm,South,2.0,300.0,336.0,600.0
+1330,Pending,Credit Card,24-11-2023,20,Female,25.0,Beauty,Face Wash,west,4.0,50.0,48.0,200.0
+1494,Failed,Bank Transfer,23-10-2022,74,Female,42.0,Beauty,Lip Balm,east,4.0,50.0,62.5,200.0
+513,Success,PayPal,21-10-2022,85,Male,24.0,Electronics,Speaker,east,4.0,25.0,24.5,100.0
+573,Pending,Credit Card,19-09-2023,78,Male,49.0,Beauty,Lip Balm,South,2.0,30.0,36.3,60.0
+1513,Failed,Bank Transfer,01-10-2022,19,Male,24.0,Electronics,Fan,north,4.0,25.0,31.0,100.0
+1573,Success,PayPal,13-10-2022,148,Male,49.0,Beauty,Moisturizer,north,2.0,30.0,31.2,60.0
+241,Pending,Credit Card,19-12-2023,108,Female,23.0,Electronics,Light,north,3.0,25.0,26.75,75.0
+579,Failed,Bank Transfer,06-10-2023,41,Female,38.0,Electronics,Fan,west,1.0,30.0,36.6,30.0
+1241,Success,PayPal,10-09-2023,26,Female,23.0,Electronics,Speaker,west,3.0,25.0,24.5,75.0
+1579,Pending,Credit Card,28-09-2023,119,Female,38.0,Electronics,Light,South,1.0,30.0,28.8,30.0
+218,Failed,Bank Transfer,24-11-2022,144,Male,64.0,Beauty,Moisturizer,east,3.0,30.0,33.9,90.0
+846,Success,PayPal,22-12-2023,13,Male,42.0,Beauty,Lip Balm,east,1.0,50.0,59.5,50.0
+1218,Pending,Credit Card,25-10-2023,30,Male,64.0,Beauty,Moisturizer,east,3.0,30.0,34.2,90.0
+1846,Failed,Bank Transfer,16-11-2023,83,Male,42.0,Beauty,Lip Balm,west,1.0,50.0,49.5,50.0
+616,Success,PayPal,31-12-2022,122,Male,41.0,Clothing,Sweater,east,2.0,50.0,49.5,100.0
+1616,Pending,Credit Card,22-09-2022,121,Male,41.0,Clothing,Sweater,east,2.0,50.0,59.0,100.0
+523,Failed,Bank Transfer,13-11-2023,110,Female,62.0,Electronics,Speaker,east,1.0,300.0,375.0,300.0
+643,Success,PayPal,05-10-2022,63,Female,28.0,Electronics,Speaker,west,3.0,30.0,28.8,90.0
+1523,Pending,Credit Card,31-12-2023,150,Female,62.0,Electronics,Speaker,west,1.0,300.0,330.0,300.0
+1643,Failed,Bank Transfer,17-10-2023,12,Female,28.0,Electronics,Headphone,South,3.0,30.0,33.3,90.0
+351,Success,PayPal,11-11-2023,38,Female,56.0,Clothing,Shirt,west,3.0,30.0,36.6,90.0
+809,Pending,Credit Card,14-12-2022,124,Female,62.0,Beauty,Face Serum,east,2.0,50.0,50.0,100.0
+954,Failed,Bank Transfer,05-09-2023,87,Female,50.0,Electronics,Speaker,north,3.0,300.0,321.0,900.0
+1351,Success,PayPal,02-10-2022,88,Female,56.0,Clothing,Shirt,west,3.0,30.0,28.5,90.0
+1809,Pending,Credit Card,16-10-2023,51,Female,62.0,Beauty,Moisturizer,north,2.0,50.0,61.5,100.0
+1954,Failed,Bank Transfer,29-10-2023,93,Female,50.0,Electronics,Speaker,west,3.0,300.0,318.0,900.0
+897,Success,PayPal,12-09-2023,15,Female,64.0,Electronics,Speaker,west,2.0,50.0,51.5,100.0
+1897,Pending,Credit Card,27-10-2023,137,Female,64.0,Electronics,Speaker,South,2.0,50.0,62.0,100.0
+147,Failed,Bank Transfer,12-11-2022,101,Male,23.0,Electronics,Fan,South,1.0,300.0,297.0,300.0
+204,Success,PayPal,10-09-2022,101,Male,39.0,Beauty,Lip Balm,South,1.0,25.0,31.25,25.0

@@ -1,0 +1,14 @@
+transactions_id,status,mode,Sale_Date,customer_id,gender,age,category,product,region,quantiy,price_per_unit,cogs,total_sale
+351,Success,PayPal,11-11-2023,38,Female,56,Clothing,Shirt,west,3,30,36.6,90
+809,Pending,Credit Card,14-12-2022,124,Female,62,Beauty,Face Serum,east,2,50,50,100
+954,Failed,Bank Transfer,05-09-2023,87,Female,50,Electronics,Speaker,north,3,300,321,900
+1351,Success,PayPal,02-10-2022,88,Female,56,Clothing,Shirt,west,3,30,28.5,90
+1809,Pending,Credit Card,16-10-2023,51,Female,62,Beauty,Moisturizer,north,2,50,61.5,100
+1954,Failed,Bank Transfer,29-10-2023,93,Female,50,Electronics,Speaker,west,3,300,318,900
+897,Success,PayPal,12-09-2023,15,Female,64,Electronics,Speaker,west,2,50,51.5,100
+1897,Pending,Credit Card,27-10-2023,137,Female,64,Electronics,Speaker,South,2,50,62,100
+147,Failed,Bank Transfer,12-11-2022,101,Male,23,Electronics,Fan,South,1,300,297,300
+204,Success,PayPal,10-09-2022,101,Male,39,Beauty,Lip Balm,South,1,25,31.25,25
+1897,Pending,Credit Card,27-10-2023,137,Female,64,Electronics,Speaker,South,2,50,62,100
+147,Failed,Bank Transfer,12-11-2022,101,Male,23,Electronics,Fan,South,1,300,297,300
+204,Success,PayPal,10-09-2022,101,Male,39,Beauty,Lip Balm,South,1,25,31.25,25
